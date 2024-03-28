@@ -1,20 +1,20 @@
 {
     "extName": {
-        "message": "CENO eklentisi",
+        "message": "Ceno eklentisi",
         "description": "Name of the extension."
     },
     "extDesc": {
-        "message": "CENO ve Ouinet ile bütünleşme sağlar: Sayfa ön belleğe alma ve gruplama, sayfa kaynak bilgileri, ayarlar ve diğer işlevleri sağlar. MIT lisansı altında, rugk tarafından geliştirilmiş olan Localizer kodlarından alıntılar içerir.",
+        "message": "Ceno ve Ouinet ile bütünleşme sağlar: Sayfa ön belleğe alma ve gruplama, sayfa kaynak bilgileri, ayarlar ve diğer işlevleri sağlar. MIT lisansı altında, rugk tarafından geliştirilmiş olan Localizer kodlarından alıntılar içerir.",
         "description": "Description of the extension."
     },
     "bgCenoWarning": {
-        "message": "CENO uyarısı"
+        "message": "Ceno uyarısı"
     },
     "settingsTitle": {
-        "message": "CENO ayarları"
+        "message": "Ceno ayarları"
     },
     "settingsWarn": {
-        "message": "Bu bölümdeki ayarlar, yalnızca çeşitli ağ koşullarında CENO işlevselliğini sınamak içindir. Ayrıntılı bilgi almak için $MANUAL$ bölümüne bakabilirsiniz.",
+        "message": "Bu bölümdeki ayarlar, yalnızca çeşitli ağ koşullarında Ceno işlevselliğini sınamak içindir. Ayrıntılı bilgi almak için $MANUAL$ bölümüne bakabilirsiniz.",
         "placeholders": {
             "manual": {
                 "content": "$1"
@@ -29,7 +29,7 @@
         "description": "Link to the Settings section of the User Manual. Keep it as is unless the section has been translated."
     },
     "settingsWarnManTI": {
-        "message": "Censorship.no! Kullanıcı rehberi – CENO ayarları"
+        "message": "Censorship.no! Kullanıcı rehberi – Ceno ayarları"
     },
     "settingsSources": {
         "message": "İçerik alma kaynakları:"
@@ -38,13 +38,13 @@
         "message": "Doğrudan siteden"
     },
     "settingsSrcProxy": {
-        "message": "CENO ağı üzerinden (gizli)"
+        "message": "Ceno ağı üzerinden (kişisel)"
     },
     "settingsSrcInjector": {
-        "message": "CENO ağı üzerinden (herkese açık)"
+        "message": "Ceno ağı üzerinden (herkese açık)"
     },
     "settingsSrcDcache": {
-        "message": "Diğer CENO kullanıcılarının paylaşımlarından"
+        "message": "Diğer Ceno kullanıcıları tarafından paylaşılan"
     },
     "settingsPubwarn": {
         "message": "$PUBLIC_BROWSING$ geçerli ayarlarla başarısız olacak.",
@@ -69,10 +69,10 @@
         "message": "Gizli gezinme"
     },
     "settingsStatusBrowser": {
-        "message": "CENO Browser"
+        "message": "Ceno Browser"
     },
     "settingsStatusExtension": {
-        "message": "CENO eklentisi"
+        "message": "Ceno eklentisi"
     },
     "settingsStatusOuinet": {
         "message": "Ouinet"
@@ -96,7 +96,7 @@
         "message": "Şimdi temizle"
     },
     "settingsStatusCacheList": {
-        "message": "Sizin paylaştığınız içerik"
+        "message": "Sizin tarafınızdan paylaşılan içerik"
     },
     "settingsLogEnable": {
         "message": "Günlük dosyası kullanılsın"
@@ -105,7 +105,7 @@
         "message": "İndir"
     },
     "popupTitle": {
-        "message": "CENO kaynakları"
+        "message": "Ceno kaynakları"
     },
     "popupHead": {
         "message": "Bir kaynaktaki sayfa bileşenleri sayısı:"
@@ -114,16 +114,16 @@
         "message": "Doğrudan siteden"
     },
     "popupSrcProxy": {
-        "message": "CENO ağı üzerinden (gizli)"
+        "message": "Ceno ağı üzerinden (kişisel)"
     },
     "popupSrcInjector": {
-        "message": "CENO ağı üzerinden (herkese açık)"
+        "message": "Ceno ağı üzerinden (herkese açık)"
     },
     "popupSrcDcache": {
-        "message": "Diğer CENO kullanıcılarının paylaşımlarından"
+        "message": "Diğer Ceno kullanıcıları tarafından paylaşılan"
     },
     "popupSrcLcache": {
-        "message": "Sizin paylaşımlarınızdan"
+        "message": "Sizin tarafınızdan paylaşılan"
     },
     "popupFoot": {
         "message": "İçerik kaynakları hakkında ayrıntılı bilgi almak için $MANUAL$ bölümüne bakabilirsiniz.",
@@ -141,16 +141,16 @@
         "description": "Link to the access mechanisms subsection in the Settings section of the User Manual. Keep it as is unless the section has been translated."
     },
     "popupFootManTI": {
-        "message": "Censorship.no! Kullanıcı rehberi – CENO ayarları"
+        "message": "Censorship.no! Kullanıcı rehberi – Ceno ayarları"
     },
     "updateTitle": {
-        "message": "CENO güncelleme"
+        "message": "Ceno güncelleme"
     },
     "updateMetacontent": {
-        "message": "CENO güncelleme"
+        "message": "Ceno güncelleme"
     },
     "updateHead": {
-        "message": "Kullandığınız CENO Browser güncel değil."
+        "message": "Kullandığınız Ceno Browser güncel değil."
     },
     "updateSubhead": {
         "message": "Lütfen uygulamanızı şuradan güncelleyin",
