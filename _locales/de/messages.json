@@ -96,7 +96,7 @@
         "message": "Öffentliche UDP-Endpunkte"
     },
     "settingsStatusReachability": {
-        "message": "Erreichbarkeits-Status"
+        "message": "Erreichbarkeitsstatus"
     },
     "settingsStatusCacheSize": {
         "message": "Größe des lokalen Cache"
@@ -105,10 +105,10 @@
         "message": "Jetzt bereinigen"
     },
     "settingsStatusCacheList": {
-        "message": "Von dir geteilte Inhalte"
+        "message": "Von Ihnen geteilte Inhalte"
     },
     "settingsLogEnable": {
-        "message": "Log-Datei aktivieren"
+        "message": "Protokolldatei aktivieren"
     },
     "settingsLogDownload": {
         "message": "Herunterladen"
