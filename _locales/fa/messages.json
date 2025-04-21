@@ -69,7 +69,7 @@
         "message": "مرورگری خصوصی"
     },
     "settingsStatusBrowser": {
-        "message": "مرورگر سنو"
+        "message": "Ceno مرورگر"
     },
     "settingsStatusExtension": {
         "message": "افزونه‌های سنو"
@@ -166,11 +166,11 @@
         "description": "Update hint for user, followed by graphical update badge links."
     },
     "updateGetgoogleplay": {
-        "message": "از گوگل‌پلی دریافت کنید",
+        "message": "از گوگل پلی دریافت کنید",
         "description": "Alt text for Google Play badge."
     },
     "updateGetpaskoocheh": {
-        "message": "از پس‌کوچه دریافت کنید",
+        "message": "از پسکوچه دریافت کنید",
         "description": "Alt text for Paskoocheh badge."
     },
     "settingsStatusClientState": {
