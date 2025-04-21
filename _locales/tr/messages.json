@@ -96,10 +96,10 @@
         "message": "Şimdi temizle"
     },
     "settingsStatusCacheList": {
-        "message": "Sizin tarafınızdan paylaşılan içerik"
+        "message": "Sizin tarafınızdan paylaşılan içerikler"
     },
     "settingsLogEnable": {
-        "message": "Günlük dosyası kullanılsın"
+        "message": "Günlük tutulsun"
     },
     "settingsLogDownload": {
         "message": "İndir"
@@ -171,7 +171,7 @@
         "message": "Dış UDP uç noktaları"
     },
     "settingsStatusPubEndpoints": {
-        "message": "Herkese açık UDP uç noktaları"
+        "message": "Genel UDP uç noktaları"
     },
     "settingsStatusBtBootstrapsPlaceholder": {
         "message": "SUNUCU1 SUNUCU2:BAĞLANTINOKTASI ..."
