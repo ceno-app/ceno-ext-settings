@@ -69,13 +69,13 @@
         "message": "Ιδιωτική περιήγηση"
     },
     "settingsStatusBrowser": {
-        "message": "Περιηγητής CENO"
+        "message": "Ceno Browser"
     },
     "settingsStatusExtension": {
         "message": "Επέκταση CENO"
     },
     "settingsStatusOuinet": {
-        "message": "Ouinet"
+        "message": ""
     },
     "settingsStatusProtocol": {
         "message": "Πρωτόκολλο Ouinet"
@@ -171,7 +171,7 @@
         "message": "Δημόσιο τελικό σημείο UDP"
     },
     "settingsStatusExtEndpoints": {
-        "message": "Εξωτερικό τελικό σημείο UDP"
+        "message": "Εξωτερικά τελικά σημεία UDP"
     },
     "settingsStatusBtBootstraps": {
         "message": "Επιπλέον διακομιστές bootstraps BitTorrent"
