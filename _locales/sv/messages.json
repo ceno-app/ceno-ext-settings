@@ -69,13 +69,13 @@
         "message": "Privat surfning"
     },
     "settingsStatusBrowser": {
-        "message": "Webbläsaren CENO"
+        "message": ""
     },
     "settingsStatusExtension": {
         "message": "Tillägg för CENO"
     },
     "settingsStatusOuinet": {
-        "message": "Ouinet"
+        "message": ""
     },
     "settingsStatusProtocol": {
         "message": "Ouinet-protokoll"
@@ -111,7 +111,7 @@
         "message": "Antalet sid-element per källa:"
     },
     "popupSrcOrigin": {
-        "message": "Direkt från hemsidan"
+        "message": "Direkt från hemsida"
     },
     "popupSrcProxy": {
         "message": "Via CENO-nätverk (privat)"
