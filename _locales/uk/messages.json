@@ -69,7 +69,7 @@
         "message": "Приватний перегляд"
     },
     "settingsStatusBrowser": {
-        "message": "Браузер CENO"
+        "message": "браузер Ceno"
     },
     "settingsStatusExtension": {
         "message": "Розширення CENO"
@@ -87,7 +87,7 @@
         "message": "Локальні кінцеві точки UDP"
     },
     "settingsStatusUpnp": {
-        "message": "Стан UPnP"
+        "message": "Статус UPnP"
     },
     "settingsStatusExtEndpoints": {
         "message": "Зовнішні кінцеві точки UDP"
@@ -96,7 +96,7 @@
         "message": "Публічні кінцеві точки UDP"
     },
     "settingsStatusReachability": {
-        "message": "Стан доступності"
+        "message": "Статус доступності"
     },
     "settingsStatusCacheSize": {
         "message": "Розмір локального кешу"
@@ -105,7 +105,7 @@
         "message": "Очистити зараз"
     },
     "settingsStatusCacheList": {
-        "message": "Вміст, який Ви поширили"
+        "message": "Контент, який поширили ви"
     },
     "settingsStatusBtBootstraps": {
         "message": "Додаткове завантаження BitTorrent"
@@ -117,7 +117,7 @@
         "message": "Зберегти"
     },
     "settingsLogEnable": {
-        "message": "Дозволити файл журналу"
+        "message": "Увімкнути файл журналу (логи)"
     },
     "settingsLogDownload": {
         "message": "Завантажити"
