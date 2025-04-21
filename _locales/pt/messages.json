@@ -69,7 +69,7 @@
         "message": "Navegação privada"
     },
     "settingsStatusBrowser": {
-        "message": "Navegador do CENO"
+        "message": "Navegador CENO"
     },
     "settingsStatusExtension": {
         "message": "Extensão do CENO"
@@ -175,11 +175,11 @@
         "description": "Update hint for user, followed by graphical update badge links. If the incomplete sentence can't be properly translated, assume the source string is: 'Please update your app via the following channels:'"
     },
     "updateGetgoogleplay": {
-        "message": "Baixe no Google Play",
+        "message": "Obter no Google Play",
         "description": "Alt text for Google Play badge."
     },
     "updateGetpaskoocheh": {
-        "message": "Baixe no Paskoocheh",
+        "message": "Obter no Paskoocheh",
         "description": "Alt text for Paskoocheh badge."
     }
 }
