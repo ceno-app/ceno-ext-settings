@@ -14,7 +14,7 @@
         "message": "செனோ அமைப்புகள்"
     },
     "settingsWarn": {
-        "message": "இந்த பக்கத்தில் உள்ள அமைப்புகள் பல்வேறு பிணைய நிலைமைகளில் CENO செயல்பாட்டை சோதிக்க மட்டுமே நோக்கம் கொண்டவை. மேலும் தகவலுக்கு $ கையேடு $ ஐப் பார்க்கவும்.",
+        "message": "இந்தப் பக்கத்தில் உள்ள அமைப்புகள் பல்வேறு பிணைய நிலைமைகளில் CENO செயல்பாட்டைச் சோதிக்க மட்டுமே நோக்கம் கொண்டவை. மேலும் தகவலுக்கு $MANUAL$ ஐப் பார்க்கவும்.",
         "placeholders": {
             "manual": {
                 "content": "$1"
@@ -47,7 +47,7 @@
         "message": "பிற CENO பயனர்களால் பகிரப்பட்டது"
     },
     "settingsPubwarn": {
-        "message": "$ Public_browsing $ தற்போதைய அமைப்புகளுடன் தோல்வியடையும்.",
+        "message": "$PUBLIC_BROWSING$ தற்போதைய அமைப்புகளுடன் தோல்வியடையும்.",
         "placeholders": {
             "public_browsing": {
                 "content": "$1"
@@ -58,7 +58,7 @@
         "message": "பொது உலாவல்"
     },
     "settingsPrivwarn": {
-        "message": "$ Private_browsing $ தற்போதைய அமைப்புகளுடன் தோல்வியடையும்.",
+        "message": "$PRIVATE_BROWSING$ தற்போதைய அமைப்புகளுடன் தோல்வியடையும்.",
         "placeholders": {
             "private_browsing": {
                 "content": "$1"
@@ -69,13 +69,13 @@
         "message": "தனியார் உலாவல்"
     },
     "settingsStatusBrowser": {
-        "message": ""
+        "message": "செனோ உலாவி"
     },
     "settingsStatusExtension": {
         "message": "செனோ நீட்டிப்பு"
     },
     "settingsStatusOuinet": {
-        "message": ""
+        "message": "ஓவினெட்"
     },
     "settingsStatusProtocol": {
         "message": "Ouinet நெறிமுறை"
@@ -129,7 +129,7 @@
         "message": "நீங்கள் பகிர்ந்து கொண்டார்"
     },
     "popupFoot": {
-        "message": "உள்ளடக்க மூலங்கள் பற்றிய கூடுதல் தகவலுக்கு $ கையேடு $ ஐப் பார்க்கவும்.",
+        "message": "உள்ளடக்க மூலங்கள்பற்றிய கூடுதல் தகவலுக்கு $MANUAL$ ஐப் பார்க்கவும்.",
         "placeholders": {
             "manual": {
                 "content": "$1"
