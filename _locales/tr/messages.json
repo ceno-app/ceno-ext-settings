@@ -69,7 +69,7 @@
         "message": "Gizli gezinme"
     },
     "settingsStatusBrowser": {
-        "message": "Ceno Browser"
+        "message": "CENO Browser"
     },
     "settingsStatusExtension": {
         "message": "Ceno eklentisi"
@@ -105,7 +105,7 @@
         "message": "İndir"
     },
     "popupTitle": {
-        "message": "Ceno kaynakları"
+        "message": "CENO kaynakları"
     },
     "popupHead": {
         "message": "Bir kaynaktaki sayfa bileşenleri sayısı:"
@@ -171,7 +171,7 @@
         "message": "Dış UDP uç noktaları"
     },
     "settingsStatusPubEndpoints": {
-        "message": "Genel UDP uç noktaları"
+        "message": "Herkese açık UDP uç noktaları"
     },
     "settingsStatusBtBootstrapsPlaceholder": {
         "message": "SUNUCU1 SUNUCU2:BAĞLANTINOKTASI ..."
