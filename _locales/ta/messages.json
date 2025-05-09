@@ -69,13 +69,13 @@
         "message": "தனியார் உலாவல்"
     },
     "settingsStatusBrowser": {
-        "message": "செனோ உலாவி"
+        "message": ""
     },
     "settingsStatusExtension": {
         "message": "செனோ நீட்டிப்பு"
     },
     "settingsStatusOuinet": {
-        "message": "ஓவினெட்"
+        "message": ""
     },
     "settingsStatusProtocol": {
         "message": "Ouinet நெறிமுறை"
