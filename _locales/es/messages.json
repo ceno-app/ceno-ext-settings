@@ -9,7 +9,7 @@
         "message": "Aviso de Ceno"
     },
     "settingsTitle": {
-        "message": "Configuración de Ceno"
+        "message": "Ajustes de Ceno"
     },
     "settingsWarn": {
         "message": "Ajustes en esta página están solo destinados para probar las funcionalidades de Ceno en varias condiciones de conectividad. Vea el $MANUAL$ para más información.",
@@ -32,7 +32,7 @@
         "message": "Fuentes de descarga de contenidos:"
     },
     "settingsSrcOrigin": {
-        "message": "Directo del sitio web"
+        "message": "Directamente de la página web"
     },
     "settingsSrcProxy": {
         "message": "Vía la red Ceno (privado)"
@@ -78,13 +78,13 @@
         "message": "Protocolo Ouinet"
     },
     "settingsStatusEndpoints": {
-        "message": "Puntos de conexión UDP locales"
+        "message": "Terminales UDP locales"
     },
     "settingsStatusUpnp": {
-        "message": "Estado de UPnP"
+        "message": "Estado del UPnP"
     },
     "settingsStatusReachability": {
-        "message": "Estado de alcance"
+        "message": "Estado de la accesibilidad"
     },
     "settingsStatusCacheSize": {
         "message": "Tamaño de caché local"
@@ -96,7 +96,7 @@
         "message": "Contenido compartido por ti"
     },
     "settingsStatusBtBootstraps": {
-        "message": "Servidores extra de arranque de BitTorrent"
+        "message": "Arranque adicional de BitTorrent"
     },
     "settingsStatusBtBootstrapsPlaceholder": {
         "message": "ANFITRIÓN1 ANFITRIÓN2:PUERTO …"
@@ -105,7 +105,7 @@
         "message": "Guardar"
     },
     "settingsLogEnable": {
-        "message": "Activar archivo de registro"
+        "message": "Habilitar el archivo del registro"
     },
     "settingsLogDownload": {
         "message": "Descargar"
@@ -117,7 +117,7 @@
         "message": "Número de elementos de la página por fuente:"
     },
     "popupSrcOrigin": {
-        "message": "Directo del sitio web"
+        "message": "Directamente de la página web"
     },
     "popupSrcProxy": {
         "message": "Vía la red Ceno (privado)"
@@ -170,10 +170,10 @@
         "message": "Estado del cliente Ouinet"
     },
     "settingsStatusExtEndpoints": {
-        "message": "Puntos de conexión UDP externos"
+        "message": "Terminales UDP externos"
     },
     "settingsStatusPubEndpoints": {
-        "message": "Puntos de conexión UDP públicos"
+        "message": "Terminales UDP públicos"
     },
     "settingsMode": {
         "message": "Modo de navegación"
