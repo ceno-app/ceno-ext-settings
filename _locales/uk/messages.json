@@ -11,7 +11,7 @@
         "message": "Застереження Ceno"
     },
     "settingsTitle": {
-        "message": "Налаштування Ceno"
+        "message": "Ceno Налаштування"
     },
     "settingsWarn": {
         "message": "Налаштування на цій сторінці призначені лише для тестування функціональності Ceno в різних мережевих умовах. Детальніше дивіться $MANUAL$.",
@@ -69,13 +69,13 @@
         "message": "Приватний перегляд"
     },
     "settingsStatusBrowser": {
-        "message": "браузер Ceno"
+        "message": "Ceno браузером"
     },
     "settingsStatusExtension": {
         "message": "Розширення Ceno"
     },
     "settingsStatusOuinet": {
-        "message": "Ouinet"
+        "message": ""
     },
     "settingsStatusProtocol": {
         "message": "Протокол Ouinet"
@@ -123,7 +123,7 @@
         "message": "Завантажити"
     },
     "popupTitle": {
-        "message": "Джерела Ceno"
+        "message": "Джерела Сeno"
     },
     "popupHead": {
         "message": "Кількість елементів сторінки на джерело:"
