@@ -96,7 +96,7 @@
         "message": "Очистить сейчас"
     },
     "settingsStatusCacheList": {
-        "message": "Предоставленный вами контент"
+        "message": "Контент, которым вы поделились"
     },
     "settingsStatusBtBootstraps": {
         "message": "Дополнительные загрузчики BitTorrent"
@@ -108,7 +108,7 @@
         "message": "Сохранить"
     },
     "settingsLogEnable": {
-        "message": "Включить ведение журнала"
+        "message": "Включить файл журнала"
     },
     "settingsLogDownload": {
         "message": "Скачать"

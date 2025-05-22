@@ -1,20 +1,20 @@
 {
     "extName": {
-        "message": "افزونه‌های مرورگر CENO",
+        "message": "افزونه‌های مرورگر سنو",
         "description": "Name of the extension."
     },
     "extDesc": {
-        "message": "ادغام و هم‌پیوندی CENO و Ouinet را فراهم می‌کند: ذخیره صفحه‌ها و گروه‌بندی، اطلاعات مرتبط با منبع صفحه، تنظیمات و دیگر ویژگی‌ها. شامل کدهای بومی شده توسط rugk تحت مجوز MIT است.",
+        "message": "ادغام با سنو و Ouinet: ذخیره و گروه‌بندی صفحه‌ها، اطلاعات مرتبط با منبع صفحه، تنظیمات و دیگر ویژگی‌ها. شامل کدهایی از Localizer توسط rugk تحت مجوز MIT.",
         "description": "Description of the extension."
     },
     "bgCenoWarning": {
-        "message": "اخطار CENO"
+        "message": "اخطار سنو"
     },
     "settingsTitle": {
-        "message": "تنظیمات CENO"
+        "message": "تنظیمات سنو"
     },
     "settingsWarn": {
-        "message": "تنظیمات این صفحه فقط برای آزمایش عملکرد CENO در شرایط مختلف شبکه در نظر گرفته شده است. برای اطلاعات بیشتر به بخش $MANUAL$ مراجعه کنید.",
+        "message": "تنظیمات این صفحه فقط برای آزمایش عملکرد سنو در شرایط مختلف شبکه در نظر گرفته شده است. برای اطلاعات بیشتر به بخش $MANUAL$ مراجعه کنید.",
         "placeholders": {
             "manual": {
                 "content": "$1"
@@ -29,22 +29,22 @@
         "description": "Link to the Settings section of the User Manual. Keep it as is unless the section has been translated."
     },
     "settingsWarnManTI": {
-        "message": "نه به سانسور! تنظیمات دستی کاربر - تنظیمات CENO"
+        "message": "نه به سانسور! راهنمای کاربر - تنظیمات سنو"
     },
     "settingsSources": {
         "message": "منابع بازیابی محتوا:"
     },
     "settingsSrcOrigin": {
-        "message": "به طور مستقیم از وب‌سایت"
+        "message": "مستقیم از وب‌سایت"
     },
     "settingsSrcProxy": {
-        "message": "از طریق شبکه CENO (خصوصی)"
+        "message": "از طریق شبکه سنو (خصوصی)"
     },
     "settingsSrcInjector": {
-        "message": "از طریق شبکه CENO (عمومی)"
+        "message": "از طریق شبکه سنو (عمومی)"
     },
     "settingsSrcDcache": {
-        "message": "به اشتراک گذاشته شده توسط دیگر کاربران CENO"
+        "message": "به اشتراک گذاشته شده توسط دیگر کاربران سنو"
     },
     "settingsPubwarn": {
         "message": "$PUBLIC_BROWSING$ با تنظیمات فعلی موفق نخواهد بود.",
@@ -69,10 +69,10 @@
         "message": "مرورگری خصوصی"
     },
     "settingsStatusBrowser": {
-        "message": "مرورگر CENO"
+        "message": "Ceno مرورگر"
     },
     "settingsStatusExtension": {
-        "message": "افزونه‌های CENO"
+        "message": "افزونه‌های سنو"
     },
     "settingsStatusOuinet": {
         "message": "Ouinet"
@@ -81,16 +81,16 @@
         "message": "پروتکل Ouinet"
     },
     "settingsStatusEndpoints": {
-        "message": "نقطه‌های انتهایی «یو‌دی‌پی UDP» محلی"
+        "message": "نقطه‌های انتهایی UDP محلی"
     },
     "settingsStatusUpnp": {
-        "message": "وضعیت «یوپی‌ان‌پی UPnP»"
+        "message": "وضعیت UPnP"
     },
     "settingsStatusReachability": {
-        "message": "وضعیت مرتبط با قابلیت دسترسی"
+        "message": "وضعیت دسترس‌پذیری"
     },
     "settingsStatusCacheSize": {
-        "message": "اندازه «حافظه نهان» محلی"
+        "message": "اندازه کش محلی"
     },
     "settingsStatusCachePurge": {
         "message": "پاک‌سازی کن"
@@ -108,28 +108,28 @@
         "message": "ذخیره"
     },
     "settingsLogEnable": {
-        "message": "رخدادنگاری را فعال کن"
+        "message": "فعال‌سازی فایل گزارش"
     },
     "settingsLogDownload": {
-        "message": "دانلود (بارگذاری)"
+        "message": "دانلود"
     },
     "popupTitle": {
-        "message": "منابع CENO"
+        "message": "منابع سنو"
     },
     "popupHead": {
-        "message": "تعداد المنت‌های صفحه به ازای هر منبع:"
+        "message": "تعداد عناصر صفحه به ازای هر منبع:"
     },
     "popupSrcOrigin": {
         "message": "مستقیم از وب‌سایت"
     },
     "popupSrcProxy": {
-        "message": "از طریق شبکه CENO (خصوصی)"
+        "message": "از طریق شبکه سنو (خصوصی)"
     },
     "popupSrcInjector": {
-        "message": "از طریق شبکه CENO (عمومی)"
+        "message": "از طریق شبکه سنو (عمومی)"
     },
     "popupSrcDcache": {
-        "message": "به اشتراک گذاشته شده توسط کاربران CENO"
+        "message": "به اشتراک گذاشته شده توسط کاربران سنو"
     },
     "popupSrcLcache": {
         "message": "به اشتراک گذاشته شده توسط شما"
@@ -150,36 +150,36 @@
         "description": "Link to the access mechanisms subsection in the Settings section of the User Manual. Keep it as is unless the section has been translated."
     },
     "popupFootManTI": {
-        "message": "نه به سانسور! تنظیمات دستی کاربر - تنظیمات CENO"
+        "message": "نه به سانسور! راهنمای کاربر - تنظیمات سنو"
     },
     "updateTitle": {
-        "message": "به‌روز‌رسانی CENO"
+        "message": "به‌روز‌رسانی سنو"
     },
     "updateMetacontent": {
-        "message": "به‌روزرسانی CENO"
+        "message": "به‌روزرسانی سنو"
     },
     "updateHead": {
-        "message": "مرورگر CENO شما به‌روز نیست."
+        "message": "مرورگر سنو شما به‌روز نیست."
     },
     "updateSubhead": {
-        "message": "لطفا برنامه خود را از طریق کانال‌های زیر به روز کنید:",
+        "message": "لطفا برنامه خود را از طریق کانال‌های زیر به‌روز کنید:",
         "description": "Update hint for user, followed by graphical update badge links."
     },
     "updateGetgoogleplay": {
-        "message": "از گوگل‌پلی دریافت کنید",
+        "message": "از گوگل پلی دریافت کنید",
         "description": "Alt text for Google Play badge."
     },
     "updateGetpaskoocheh": {
-        "message": "از پس‌کوچه دریافت کنید",
+        "message": "از پسکوچه دریافت کنید",
         "description": "Alt text for Paskoocheh badge."
     },
     "settingsStatusClientState": {
         "message": "وضعیت کلاینت Ouinet"
     },
     "settingsStatusExtEndpoints": {
-        "message": "نقطه‌های انتهایی «یو‌دی‌پی UDP» خارجی"
+        "message": "نقطه‌های انتهایی UDP خارجی"
     },
     "settingsStatusPubEndpoints": {
-        "message": "نقطه‌های انتهایی «یو‌دی‌پی UDP» عمومی"
+        "message": "نقطه‌های انتهایی UDP عمومی"
     }
 }

@@ -69,7 +69,7 @@
         "message": "Navegação privativa"
     },
     "settingsStatusBrowser": {
-        "message": "Navegador CENO"
+        "message": "Navegador Ceno"
     },
     "settingsStatusExtension": {
         "message": "Extensão CENO"
@@ -120,7 +120,7 @@
         "message": "Ativar arquivo de log"
     },
     "settingsLogDownload": {
-        "message": "Baixar"
+        "message": "Download"
     },
     "popupTitle": {
         "message": "Sources do CENO"

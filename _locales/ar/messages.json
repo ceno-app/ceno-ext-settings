@@ -75,13 +75,13 @@
         "message": "إضافة متصفح CENO"
     },
     "settingsStatusOuinet": {
-        "message": "Ouinet"
+        "message": ""
     },
     "settingsStatusProtocol": {
         "message": "بروتوكول Ouinet"
     },
     "settingsStatusEndpoints": {
-        "message": "نقاط نهاية UDP المحلية"
+        "message": "نقاط نهاية UDP محلية"
     },
     "settingsStatusUpnp": {
         "message": "حالة UPnP"
@@ -96,10 +96,10 @@
         "message": "حذف البيانات الآن"
     },
     "settingsStatusCacheList": {
-        "message": "محتوى قمت بمشاركته"
+        "message": "المحتوى الذي تمت مشاركته من قبلك"
     },
     "settingsLogEnable": {
-        "message": "تفعيل ملف السجل"
+        "message": "تمكين ملف السجل"
     },
     "settingsLogDownload": {
         "message": "تنزيل"
@@ -111,7 +111,7 @@
         "message": "عدد عناصر الصفحة لكل مصدر:"
     },
     "popupSrcOrigin": {
-        "message": "مباشرة من الموقع الإلكتروني"
+        "message": "مباشر من الموقع"
     },
     "popupSrcProxy": {
         "message": "عبر شبكة CENO (الخاصة)"
@@ -150,18 +150,18 @@
         "message": "تحديث CENO"
     },
     "updateHead": {
-        "message": "نسختك من متصفح CENO غير محدّثة"
+        "message": "نسختك من متصفح CENO غير محدّثة."
     },
     "updateSubhead": {
         "message": "يُرجى تحديث تطبيقك بواسطة",
         "description": "Update hint for user, followed by graphical update badge links."
     },
     "updateGetgoogleplay": {
-        "message": "احصل عليه على جوجل بلاي (Google Play)‏",
+        "message": "احصل عليه من متجر جوجل بلاي (Google Play)",
         "description": "Alt text for Google Play badge."
     },
     "updateGetpaskoocheh": {
-        "message": "احصل عليه على Paskoocheh",
+        "message": "احصل عليه من Paskoocheh",
         "description": "Alt text for Paskoocheh badge."
     },
     "settingsStatusBtBootstrapsSave": {
@@ -177,9 +177,9 @@
         "message": "حالة العميل Ouinet"
     },
     "settingsStatusExtEndpoints": {
-        "message": "نقاط نهاية UDP الخارجية"
+        "message": "نقاط نهاية UDP خارجية"
     },
     "settingsStatusPubEndpoints": {
-        "message": "نقاط نهاية UDP العامة"
+        "message": "نقاط نهاية UDP عامة"
     }
 }

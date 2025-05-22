@@ -69,13 +69,13 @@
         "message": "Penjelajahan privat"
     },
     "settingsStatusBrowser": {
-        "message": "Peramban CENO"
+        "message": "Browser Ceno"
     },
     "settingsStatusExtension": {
         "message": "Ekstensi CENO"
     },
     "settingsStatusOuinet": {
-        "message": "Ouinet"
+        "message": ""
     },
     "settingsStatusProtocol": {
         "message": "Protokol Ouinet"

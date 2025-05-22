@@ -7,18 +7,18 @@
         "message": "Provides integration with CENO and Ouinet: page caching and grouping, page source information, settings and other functionality. Includes code from Localizer by rugk under MIT license.",
         "description": "Description of the extension."
     },
-
     "bgCenoWarning": {
         "message": "CENO warning"
     },
-
     "settingsTitle": {
         "message": "CENO Settings"
     },
     "settingsWarn": {
         "message": "Settings on this page are only intended for testing CENO functionality in various network conditions. See the $MANUAL$ for more information.",
         "placeholders": {
-            "manual": { "content": "$1"}
+            "manual": {
+                "content": "$1"
+            }
         }
     },
     "settingsWarnMan": {
@@ -49,7 +49,9 @@
     "settingsPubwarn": {
         "message": "$PUBLIC_BROWSING$ will fail with current settings.",
         "placeholders": {
-            "public_browsing": { "content": "$1" }
+            "public_browsing": {
+                "content": "$1"
+            }
         }
     },
     "settingsPubwarnPub": {
@@ -58,7 +60,9 @@
     "settingsPrivwarn": {
         "message": "$PRIVATE_BROWSING$ will fail with current settings.",
         "placeholders": {
-            "private_browsing": { "content": "$1" }
+            "private_browsing": {
+                "content": "$1"
+            }
         }
     },
     "settingsPrivwarnPriv": {
@@ -118,7 +122,6 @@
     "settingsLogDownload": {
         "message": "Download"
     },
-
     "popupTitle": {
         "message": "CENO Sources"
     },
@@ -143,7 +146,9 @@
     "popupFoot": {
         "message": "See the $MANUAL$ for more information on content sources.",
         "placeholders": {
-            "manual": { "content": "$1"}
+            "manual": {
+                "content": "$1"
+            }
         }
     },
     "popupFootMan": {
@@ -156,7 +161,6 @@
     "popupFootManTI": {
         "message": "Censorship.no! User Manual – CENO settings"
     },
-
     "updateTitle": {
         "message": "CENO update"
     },

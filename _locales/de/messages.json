@@ -4,7 +4,7 @@
         "description": "Name of the extension."
     },
     "extDesc": {
-        "message": "Bietet eine Integration mit CENO und Ouinet: Seiten Zwischenspeicher und Gruppierung, Informationen zu Seiten Quellen, Einstellungen und andere Funktionen. Beinhaltet Code vom Localizer von rugk unter MIT Lizenz.",
+        "message": "Bietet eine Integration mit CENO und Ouinet: Webseiten cachen und gruppieren, Quellen-Informationen, Einstellungen und andere Funktionen. Beinhaltet Code von Localizer by rugk unter MIT Lizenz.",
         "description": "Description of the extension."
     },
     "bgCenoWarning": {
@@ -22,14 +22,14 @@
         }
     },
     "settingsWarnMan": {
-        "message": "Anleitung"
+        "message": "Handbuch"
     },
     "settingsWarnManLN": {
         "message": "https://censorship.no/user-manual/de/browser/settings.html",
         "description": "Link to the Settings section of the User Manual. Keep it as is unless the section has been translated."
     },
     "settingsWarnManTI": {
-        "message": "Censorship.no! Benutzer Anleitung – CENO Einstellungen"
+        "message": "Censorship.no! Benutzerhandbuch – CENO Einstellungen"
     },
     "settingsSources": {
         "message": "Quellen zum Abruf von Inhalten:"
@@ -55,7 +55,7 @@
         }
     },
     "settingsPubwarnPub": {
-        "message": "Öffentliches Browsing"
+        "message": "Öffentliches Browsen"
     },
     "settingsPrivwarn": {
         "message": "$PRIVATE_BROWSING$ wird mit den derzeitigen Einstellungen fehlschlagen.",
@@ -66,7 +66,7 @@
         }
     },
     "settingsPrivwarnPriv": {
-        "message": "Private Browsing"
+        "message": "Privates Browsen"
     },
     "settingsStatusBrowser": {
         "message": "CENO-Browser"
@@ -75,40 +75,40 @@
         "message": "CENO Erweiterung"
     },
     "settingsStatusOuinet": {
-        "message": "Janetz"
+        "message": ""
     },
     "settingsStatusProtocol": {
-        "message": "Ouinet Protokoll"
+        "message": "Ouinet-Protokoll"
     },
     "settingsStatusClientState": {
-        "message": "Ouinet Client Status"
+        "message": "Ouinet-Client Status"
     },
     "settingsStatusEndpoints": {
-        "message": "Lokale UDP Endpunkte"
+        "message": "Lokale UDP-Endpunkte"
     },
     "settingsStatusUpnp": {
-        "message": "UPnP Status"
+        "message": "UPnP-Status"
     },
     "settingsStatusExtEndpoints": {
-        "message": "Externe UDP Endpunkte"
+        "message": "Externe UDP-Endpunkte"
     },
     "settingsStatusPubEndpoints": {
-        "message": "Öffentliche UDP Endpunkte"
+        "message": "Öffentliche UDP-Endpunkte"
     },
     "settingsStatusReachability": {
-        "message": "Erreichbarkeits-Status"
+        "message": "Erreichbarkeitsstatus"
     },
     "settingsStatusCacheSize": {
-        "message": "Größe des lokalen Puffers"
+        "message": "Größe des lokalen Cache"
     },
     "settingsStatusCachePurge": {
-        "message": "Jetzt reinigen"
+        "message": "Jetzt bereinigen"
     },
     "settingsStatusCacheList": {
-        "message": "Inhalte welche von dir geteilt wurden"
+        "message": "Von Ihnen geteilte Inhalte"
     },
     "settingsLogEnable": {
-        "message": "Log-Datei aktivieren"
+        "message": "Protokolldatei aktivieren"
     },
     "settingsLogDownload": {
         "message": "Herunterladen"
