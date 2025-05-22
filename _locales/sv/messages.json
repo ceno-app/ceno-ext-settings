@@ -11,7 +11,7 @@
         "message": "Ceno-varning"
     },
     "settingsTitle": {
-        "message": "Ceno-inställningar"
+        "message": "Ceno Inställningar"
     },
     "settingsWarn": {
         "message": "Inställningarna på den här sidan är endast avsedda för att testa Ceno-funktionalitet i olika nätverksförhållanden. Se $MANUAL$ för mer information.",
@@ -69,7 +69,7 @@
         "message": "Privat surfning"
     },
     "settingsStatusBrowser": {
-        "message": ""
+        "message": "Ceno Bläddrare"
     },
     "settingsStatusExtension": {
         "message": "Tillägg för Ceno"
