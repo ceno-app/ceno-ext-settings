@@ -11,7 +11,7 @@
         "message": "Aviso do Ceno"
     },
     "settingsTitle": {
-        "message": "Configurações do Ceno"
+        "message": "Configurações Ceno"
     },
     "settingsWarn": {
         "message": "As configurações nesta página destinam-se apenas para testar a funcionalidade do Ceno em várias condições de rede. Ver o $MANUAL$ para mais informações.",
@@ -35,7 +35,7 @@
         "message": "Fontes de recuperação de conteúdo:"
     },
     "settingsSrcOrigin": {
-        "message": "Direto do site"
+        "message": "Diretamente do sítio Web"
     },
     "settingsSrcProxy": {
         "message": "Através da rede do Ceno (privada)"
@@ -69,7 +69,7 @@
         "message": "Navegação privada"
     },
     "settingsStatusBrowser": {
-        "message": "Navegador Ceno"
+        "message": "Ceno Navegador"
     },
     "settingsStatusExtension": {
         "message": "Extensão do Ceno"
@@ -84,19 +84,19 @@
         "message": "Estado do cliente Ouinet"
     },
     "settingsStatusEndpoints": {
-        "message": "Pontos finais locais do UDP"
+        "message": "Endpoints UDP locais"
     },
     "settingsStatusUpnp": {
-        "message": "Status do UPnP"
+        "message": "Status UPnP"
     },
     "settingsStatusExtEndpoints": {
-        "message": "Pontos finais externos do UDP"
+        "message": "Endpoints UDP externos"
     },
     "settingsStatusPubEndpoints": {
-        "message": "Pontos finais públicos do UDP"
+        "message": "Endpoints UDP públicos"
     },
     "settingsStatusReachability": {
-        "message": "Status de acessibilidade"
+        "message": "Status da conectividade"
     },
     "settingsStatusCacheSize": {
         "message": "Tamanho do cache local"
@@ -105,22 +105,22 @@
         "message": "Limpar agora"
     },
     "settingsStatusCacheList": {
-        "message": "Conteúdo compartilhado por você"
+        "message": "Conteúdo compartilhado por si"
     },
     "settingsStatusBtBootstraps": {
-        "message": "Bootstraps extras para BitTorrent"
+        "message": "Bittorrent"
     },
     "settingsStatusBtBootstrapsPlaceholder": {
         "message": "HOST1 HOST2:PORT ..."
     },
     "settingsStatusBtBootstrapsSave": {
-        "message": "Salvar"
+        "message": "Gravar"
     },
     "settingsLogEnable": {
-        "message": "Habilitar ficheiro de registo"
+        "message": "Ativar arquivo de registro"
     },
     "settingsLogDownload": {
-        "message": "Download"
+        "message": "Baixar"
     },
     "popupTitle": {
         "message": "Fontes do Ceno"
@@ -129,7 +129,7 @@
         "message": "Número de elementos de página por fonte:"
     },
     "popupSrcOrigin": {
-        "message": "Direto do site"
+        "message": "Diretamente do sítio Web"
     },
     "popupSrcProxy": {
         "message": "Através da rede do Ceno (privada)"
