@@ -23,10 +23,10 @@
         "message": "manual"
     },
     "settingsWarnManLN": {
-        "message": "https://censorship.no/user-manual/es/browser/settings.html"
+        "message": "https://ceno.app/user-manual/es/browser/settings.html"
     },
     "settingsWarnManTI": {
-        "message": "Manual de Usuario de Censorship.no! – Configuraciones de Ceno"
+        "message": "Manual de Usuario de Ceno – Configuraciones de Ceno"
     },
     "settingsSources": {
         "message": "Fuentes de descarga de contenidos:"
@@ -143,10 +143,10 @@
         "message": "manual"
     },
     "popupFootManLN": {
-        "message": "https://censorship.no/user-manual/es/browser/settings.html#eligiendo-mecanismos-de-acceso"
+        "message": "https://ceno.app/user-manual/es/browser/settings.html#eligiendo-mecanismos-de-acceso"
     },
     "popupFootManTI": {
-        "message": "Manual de usuario de Censorship.no! – Configuración de Ceno"
+        "message": "Manual de usuario de Ceno – Configuración de Ceno"
     },
     "updateTitle": {
         "message": "Actualización de Ceno"

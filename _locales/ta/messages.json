@@ -1,20 +1,20 @@
 {
     "extName": {
-        "message": "",
+        "message": "செனோ நீட்டிப்பு",
         "description": "Name of the extension."
     },
     "extDesc": {
-        "message": "",
+        "message": "Ceno மற்றும் OUinet உடன் ஒருங்கிணைப்பை வழங்குகிறது: பக்க கேச்சிங் மற்றும் குழுமம், பக்க மூல செய்தி, அமைப்புகள் மற்றும் பிற செயல்பாடுகள். எம்ஐடி உரிமத்தின் கீழ் ரக் மூலம் லோக்கலரைசரிடமிருந்து குறியீட்டை உள்ளடக்கியது.",
         "description": "Description of the extension."
     },
     "bgCenoWarning": {
-        "message": ""
+        "message": "செனோ எச்சரிக்கை"
     },
     "settingsTitle": {
-        "message": ""
+        "message": "செனோ அமைப்புகள்"
     },
     "settingsWarn": {
-        "message": "",
+        "message": "இந்தப் பக்கத்தில் உள்ள அமைப்புகள் பல்வேறு பிணைய நிலைமைகளில் Ceno செயல்பாட்டைச் சோதிக்க மட்டுமே நோக்கம் கொண்டவை. மேலும் தகவலுக்கு $MANUAL$ ஐப் பார்க்கவும்.",
         "placeholders": {
             "manual": {
                 "content": "$1"
@@ -22,32 +22,32 @@
         }
     },
     "settingsWarnMan": {
-        "message": ""
+        "message": "கையேடு"
     },
     "settingsWarnManLN": {
-        "message": "",
+        "message": "https://censorship.no/user-manual/en/browser/settings.html",
         "description": "Link to the Settings section of the User Manual. Keep it as is unless the section has been translated."
     },
     "settingsWarnManTI": {
-        "message": ""
+        "message": "தணிக்கை. இல்லை! பயனர் கையேடு - Ceno அமைப்புகள்"
     },
     "settingsSources": {
-        "message": ""
+        "message": "உள்ளடக்க மீட்டெடுப்பு ஆதாரங்கள்:"
     },
     "settingsSrcOrigin": {
-        "message": ""
+        "message": "வலைத்தளத்திலிருந்து நேரடியாக"
     },
     "settingsSrcProxy": {
-        "message": ""
+        "message": "செனோ பிணையம் வழியாக (தனியார்)"
     },
     "settingsSrcInjector": {
-        "message": ""
+        "message": "செனோ பிணையம் வழியாக (பொது)"
     },
     "settingsSrcDcache": {
-        "message": ""
+        "message": "பிற Ceno பயனர்களால் பகிரப்பட்டது"
     },
     "settingsPubwarn": {
-        "message": "",
+        "message": "$PUBLIC_BROWSING$ தற்போதைய அமைப்புகளுடன் தோல்வியடையும்.",
         "placeholders": {
             "public_browsing": {
                 "content": "$1"
@@ -55,10 +55,10 @@
         }
     },
     "settingsPubwarnPub": {
-        "message": ""
+        "message": "பொது உலாவல்"
     },
     "settingsPrivwarn": {
-        "message": "",
+        "message": "$PRIVATE_BROWSING$ தற்போதைய அமைப்புகளுடன் தோல்வியடையும்.",
         "placeholders": {
             "private_browsing": {
                 "content": "$1"
@@ -66,70 +66,70 @@
         }
     },
     "settingsPrivwarnPriv": {
-        "message": ""
+        "message": "தனியார் உலாவல்"
     },
     "settingsStatusBrowser": {
         "message": ""
     },
     "settingsStatusExtension": {
-        "message": ""
+        "message": "செனோ நீட்டிப்பு"
     },
     "settingsStatusOuinet": {
         "message": ""
     },
     "settingsStatusProtocol": {
-        "message": ""
+        "message": "Ouinet நெறிமுறை"
     },
     "settingsStatusClientState": {
-        "message": ""
+        "message": "ஓவினெட் கிளையன்ட் நிலை"
     },
     "settingsStatusEndpoints": {
-        "message": ""
+        "message": "உள்ளக யுடிபி இறுதிப் புள்ளிகள்"
     },
     "settingsStatusUpnp": {
-        "message": ""
+        "message": "யுபிஎன்பி நிலை"
     },
     "settingsStatusReachability": {
-        "message": ""
+        "message": "அணுகல் நிலை"
     },
     "settingsStatusCacheSize": {
-        "message": ""
+        "message": "உள்ளக கேச் அளவு"
     },
     "settingsStatusCachePurge": {
-        "message": ""
+        "message": "இப்போது தூய்மைப்படுத்துங்கள்"
     },
     "settingsStatusCacheList": {
-        "message": ""
+        "message": "நீங்கள் பகிர்ந்து கொண்ட உள்ளடக்கம்"
     },
     "settingsLogEnable": {
-        "message": ""
+        "message": "பதிவு கோப்பை இயக்கவும்"
     },
     "settingsLogDownload": {
-        "message": ""
+        "message": "பதிவிறக்கம்"
     },
     "popupTitle": {
-        "message": ""
+        "message": "செனோ ஆதாரங்கள்"
     },
     "popupHead": {
-        "message": ""
+        "message": "ஒரு மூலத்திற்கு பக்க கூறுகளின் எண்ணிக்கை:"
     },
     "popupSrcOrigin": {
-        "message": ""
+        "message": "வலைத்தளத்திலிருந்து நேரடியாக"
     },
     "popupSrcProxy": {
-        "message": ""
+        "message": "செனோ பிணையம் வழியாக (தனியார்)"
     },
     "popupSrcInjector": {
-        "message": ""
+        "message": "செனோ பிணையம் வழியாக (பொது)"
     },
     "popupSrcDcache": {
-        "message": ""
+        "message": "பிற Ceno பயனர்களால் பகிரப்பட்டது"
     },
     "popupSrcLcache": {
-        "message": ""
+        "message": "நீங்கள் பகிர்ந்து கொண்டார்"
     },
     "popupFoot": {
-        "message": "",
+        "message": "உள்ளடக்க மூலங்கள்பற்றிய கூடுதல் தகவலுக்கு $MANUAL$ ஐப் பார்க்கவும்.",
         "placeholders": {
             "manual": {
                 "content": "$1"
@@ -137,49 +137,49 @@
         }
     },
     "popupFootMan": {
-        "message": ""
+        "message": "கையேடு"
     },
     "popupFootManLN": {
-        "message": "",
+        "message": "https://censorship.no/user-manual/en/browser/settings.html#choosing-access-mechanisms",
         "description": "Link to the access mechanisms subsection in the Settings section of the User Manual. Keep it as is unless the section has been translated."
     },
     "popupFootManTI": {
-        "message": ""
+        "message": "தணிக்கை. இல்லை! பயனர் கையேடு - Ceno அமைப்புகள்"
     },
     "updateTitle": {
-        "message": ""
+        "message": "செனோ புதுப்பிப்பு"
     },
     "updateMetacontent": {
-        "message": ""
+        "message": "செனோ புதுப்பிப்பு"
     },
     "updateHead": {
-        "message": ""
+        "message": "உங்கள் செனோ உலாவி காலாவதியானது."
     },
     "updateSubhead": {
-        "message": "",
+        "message": "உங்கள் பயன்பாட்டை புதுப்பிக்கவும்",
         "description": "Update hint for user, followed by graphical update badge links. If the incomplete sentence can't be properly translated, assume the source string is: 'Please update your app via the following channels:'"
     },
     "updateGetgoogleplay": {
-        "message": "",
+        "message": "கூகிள் பிளேயில் அதைப் பெறுங்கள்",
         "description": "Alt text for Google Play badge."
     },
     "updateGetpaskoocheh": {
-        "message": "",
+        "message": "அதை பாச்கூச்சேயில் பெறுங்கள்",
         "description": "Alt text for Paskoocheh badge."
     },
     "settingsStatusBtBootstrapsPlaceholder": {
-        "message": ""
+        "message": "புரவலன் 1 புரவலன் 2: துறைமுகம் ..."
     },
     "settingsStatusBtBootstrapsSave": {
-        "message": ""
+        "message": "சேமி"
     },
     "settingsStatusExtEndpoints": {
-        "message": ""
+        "message": "வெளிப்புற யுடிபி இறுதிப் புள்ளிகள்"
     },
     "settingsStatusPubEndpoints": {
-        "message": ""
+        "message": "பொது யுடிபி இறுதிப் புள்ளிகள்"
     },
     "settingsStatusBtBootstraps": {
-        "message": ""
+        "message": "கூடுதல் பிட்டோரண்ட் தொடக்கவார்"
     }
 }

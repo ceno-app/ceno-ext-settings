@@ -25,11 +25,11 @@
         "message": "руководством"
     },
     "settingsWarnManLN": {
-        "message": "https://censorship.no/user-manual/ru/browser/settings.html",
+        "message": "https://ceno.app/user-manual/ru/browser/settings.html",
         "description": "Link to the Settings section of the User Manual. Keep it as is unless the section has been translated."
     },
     "settingsWarnManTI": {
-        "message": "Руководство пользователя Censorship.no! – Настройки Ceno"
+        "message": "Руководство пользователя Ceno – Настройки Ceno"
     },
     "settingsSources": {
         "message": "Источники загружаемого контента:"
@@ -96,7 +96,7 @@
         "message": "Очистить сейчас"
     },
     "settingsStatusCacheList": {
-        "message": "Предоставленный вами контент"
+        "message": "Контент, которым вы поделились"
     },
     "settingsStatusBtBootstraps": {
         "message": "Дополнительные загрузчики BitTorrent"
@@ -108,7 +108,7 @@
         "message": "Сохранить"
     },
     "settingsLogEnable": {
-        "message": "Включить ведение журнала"
+        "message": "Включить файл журнала"
     },
     "settingsLogDownload": {
         "message": "Скачать"
@@ -146,11 +146,11 @@
         "message": "руководством"
     },
     "popupFootManLN": {
-        "message": "https://censorship.no/user-manual/ru/browser/settings.html#%D0%92%D1%8B%D0%B1%D0%BE%D1%80-%D0%B2%D0%B0%D1%80%D0%B8%D0%B0%D0%BD%D1%82%D0%BE%D0%B2-%D0%B4%D0%BE%D1%81%D1%82%D1%83%D0%BF%D0%B0",
+        "message": "https://ceno.app/user-manual/ru/browser/settings.html#%D0%92%D1%8B%D0%B1%D0%BE%D1%80-%D0%B2%D0%B0%D1%80%D0%B8%D0%B0%D0%BD%D1%82%D0%BE%D0%B2-%D0%B4%D0%BE%D1%81%D1%82%D1%83%D0%BF%D0%B0",
         "description": "Link to the access mechanisms subsection in the Settings section of the User Manual. Keep it as is unless the section has been translated."
     },
     "popupFootManTI": {
-        "message": "Руководство пользователя Censorship.no! – Настройки Ceno"
+        "message": "Руководство пользователя Ceno – Настройки Ceno"
     },
     "updateTitle": {
         "message": "Обновление Ceno"
