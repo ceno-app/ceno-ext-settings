@@ -105,7 +105,7 @@
         "message": "下载"
     },
     "popupTitle": {
-        "message": "Ceno 源"
+        "message": "Ceno来源"
     },
     "popupHead": {
         "message": "每个来源的页面元素数："
@@ -181,5 +181,11 @@
     },
     "settingsStatusBtBootstrapsSave": {
         "message": "保存"
+    },
+    "settingsModePublic": {
+        "message": "公开"
+    },
+    "settingsModePersonal": {
+        "message": "私人的"
     }
 }
