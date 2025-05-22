@@ -2,33 +2,40 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title data-i18n="popupTitle">CENO Sources</title>
+  <title data-i18n="popupTitle">Ceno Sources</title>
+  <link rel="stylesheet" href="themes/default.css">
+  <link rel="stylesheet" href="common.css">
   <link rel="stylesheet" href="popup.css">
 <script type="module" src="localizer/Localizer.js"></script>
+<script src="utils.js"></script>
 <script src="popup.js"></script>
 </head>
 <body>
-  <div data-i18n="popupTitle" id="header">CENO Sources</div>
-  <p data-i18n="popupHead">Number of page elements per source:</p>
+  <div id="header">
+    <span><a class="back_button"><</a></span>
+    <span data-i18n="popupTitle">Ceno Sources</span>
+  </div>
+  <p data-i18n="popupHead" class="title">Number of page elements per source:</p>
   <table>
       <tr>
           <td data-i18n="popupSrcOrigin">Direct from website</td><td class="value" id="origin"></td>
+      </tr><tr id="proxyRow">
+          <td data-i18n="popupSrcProxy">Using Ceno network (personal)</td><td class="value" id="proxy"></td>
+      </tr><tr id="injectorRow">
+          <td data-i18n="popupSrcInjector">Using Ceno network (public)</td><td class="value" id="injector"></td>
       </tr><tr>
-          <td data-i18n="popupSrcProxy">Via the CENO network (private)</td><td class="value" id="proxy"></td>
+          <td data-i18n="popupSrcDcache">From other Ceno users</td><td class="value" id="dist-cache"></td>
       </tr><tr>
-          <td data-i18n="popupSrcInjector">Via the CENO network (public)</td><td class="value" id="injector"></td>
-      </tr><tr>
-          <td data-i18n="popupSrcDcache">Shared by other CENO users</td><td class="value" id="dist-cache"></td>
-      </tr><tr>
-          <td data-i18n="popupSrcLcache">Shared by you</td><td class="value" id="local-cache"></td>
+          <td data-i18n="popupSrcLcache">From your local</td><td class="value" id="local-cache"></td>
       </tr>
   </table>
-  <p data-i18n="popupFoot" data-opt-i18n-keep-children
-     id="see-manual">See the
-    <a data-i18n="popupFootMan" data-i18n-href="popupFootManLN" data-i18n-title="popupFootManTI"
-       href="https://censorship.no/user-manual/en/browser/settings.html#choosing-access-mechanisms"
-       title="Censorship.no! User Manual – CENO settings" target="_blank">manual</a>
-    for more information on content sources.
-</p>
+  <form class="rd_form">
+    <div data-i18n="settingsMode" class="title">Browsing Mode</div>
+    <button data-i18n="settingsModePublic" type="button" class="mode selected" id="public" enabled>PUBLIC</button>
+    <button data-i18n="settingsModePersonal" type="button" class="mode unselected" id="personal" enabled>PERSONAL</button>
+  </form>
+  <div class="option">
+    <a href="settings.html" title="Ceno settings" target="_parent" class="settings_button">Additional settings <span class="value">></span></a>
+  </div>
 </body>
 </html>

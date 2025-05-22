@@ -1,20 +1,20 @@
 {
     "extName": {
-        "message": "CENO এক্সটেনশন",
+        "message": "Ceno এক্সটেনশন",
         "description": "Name of the extension."
     },
     "extDesc": {
-        "message": "CENO ও Ouinet ব্যবহারের সুযোগ করে দেয়: রয়েছে পেইজ ক্যাশিং ও গ্রুপিং, পেইজ সোর্স সম্পর্কে তথ্য, সেটিংস্‌ এবং অন্যান্য আরো সুবিধা। এতে rugk-র MIT লাইসেন্সের অধীন Localizer-এর কোড রয়েছে।",
+        "message": "Ceno ও Ouinet ব্যবহারের সুযোগ করে দেয়: রয়েছে পেইজ ক্যাশিং ও গ্রুপিং, পেইজ সোর্স সম্পর্কে তথ্য, সেটিংস্‌ এবং অন্যান্য আরো সুবিধা। এতে rugk-র MIT লাইসেন্সের অধীন Localizer-এর কোড রয়েছে।",
         "description": "Description of the extension."
     },
     "bgCenoWarning": {
-        "message": "CENO-র সতর্কবাণী"
+        "message": "Ceno-র সতর্কবাণী"
     },
     "settingsTitle": {
-        "message": "CENO-র সেটিংস্‌"
+        "message": "Ceno-র সেটিংস্‌"
     },
     "settingsWarn": {
-        "message": "এই পৃষ্ঠার সেটিংস শুধুমাত্র বিভিন্ন নেটওয়ার্ক অবস্থার মধ্যে CENO কার্যকারিতা পরীক্ষা করার উদ্দেশ্যে। আরও তথ্যের জন্য $MANUAL$ দেখুন।",
+        "message": "এই পৃষ্ঠার সেটিংস শুধুমাত্র বিভিন্ন নেটওয়ার্ক অবস্থার মধ্যে Ceno কার্যকারিতা পরীক্ষা করার উদ্দেশ্যে। আরও তথ্যের জন্য $MANUAL$ দেখুন।",
         "placeholders": {
             "manual": {
                 "content": "$1"
@@ -29,7 +29,7 @@
         "description": "Link to the Settings section of the User Manual. Keep it as is unless the section has been translated."
     },
     "settingsWarnManTI": {
-        "message": "Censorship.no! ব্যবহারকারী ম্যানুয়াল – CENO-র সেটিংস্‌"
+        "message": "Censorship.no! ব্যবহারকারী ম্যানুয়াল – Ceno-র সেটিংস্‌"
     },
     "settingsSources": {
         "message": "কন্টেন্টের উৎস:"
@@ -38,13 +38,13 @@
         "message": "সরাসরি ওয়েবসাইট থেকে"
     },
     "settingsSrcProxy": {
-        "message": "(একান্ত) CENO নেটওয়ার্কের মাধ্যমে"
+        "message": "(একান্ত) Ceno নেটওয়ার্কের মাধ্যমে"
     },
     "settingsSrcInjector": {
-        "message": "(উন্মুক্ত) CENO নেটওয়ার্কের মাধ্যমে"
+        "message": "(উন্মুক্ত) Ceno নেটওয়ার্কের মাধ্যমে"
     },
     "settingsSrcDcache": {
-        "message": "CENO-র অন্য ব্যবহারকারীদের শেয়ার করা"
+        "message": "Ceno-র অন্য ব্যবহারকারীদের শেয়ার করা"
     },
     "settingsPubwarn": {
         "message": "বর্তমান সেটিংস্‌ দিয়ে $PUBLIC_BROWSING$ করা যাবে না।",
@@ -69,10 +69,10 @@
         "message": "একান্ত (প্রাইভেট) ব্রাউজিং"
     },
     "settingsStatusBrowser": {
-        "message": "CENO ব্রাউজার"
+        "message": "Ceno ব্রাউজার"
     },
     "settingsStatusExtension": {
-        "message": "CENO এক্সটেনশন"
+        "message": "Ceno এক্সটেনশন"
     },
     "settingsStatusOuinet": {
         "message": "Ouinet"
@@ -105,7 +105,7 @@
         "message": "ডাউনলোড"
     },
     "popupTitle": {
-        "message": "CENO-র উৎস"
+        "message": "Ceno-র উৎস"
     },
     "popupHead": {
         "message": "প্রতি উৎসের জন্য পেইজ এলিমেন্টের সংখ্যা:"
@@ -114,13 +114,13 @@
         "message": "সরাসরি ওয়েবসাইট থেকে"
     },
     "popupSrcProxy": {
-        "message": "(একান্ত) CENO নেটওয়ার্কের মাধ্যমে"
+        "message": "(একান্ত) Ceno নেটওয়ার্কের মাধ্যমে"
     },
     "popupSrcInjector": {
-        "message": "(উন্মুক্ত) CENO নেটওয়ার্কের মাধ্যমে"
+        "message": "(উন্মুক্ত) Ceno নেটওয়ার্কের মাধ্যমে"
     },
     "popupSrcDcache": {
-        "message": "CENO-র অন্য ব্যবহারকারীদের শেয়ার করা"
+        "message": "Ceno-র অন্য ব্যবহারকারীদের শেয়ার করা"
     },
     "popupSrcLcache": {
         "message": "আপনার শেয়ার করা"
@@ -141,16 +141,16 @@
         "description": "Link to the access mechanisms subsection in the Settings section of the User Manual. Keep it as is unless the section has been translated."
     },
     "popupFootManTI": {
-        "message": "Censorship.no! ব্যবহারকারী ম্যানুয়াল – CENO-র সেটিংস্‌"
+        "message": "Censorship.no! ব্যবহারকারী ম্যানুয়াল – Ceno-র সেটিংস্‌"
     },
     "updateTitle": {
-        "message": "CENO হালনাগাদকরণ"
+        "message": "Ceno হালনাগাদকরণ"
     },
     "updateMetacontent": {
-        "message": "CENO হালনাগাদকরণ"
+        "message": "Ceno হালনাগাদকরণ"
     },
     "updateHead": {
-        "message": "আপনার CENO ব্রাউজার পুরনো হয়ে গেছে।"
+        "message": "আপনার Ceno ব্রাউজার পুরনো হয়ে গেছে।"
     },
     "updateSubhead": {
         "message": "নিচের কোনো উপায়ে অ্যাপ হালনাগাদ করুন",

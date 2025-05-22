@@ -1,20 +1,20 @@
 {
     "extName": {
-        "message": "CENO-tillägget",
+        "message": "Ceno-tillägget",
         "description": "Name of the extension."
     },
     "extDesc": {
-        "message": "Ger integration med CENO och Ouinet: sidcache och gruppering, information om sidans källa, inställningar och annan funktionalitet. Inkluderar kod från Localizer av rugk under MIT-licens.",
+        "message": "Ger integration med Ceno och Ouinet: sidcache och gruppering, information om sidans källa, inställningar och annan funktionalitet. Inkluderar kod från Localizer av rugk under MIT-licens.",
         "description": "Description of the extension."
     },
     "bgCenoWarning": {
-        "message": "CENO-varning"
+        "message": "Ceno-varning"
     },
     "settingsTitle": {
-        "message": "CENO-inställningar"
+        "message": "Ceno-inställningar"
     },
     "settingsWarn": {
-        "message": "Inställningarna på den här sidan är endast avsedda för att testa CENO-funktionalitet i olika nätverksförhållanden. Se $MANUAL$ för mer information.",
+        "message": "Inställningarna på den här sidan är endast avsedda för att testa Ceno-funktionalitet i olika nätverksförhållanden. Se $MANUAL$ för mer information.",
         "placeholders": {
             "manual": {
                 "content": "$1"
@@ -29,7 +29,7 @@
         "description": "Link to the Settings section of the User Manual. Keep it as is unless the section has been translated."
     },
     "settingsWarnManTI": {
-        "message": "Censorship.no! Användarmanual - CENO-inställningar"
+        "message": "Censorship.no! Användarmanual - Ceno-inställningar"
     },
     "settingsSources": {
         "message": "Källor för att hämta innehåll:"
@@ -38,13 +38,13 @@
         "message": "Direkt från hemsida"
     },
     "settingsSrcProxy": {
-        "message": "Via CENO-nätverket (privat)"
+        "message": "Via Ceno-nätverket (privat)"
     },
     "settingsSrcInjector": {
-        "message": "Via CENO-nätverket (publikt)"
+        "message": "Via Ceno-nätverket (publikt)"
     },
     "settingsSrcDcache": {
-        "message": "Delad av andra CENO-användare"
+        "message": "Delad av andra Ceno-användare"
     },
     "settingsPubwarn": {
         "message": "$PUBLIC_BROWSING$ kommer att misslyckas med nuvarande inställningar.",
@@ -72,7 +72,7 @@
         "message": ""
     },
     "settingsStatusExtension": {
-        "message": "Tillägg för CENO"
+        "message": "Tillägg för Ceno"
     },
     "settingsStatusOuinet": {
         "message": ""
@@ -105,7 +105,7 @@
         "message": "Ladda ner"
     },
     "popupTitle": {
-        "message": "CENO-källor"
+        "message": "Ceno-källor"
     },
     "popupHead": {
         "message": "Antalet sid-element per källa:"
@@ -114,13 +114,13 @@
         "message": "Direkt från hemsida"
     },
     "popupSrcProxy": {
-        "message": "Via CENO-nätverk (privat)"
+        "message": "Via Ceno-nätverk (privat)"
     },
     "popupSrcInjector": {
-        "message": "Via CENO-nätverket (publikt)"
+        "message": "Via Ceno-nätverket (publikt)"
     },
     "popupSrcDcache": {
-        "message": "Delade av andra CENO-användare"
+        "message": "Delade av andra Ceno-användare"
     },
     "popupSrcLcache": {
         "message": "Delad av dig"
@@ -141,16 +141,16 @@
         "description": "Link to the access mechanisms subsection in the Settings section of the User Manual. Keep it as is unless the section has been translated."
     },
     "popupFootManTI": {
-        "message": "Cenorship.no! Användarmanual - CENO-inställningar"
+        "message": "Cenorship.no! Användarmanual - Ceno-inställningar"
     },
     "updateTitle": {
-        "message": "CENO-uppdatering"
+        "message": "Ceno-uppdatering"
     },
     "updateMetacontent": {
-        "message": "CENO-uppdatering"
+        "message": "Ceno-uppdatering"
     },
     "updateHead": {
-        "message": "Din CENO-webbläsare är utdaterad."
+        "message": "Din Ceno-webbläsare är utdaterad."
     },
     "updateSubhead": {
         "message": "Vänligen uppdatera din app via",

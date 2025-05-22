@@ -1,6 +1,6 @@
 # ceno-ext-settings
 
-A WebExtension frontend for the Ouinet HTTP Settings API, and the CENO update page.
+A WebExtension frontend for the Ouinet HTTP Settings API, and the Ceno update page.
 
 We use [web-ext](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Getting_started_with_web-ext) for development.
 
@@ -11,14 +11,14 @@ We use [web-ext](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExt
 ## Developing
 
 Clone the repository:
-``git clone git@github.com:censorship-no/ceno-ext-settings.git``
+``git clone git@gitlab.com:censorship-no/ceno-ext-settings.git``
 
 CD into the folder and run:
 ``npm install -g npm@8.5.5``
 
 Run `web-ext run` to test in a temporary profile on desktop (with live reload!), and `web-ext run --target=firefox-android` for same on mobile (more details and debugging instructions at [upstream docs](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Getting_started_with_web-ext#Testing_in_Firefox_for_Android)).
 
-Please note that, in Desktop Firefox >= 60, the CENO Extension automatically changes the browser's proxies while enabled. In a different browser, you will need to change proxy settings manually.
+Please note that, in Desktop Firefox >= 60, the Ceno Extension automatically changes the browser's proxies while enabled. In a different browser, you will need to change proxy settings manually.
 
 ## Distributing
 
@@ -26,7 +26,7 @@ To ship an updated version, update the git submodule in `https://github.com/cens
 
 ## Internationalization (i18n)
 
-I18n of the CENO Extension uses both [WebExtension i18n][webext-i18n] (for JavaScript and manifest) and rugk's [Localizer][] (with minor modifications).
+I18n of the Ceno Extension uses both [WebExtension i18n][webext-i18n] (for JavaScript and manifest) and rugk's [Localizer][] (with minor modifications).
 
 [webext-i18n]: https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Internationalization
 [Localizer]: https://github.com/TinyWebEx/Localizer
@@ -37,7 +37,7 @@ Although the values of localizable HTML texts and attributes need not be in the 
 
 ## Localization/translation (l10n)
 
-When adding a new locale, remember to add the `_locales/<locale>/messages.json` and whatever other files used by the locale to the `moz.build` file, otherwise they will not be included in CENO Browser builds. Please check the comments in `moz.build` for more information.
+When adding a new locale, remember to add the `_locales/<locale>/messages.json` and whatever other files used by the locale to the `moz.build` file, otherwise they will not be included in Ceno Browser builds. Please check the comments in `moz.build` for more information.
 
 When localizing a string with placeholders in the default language, like this one:
 

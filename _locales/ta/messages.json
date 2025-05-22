@@ -4,7 +4,7 @@
         "description": "Name of the extension."
     },
     "extDesc": {
-        "message": "CENO மற்றும் OUinet உடன் ஒருங்கிணைப்பை வழங்குகிறது: பக்க கேச்சிங் மற்றும் குழுமம், பக்க மூல செய்தி, அமைப்புகள் மற்றும் பிற செயல்பாடுகள். எம்ஐடி உரிமத்தின் கீழ் ரக் மூலம் லோக்கலரைசரிடமிருந்து குறியீட்டை உள்ளடக்கியது.",
+        "message": "Ceno மற்றும் OUinet உடன் ஒருங்கிணைப்பை வழங்குகிறது: பக்க கேச்சிங் மற்றும் குழுமம், பக்க மூல செய்தி, அமைப்புகள் மற்றும் பிற செயல்பாடுகள். எம்ஐடி உரிமத்தின் கீழ் ரக் மூலம் லோக்கலரைசரிடமிருந்து குறியீட்டை உள்ளடக்கியது.",
         "description": "Description of the extension."
     },
     "bgCenoWarning": {
@@ -14,7 +14,7 @@
         "message": "செனோ அமைப்புகள்"
     },
     "settingsWarn": {
-        "message": "இந்தப் பக்கத்தில் உள்ள அமைப்புகள் பல்வேறு பிணைய நிலைமைகளில் CENO செயல்பாட்டைச் சோதிக்க மட்டுமே நோக்கம் கொண்டவை. மேலும் தகவலுக்கு $MANUAL$ ஐப் பார்க்கவும்.",
+        "message": "இந்தப் பக்கத்தில் உள்ள அமைப்புகள் பல்வேறு பிணைய நிலைமைகளில் Ceno செயல்பாட்டைச் சோதிக்க மட்டுமே நோக்கம் கொண்டவை. மேலும் தகவலுக்கு $MANUAL$ ஐப் பார்க்கவும்.",
         "placeholders": {
             "manual": {
                 "content": "$1"
@@ -29,7 +29,7 @@
         "description": "Link to the Settings section of the User Manual. Keep it as is unless the section has been translated."
     },
     "settingsWarnManTI": {
-        "message": "தணிக்கை. இல்லை! பயனர் கையேடு - CENO அமைப்புகள்"
+        "message": "தணிக்கை. இல்லை! பயனர் கையேடு - Ceno அமைப்புகள்"
     },
     "settingsSources": {
         "message": "உள்ளடக்க மீட்டெடுப்பு ஆதாரங்கள்:"
@@ -44,7 +44,7 @@
         "message": "செனோ பிணையம் வழியாக (பொது)"
     },
     "settingsSrcDcache": {
-        "message": "பிற CENO பயனர்களால் பகிரப்பட்டது"
+        "message": "பிற Ceno பயனர்களால் பகிரப்பட்டது"
     },
     "settingsPubwarn": {
         "message": "$PUBLIC_BROWSING$ தற்போதைய அமைப்புகளுடன் தோல்வியடையும்.",
@@ -123,7 +123,7 @@
         "message": "செனோ பிணையம் வழியாக (பொது)"
     },
     "popupSrcDcache": {
-        "message": "பிற CENO பயனர்களால் பகிரப்பட்டது"
+        "message": "பிற Ceno பயனர்களால் பகிரப்பட்டது"
     },
     "popupSrcLcache": {
         "message": "நீங்கள் பகிர்ந்து கொண்டார்"
@@ -144,7 +144,7 @@
         "description": "Link to the access mechanisms subsection in the Settings section of the User Manual. Keep it as is unless the section has been translated."
     },
     "popupFootManTI": {
-        "message": "தணிக்கை. இல்லை! பயனர் கையேடு - CENO அமைப்புகள்"
+        "message": "தணிக்கை. இல்லை! பயனர் கையேடு - Ceno அமைப்புகள்"
     },
     "updateTitle": {
         "message": "செனோ புதுப்பிப்பு"

@@ -1,20 +1,20 @@
 {
     "extName": {
-        "message": "CENO Extension",
+        "message": "Ceno Extension",
         "description": "Name of the extension."
     },
     "extDesc": {
-        "message": "Provides integration with CENO and Ouinet: page caching and grouping, page source information, settings and other functionality. Includes code from Localizer by rugk under MIT license.",
+        "message": "Provides integration with Ceno and Ouinet: page caching and grouping, page source information, settings and other functionality. Includes code from Localizer by rugk under MIT license.",
         "description": "Description of the extension."
     },
     "bgCenoWarning": {
-        "message": "CENO warning"
+        "message": "Ceno warning"
     },
     "settingsTitle": {
-        "message": "CENO Settings"
+        "message": "Ceno Settings"
     },
     "settingsWarn": {
-        "message": "Settings on this page are only intended for testing CENO functionality in various network conditions. See the $MANUAL$ for more information.",
+        "message": "Settings on this page are only intended for testing Ceno functionality in various network conditions. See the $MANUAL$ for more information.",
         "placeholders": {
             "manual": {
                 "content": "$1"
@@ -29,7 +29,7 @@
         "description": "Link to the Settings section of the User Manual. Keep it as is unless the section has been translated."
     },
     "settingsWarnManTI": {
-        "message": "Censorship.no! User Manual – CENO settings"
+        "message": "Censorship.no! User Manual – Ceno settings"
     },
     "settingsSources": {
         "message": "Content retrieval sources:"
@@ -38,13 +38,13 @@
         "message": "Direct from website"
     },
     "settingsSrcProxy": {
-        "message": "Via the CENO network (private)"
+        "message": "Via the Ceno network (personal)"
     },
     "settingsSrcInjector": {
-        "message": "Via the CENO network (public)"
+        "message": "Via the Ceno network (public)"
     },
     "settingsSrcDcache": {
-        "message": "Shared by other CENO users"
+        "message": "From other Ceno users"
     },
     "settingsPubwarn": {
         "message": "$PUBLIC_BROWSING$ will fail with current settings.",
@@ -69,10 +69,10 @@
         "message": "Private browsing"
     },
     "settingsStatusBrowser": {
-        "message": "CENO Browser"
+        "message": "Ceno Browser"
     },
     "settingsStatusExtension": {
-        "message": "CENO Extension"
+        "message": "Ceno Extension"
     },
     "settingsStatusOuinet": {
         "message": "Ouinet"
@@ -123,7 +123,7 @@
         "message": "Download"
     },
     "popupTitle": {
-        "message": "CENO Sources"
+        "message": "Ceno Sources"
     },
     "popupHead": {
         "message": "Number of page elements per source:"
@@ -132,16 +132,16 @@
         "message": "Direct from website"
     },
     "popupSrcProxy": {
-        "message": "Via the CENO network (private)"
+        "message": "Using Ceno network (personal)"
     },
     "popupSrcInjector": {
-        "message": "Via the CENO network (public)"
+        "message": "Using Ceno network (public) "
     },
     "popupSrcDcache": {
-        "message": "Shared by other CENO users"
+        "message": "From other Ceno users"
     },
     "popupSrcLcache": {
-        "message": "Shared by you"
+        "message": "From your local cache"
     },
     "popupFoot": {
         "message": "See the $MANUAL$ for more information on content sources.",
@@ -159,16 +159,16 @@
         "description": "Link to the access mechanisms subsection in the Settings section of the User Manual. Keep it as is unless the section has been translated."
     },
     "popupFootManTI": {
-        "message": "Censorship.no! User Manual – CENO settings"
+        "message": "Censorship.no! User Manual – Ceno settings"
     },
     "updateTitle": {
-        "message": "CENO update"
+        "message": "Ceno update"
     },
     "updateMetacontent": {
-        "message": "CENO update"
+        "message": "Ceno update"
     },
     "updateHead": {
-        "message": "Your CENO Browser is out of date."
+        "message": "Your Ceno Browser is out of date."
     },
     "updateSubhead": {
         "message": "Please update your app via",
@@ -181,5 +181,14 @@
     "updateGetpaskoocheh": {
         "message": "Get it on Paskoocheh",
         "description": "Alt text for Paskoocheh badge."
+    },
+    "settingsMode": {
+        "message": "Browsing mode"
+    },
+    "settingsModePublic": {
+        "message": "PUBLIC"
+    },
+    "settingsModePersonal": {
+        "message": "PERSONAL"
     }
 }

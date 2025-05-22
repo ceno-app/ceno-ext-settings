@@ -1,0 +1,25 @@
+body {
+  direction: __MSG_@@bidi_dir__;
+  font-family: 'Arial', 'Helvetica', 'sans-serif';
+  margin:0;
+  padding:0;
+  color: var(--on-primary);
+  background: var(--primary);
+  scrollbar-gutter: stable;
+  font-size: var(--font-size);
+}
+#header {
+  height: var(--header-height);
+  line-height: var(--header-height);
+  display: flex;
+  justify-content: flex-start;
+  vertical-align: middle;
+  color: var(--on-secondary);
+  background: var(--secondary);
+  padding-__MSG_@@bidi_start_edge__: 0px;
+}
+p {
+  width: var(--body-width);
+  position: relative;
+  word-wrap: break-word;
+}

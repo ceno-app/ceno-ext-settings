@@ -105,7 +105,7 @@
         "message": "İndir"
     },
     "popupTitle": {
-        "message": "CENO kaynakları"
+        "message": "Ceno kaynakları"
     },
     "popupHead": {
         "message": "Bir kaynaktaki sayfa bileşenleri sayısı:"
@@ -181,5 +181,14 @@
     },
     "settingsStatusBtBootstrapsSave": {
         "message": "Kaydet"
+    },
+    "settingsMode": {
+        "message": "Gezinme kipi"
+    },
+    "settingsModePublic": {
+        "message": "HERKESE AÇIK"
+    },
+    "settingsModePersonal": {
+        "message": "KİŞİSEL"
     }
 }

@@ -1,79 +1,148 @@
 # -*- Mode: python; indent-tabs-mode: nil; tab-width: 40 -*-
 # vim: set filetype=python:
 
-DEFINES['MOZ_APP_VERSION'] = CONFIG['MOZ_APP_VERSION']
-DEFINES['MOZ_APP_MAXVERSION'] = CONFIG['MOZ_APP_MAXVERSION']
+DEFINES["MOZ_APP_VERSION"] = CONFIG["MOZ_APP_VERSION"]
+DEFINES["MOZ_APP_MAXVERSION"] = CONFIG["MOZ_APP_MAXVERSION"]
 
 # Please list each single file which needs to be included in the build.
 # Each subdirectory needs its own block, with entries sorted alphabetically.
 # Blocks themselves also need to be sorted alphabetically.
 # There is no need to include intermediate directories with no files.
 
-FINAL_TARGET_FILES.features['ceno@equalit.ie'] += [
-  'background.js',
-  'button.js',
-  'config.js',
-  'content.js',
-  'manifest.json',
-  'popup.css',
-  'popup.html',
-  'popup.js',
-  'settings.css',
-  'settings.html',
-  'settings.js',
+FINAL_TARGET_FILES.features["ceno@equalit.ie"] += [
+    "background.js",
+    "common.css",
+    "config.js",
+    "LICENSE",
+    "manifest.json",
+    "popup.css",
+    "popup.html",
+    "popup.js",
+    "settings.css",
+    "settings.html",
+    "settings.js",
+    "utils.js",
 ]
 
-FINAL_TARGET_FILES.features['ceno@equalit.ie']['_locales']['en'] += [
-  '_locales/en/messages.json',
+FINAL_TARGET_FILES.features["ceno@equalit.ie"]["_locales"]["ar"] += [
+    "_locales/en/messages.json",
 ]
 
-FINAL_TARGET_FILES.features['ceno@equalit.ie']['_locales']['es'] += [
-  '_locales/es/messages.json',
+FINAL_TARGET_FILES.features["ceno@equalit.ie"]["_locales"]["bn"] += [
+    "_locales/en/messages.json",
 ]
 
-FINAL_TARGET_FILES.features['ceno@equalit.ie']['_locales']['fa'] += [
-  '_locales/fa/messages.json',
+FINAL_TARGET_FILES.features["ceno@equalit.ie"]["_locales"]["de"] += [
+    "_locales/en/messages.json",
 ]
 
-FINAL_TARGET_FILES.features['ceno@equalit.ie']['_locales']['fr'] += [
-  '_locales/fr/messages.json',
+FINAL_TARGET_FILES.features["ceno@equalit.ie"]["_locales"]["el"] += [
+    "_locales/en/messages.json",
 ]
 
-FINAL_TARGET_FILES.features['ceno@equalit.ie']['_locales']['my'] += [
-  '_locales/my/messages.json',
+FINAL_TARGET_FILES.features["ceno@equalit.ie"]["_locales"]["en"] += [
+    "_locales/en/messages.json",
 ]
 
-FINAL_TARGET_FILES.features['ceno@equalit.ie']['_locales']['ru'] += [
-  '_locales/ru/messages.json',
+FINAL_TARGET_FILES.features["ceno@equalit.ie"]["_locales"]["es"] += [
+    "_locales/es/messages.json",
 ]
 
-FINAL_TARGET_FILES.features['ceno@equalit.ie']['_locales']['uk'] += [
-  '_locales/uk/messages.json',
+FINAL_TARGET_FILES.features["ceno@equalit.ie"]["_locales"]["fa"] += [
+    "_locales/fa/messages.json",
 ]
 
-FINAL_TARGET_FILES.features['ceno@equalit.ie']['icons'] += [
-  'icons/ceno-logo-32.png',
-  'icons/ceno-logo-48.png'
+FINAL_TARGET_FILES.features["ceno@equalit.ie"]["_locales"]["fr"] += [
+    "_locales/fr/messages.json",
 ]
 
-FINAL_TARGET_FILES.features['ceno@equalit.ie']['localizer'] += [
-  'localizer/LICENSE.md',
-  'localizer/Localizer.js',
-  'localizer/replaceInnerContent.js',
+FINAL_TARGET_FILES.features["ceno@equalit.ie"]["_locales"]["id"] += [
+    "_locales/en/messages.json",
 ]
 
-FINAL_TARGET_FILES.features['ceno@equalit.ie']['update-page'] += [
-  'update-page/index.html',
-  'update-page/style.css',
+FINAL_TARGET_FILES.features["ceno@equalit.ie"]["_locales"]["ko"] += [
+    "_locales/en/messages.json",
 ]
 
-FINAL_TARGET_FILES.features['ceno@equalit.ie']['update-page']['img'] += [
-  'update-page/img/ceno-logo-h.png',
-  'update-page/img/ceno-update-icon.png',
-  'update-page/img/ceno-warning-icon.png',
-  'update-page/img/google-play-badge-2.png',
-  'update-page/img/paskoocheh-download-badge.png',
+FINAL_TARGET_FILES.features["ceno@equalit.ie"]["_locales"]["my"] += [
+    "_locales/my/messages.json",
 ]
 
-with Files('**'):
-  BUG_COMPONENT = ('Censorship circumvention tool', 'Censorship no')
+FINAL_TARGET_FILES.features["ceno@equalit.ie"]["_locales"]["nb_NO"] += [
+    "_locales/en/messages.json",
+]
+
+FINAL_TARGET_FILES.features["ceno@equalit.ie"]["_locales"]["pl"] += [
+    "_locales/en/messages.json",
+]
+
+FINAL_TARGET_FILES.features["ceno@equalit.ie"]["_locales"]["pt"] += [
+    "_locales/en/messages.json",
+]
+
+FINAL_TARGET_FILES.features["ceno@equalit.ie"]["_locales"]["pt_BR"] += [
+    "_locales/en/messages.json",
+]
+
+FINAL_TARGET_FILES.features["ceno@equalit.ie"]["_locales"]["ru"] += [
+    "_locales/ru/messages.json",
+]
+
+FINAL_TARGET_FILES.features["ceno@equalit.ie"]["_locales"]["sv"] += [
+    "_locales/en/messages.json",
+]
+
+FINAL_TARGET_FILES.features["ceno@equalit.ie"]["_locales"]["ta"] += [
+    "_locales/en/messages.json",
+]
+
+FINAL_TARGET_FILES.features["ceno@equalit.ie"]["_locales"]["tr"] += [
+    "_locales/en/messages.json",
+]
+
+FINAL_TARGET_FILES.features["ceno@equalit.ie"]["_locales"]["uk"] += [
+    "_locales/uk/messages.json",
+]
+
+FINAL_TARGET_FILES.features["ceno@equalit.ie"]["_locales"]["ur"] += [
+    "_locales/en/messages.json",
+]
+
+FINAL_TARGET_FILES.features["ceno@equalit.ie"]["_locales"]["zh_Hans"] += [
+    "_locales/en/messages.json",
+]
+
+FINAL_TARGET_FILES.features["ceno@equalit.ie"]["icons"] += [
+    "icons/ceno-logo-32.png",
+    "icons/ceno-logo-48.png",
+    "icons/ceno-logo-96.png",
+    "icons/ceno-personal-logo-32.png",
+    "icons/ceno-personal-logo-48.png",
+    "icons/ceno-personal-logo-96.png",
+]
+
+FINAL_TARGET_FILES.features["ceno@equalit.ie"]["localizer"] += [
+    "localizer/LICENSE.md",
+    "localizer/Localizer.js",
+    "localizer/replaceInnerContent.js",
+]
+
+FINAL_TARGET_FILES.features["ceno@equalit.ie"]["themes"] += [
+    "themes/default.css",
+]
+
+FINAL_TARGET_FILES.features["ceno@equalit.ie"]["update-page"] += [
+    "update-page/index.html",
+    "update-page/style.css",
+]
+
+FINAL_TARGET_FILES.features["ceno@equalit.ie"]["update-page"]["img"] += [
+    "update-page/img/ceno-logo-h.png",
+    "update-page/img/ceno-update-icon.png",
+    "update-page/img/ceno-warning-icon.png",
+    "update-page/img/google-play-badge-2.png",
+    "update-page/img/paskoocheh-download-badge.png",
+]
+
+with Files("**"):
+    BUG_COMPONENT = ("Censorship circumvention tool", "Censorship no")

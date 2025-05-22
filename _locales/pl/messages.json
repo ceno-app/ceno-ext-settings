@@ -1,20 +1,20 @@
 {
     "extName": {
-        "message": "CENO Rozszerzenie",
+        "message": "Ceno Rozszerzenie",
         "description": "Name of the extension."
     },
     "extDesc": {
-        "message": "Zapewnia integrację z CENO i Ouinet: buforowanie i grupowanie stron, informacje o źródle strony, ustawienia i inne funkcjonalności. Zawiera kod z Localizera autorstwa rugk na licencji MIT.",
+        "message": "Zapewnia integrację z Ceno i Ouinet: buforowanie i grupowanie stron, informacje o źródle strony, ustawienia i inne funkcjonalności. Zawiera kod z Localizera autorstwa rugk na licencji MIT.",
         "description": "Description of the extension."
     },
     "bgCenoWarning": {
-        "message": "CENO Ostrzeżenie"
+        "message": "Ceno Ostrzeżenie"
     },
     "settingsTitle": {
-        "message": "CENO Ustawienia"
+        "message": "Ceno Ustawienia"
     },
     "settingsWarn": {
-        "message": "Ustawienia na tej stronie służą jedynie do testowania funkcjonalności CENO w różnych warunkach sieciowych. Więcej informacji można znaleźć w $MANUAL$.",
+        "message": "Ustawienia na tej stronie służą jedynie do testowania funkcjonalności Ceno w różnych warunkach sieciowych. Więcej informacji można znaleźć w $MANUAL$.",
         "placeholders": {
             "manual": {
                 "content": "$1"
@@ -29,7 +29,7 @@
         "description": "Link to the Settings section of the User Manual. Keep it as is unless the section has been translated."
     },
     "settingsWarnManTI": {
-        "message": "Censorship.no! Instrukcja obsługi – CENO ustawienia"
+        "message": "Censorship.no! Instrukcja obsługi – Ceno ustawienia"
     },
     "settingsSources": {
         "message": "Źródła wyszukiwania treści:"
@@ -38,13 +38,13 @@
         "message": "Bezpośrednio z witryny"
     },
     "settingsSrcProxy": {
-        "message": "Poprzez sieć (prywatną) CENO"
+        "message": "Poprzez sieć (prywatną) Ceno"
     },
     "settingsSrcInjector": {
-        "message": "Poprzez publiczną sieć CENO"
+        "message": "Poprzez publiczną sieć Ceno"
     },
     "settingsSrcDcache": {
-        "message": "Udostępniane przez innych użytkowników CENO"
+        "message": "Udostępniane przez innych użytkowników Ceno"
     },
     "settingsPubwarn": {
         "message": "$PUBLIC_BROWSING$ nie powiedzie się przy obecnych ustawieniach.",
@@ -72,7 +72,7 @@
         "message": "Przeglądarka Ceno"
     },
     "settingsStatusExtension": {
-        "message": "CENO Rozszerzenie"
+        "message": "Ceno Rozszerzenie"
     },
     "settingsStatusOuinet": {
         "message": "Ouinet"
@@ -105,7 +105,7 @@
         "message": "Pobierz"
     },
     "popupTitle": {
-        "message": "CENO Źródła"
+        "message": "Ceno Źródła"
     },
     "popupHead": {
         "message": "Liczba elementów strony na źródło:"
@@ -114,13 +114,13 @@
         "message": "Bezpośrednio z witryny"
     },
     "popupSrcProxy": {
-        "message": "Poprzez prywatną sieć CENO"
+        "message": "Poprzez prywatną sieć Ceno"
     },
     "popupSrcInjector": {
-        "message": "Poprzez publiczną sieć CENO"
+        "message": "Poprzez publiczną sieć Ceno"
     },
     "popupSrcDcache": {
-        "message": "Udostępniane przez innych użytkowników CENO"
+        "message": "Udostępniane przez innych użytkowników Ceno"
     },
     "popupSrcLcache": {
         "message": "Udostępnione przez Ciebie"
@@ -141,16 +141,16 @@
         "description": "Link to the access mechanisms subsection in the Settings section of the User Manual. Keep it as is unless the section has been translated."
     },
     "popupFootManTI": {
-        "message": "Censorship.no! Instrukcja obsługi – CENO ustawienia"
+        "message": "Censorship.no! Instrukcja obsługi – Ceno ustawienia"
     },
     "updateTitle": {
-        "message": "CENO aktualizacja"
+        "message": "Ceno aktualizacja"
     },
     "updateMetacontent": {
-        "message": "CENO aktualizacja"
+        "message": "Ceno aktualizacja"
     },
     "updateHead": {
-        "message": "Twoja Przeglądarka CENO jest nieaktualna."
+        "message": "Twoja Przeglądarka Ceno jest nieaktualna."
     },
     "updateSubhead": {
         "message": "Zaktualizuj aplikację poprzez",

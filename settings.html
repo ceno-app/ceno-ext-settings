@@ -2,67 +2,30 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title data-i18n="settingsTitle">CENO Settings</title>
+  <title data-i18n="settingsTitle">Ceno Settings</title>
+  <link rel="stylesheet" href="themes/default.css">
+  <link rel="stylesheet" href="common.css">
   <link rel="stylesheet" href="settings.css">
 <script type="module" src="localizer/Localizer.js"></script>
 <script src="config.js"></script>
+<script src="utils.js"></script>
 <script src="settings.js"></script>
 </head>
 <body>
-  <div data-i18n="settingsTitle" id="header">CENO Settings</div>
-  <p data-i18n="settingsWarn" data-opt-i18n-keep-children
-     id="test-warning">Settings on this page are only intended for testing CENO functionality in various network conditions.
-    See the
-    <a data-i18n="settingsWarnMan" data-i18n-href="settingsWarnManLN" data-i18n-title="settingsWarnManTI"
-       href="https://censorship.no/user-manual/en/browser/settings.html"
-       title="Censorship.no! User Manual – CENO settings" target="_blank">manual</a> for more information.</p>
-  <form class="cb_form" id="access-mechanisms">
-    <div class="group">
-      <p data-i18n="settingsSources">Content retrieval sources:</p>
-      <div class="row">
-        <label class="cb_container">
-          <input type="checkbox" id="origin_access" disabled>
-          <span class="checkmark"></span>
-          <div data-i18n="settingsSrcOrigin" class="cb_label">Direct from website</div>
-        </label>
-      </div>
-      <div class="row">
-        <label class="cb_container">
-          <input type="checkbox" id="proxy_access" disabled>
-          <span class="checkmark"></span>
-          <div data-i18n="settingsSrcProxy" class="cb_label">Via the CENO network (private)</div>
-        </label>
-      </div>
-      <div class="row">
-        <label class="cb_container">
-          <input type="checkbox" id="injector_access" disabled>
-          <span class="checkmark"></span>
-          <div data-i18n="settingsSrcInjector" class="cb_label">Via the CENO network (public)</div>
-        </label>
-      </div>
-      <div class="row">
-        <label class="cb_container">
-          <input type="checkbox" id="distributed_cache" disabled>
-          <span class="checkmark"></span>
-          <div data-i18n="settingsSrcDcache" class="cb_label">Shared by other CENO users</div>
-        </label>
-      </div>
-    </div>
-    <div id="am-warnings">
-      <p data-i18n="settingsPubwarn" data-opt-i18n-keep-children
-         id="am-warning-public"><strong data-i18n="settingsPubwarnPub">Public browsing</strong> will fail with current settings.</p>
-      <p data-i18n="settingsPrivwarn" data-opt-i18n-keep-children
-         id="am-warning-private"><strong data-i18n="settingsPrivwarnPriv">Private browsing</strong> will fail with current settings.</p>
-    </div>
-  </form>
+  <div id="header">
+    <span><a href="popup.html" target="_parent" class="back_button"><</a></span>
+    <span data-i18n="settingsTitle">Ceno Settings</span>
+  </div>
   <div class="status_items">
     <form>
       <span data-i18n="settingsStatusCacheSize" class="name">Local cache size</span>
-      <a data-i18n="settingsStatusCacheList" id="fe-link-cache-list"
-         href="#" class="download" target="_blank">Content shared by you</a><br>
+      <br>
       <span id="local_cache_size"> </span>
       <button data-i18n="settingsStatusCachePurge"
               class="action" type="button" id="purge_cache" disabled>Purge now</button>
+      <br>
+      <a data-i18n="settingsStatusCacheList" id="fe-link-cache-list"
+         href="#" target="_blank">Content shared by you</a>
     </form>
     <p>
     <span data-i18n="settingsStatusClientState" class="name">Ouinet client state</span><br>
@@ -92,19 +55,52 @@
       <span id="saved-bt_extra_bootstraps" style="display: none">✔</span>
     </form>
   </div>
-  <div class="status_items">
-    <span data-i18n="settingsStatusBrowser" class="name">CENO Browser</span><br>
-    <span id="ceno_version"> </span>
-    <p>
-    <span data-i18n="settingsStatusExtension" class="name">CENO Extension</span><br>
-    <span id="ceno_extension_version"> </span>
-    <p>
-    <span data-i18n="settingsStatusOuinet" class="name">Ouinet</span><br>
-    <span id="ouinet_version"> </span> <span id="ouinet_build_id"> </span>
-    <p>
-    <span data-i18n="settingsStatusProtocol" class="name">Ouinet protocol</span><br>
-    <span id="ouinet_protocol"> </span>
-  </div>
+  <form class="cb_form" id="access-mechanisms">
+    <div class="group">
+      <p data-i18n="settingsSources" class="name">Content retrieval sources:</p>
+      <div class="row">
+        <label class="cb_container">
+          <input type="checkbox" id="origin_access" disabled>
+          <span class="checkmark"></span>
+          <div data-i18n="settingsSrcOrigin" class="cb_label">Direct from website</div>
+        </label>
+      </div>
+      <div class="row">
+        <label class="cb_container">
+          <input type="checkbox" id="proxy_access" disabled>
+          <span class="checkmark"></span>
+          <div data-i18n="settingsSrcProxy" class="cb_label">Via the Ceno network (personal)</div>
+        </label>
+      </div>
+      <div class="row">
+        <label class="cb_container">
+          <input type="checkbox" id="injector_access" disabled>
+          <span class="checkmark"></span>
+          <div data-i18n="settingsSrcInjector" class="cb_label">Via the Ceno network (public)</div>
+        </label>
+      </div>
+      <div class="row">
+        <label class="cb_container">
+          <input type="checkbox" id="distributed_cache" disabled>
+          <span class="checkmark"></span>
+          <div data-i18n="settingsSrcDcache" class="cb_label">Shared by other Ceno users</div>
+        </label>
+      </div>
+    </div>
+    <div id="am-warnings">
+      <p data-i18n="settingsPubwarn" data-opt-i18n-keep-children
+         id="am-warning-public"><strong data-i18n="settingsPubwarnPub">Public browsing</strong> will fail with current settings.</p>
+      <p data-i18n="settingsPrivwarn" data-opt-i18n-keep-children
+         id="am-warning-private"><strong data-i18n="settingsPrivwarnPriv">Private browsing</strong> will fail with current settings.</p>
+    </div>
+    <p data-i18n="popupFoot" data-opt-i18n-keep-children
+      id="see-manual">See the
+      <a data-i18n="popupFootMan" data-i18n-href="popupFootManLN" data-i18n-title="popupFootManTI"
+        href="https://censorship.no/user-manual/en/browser/settings.html#choosing-access-mechanisms"
+        title="Censorship.no! User Manual – Ceno settings" target="_blank">manual</a>
+      for more information on content sources.
+    </p>
+  </form>
   <form class="cb_form">
     <div class="row">
       <label class="cb_container">
@@ -116,5 +112,32 @@
       </label>
     </div>
   </form>
+  <div class="status_items">
+    <span data-i18n="settingsStatusBrowser" class="name">Ceno Browser</span><br>
+    <span id="ceno_version"> </span>
+    <p>
+    <span data-i18n="settingsStatusExtension" class="name">Ceno Extension</span><br>
+    <span id="ceno_extension_version"> </span>
+    <p>
+    <span data-i18n="settingsStatusOuinet" class="name">Ouinet</span><br>
+    <span id="ouinet_version"> </span> <span id="ouinet_build_id"> </span>
+    <p>
+    <span data-i18n="settingsStatusProtocol" class="name">Ouinet protocol</span><br>
+    <span id="ouinet_protocol"> </span>
+  </div>
+  <div class="btn_container">
+    <p class="name">Appearance</p>
+    <p>
+      <span>Theme: </span>
+      <button type="button" id="light" class="setting selected">Light</button>
+      <button type="button" id="dark" class="setting unselected" >Dark</button>
+    </p>
+    <p>
+      <span>Text size: <span>
+      <button type="button" class="setting selected" id="default">Default</button>
+      <button type="button" class="setting unselected" id="bigger">Bigger</button>
+      <button type="button" class="setting unselected" id="biggest" >Biggest</button>
+    </p>
+  </div>
 </body>
 </html>

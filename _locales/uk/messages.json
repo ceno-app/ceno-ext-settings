@@ -1,20 +1,20 @@
 {
     "extName": {
-        "message": "Розширення CENO",
+        "message": "Розширення Ceno",
         "description": "Name of the extension."
     },
     "extDesc": {
-        "message": "Забезпечує інтеграцію з CENO та Ouinet, а саме: кешування і групування сторінок, інформацію про джерело сторінки, налаштування та іншу функціональність. Містить код із Localizer від rugk під ліцензією MIT.",
+        "message": "Забезпечує інтеграцію з Ceno та Ouinet, а саме: кешування і групування сторінок, інформацію про джерело сторінки, налаштування та іншу функціональність. Містить код із Localizer від rugk під ліцензією MIT.",
         "description": "Description of the extension."
     },
     "bgCenoWarning": {
-        "message": "Застереження CENO"
+        "message": "Застереження Ceno"
     },
     "settingsTitle": {
-        "message": "Налаштування CENO"
+        "message": "Налаштування Ceno"
     },
     "settingsWarn": {
-        "message": "Налаштування на цій сторінці призначені лише для тестування функціональності CENO в різних мережевих умовах. Детальніше дивіться $MANUAL$.",
+        "message": "Налаштування на цій сторінці призначені лише для тестування функціональності Ceno в різних мережевих умовах. Детальніше дивіться $MANUAL$.",
         "placeholders": {
             "manual": {
                 "content": "$1"
@@ -29,7 +29,7 @@
         "description": "Link to the Settings section of the User Manual. Keep it as is unless the section has been translated."
     },
     "settingsWarnManTI": {
-        "message": "Посібник користувача Censorship.no! — Налаштування CENO"
+        "message": "Посібник користувача Censorship.no! — Налаштування Ceno"
     },
     "settingsSources": {
         "message": "Джерела поверненого вмісту:"
@@ -38,13 +38,13 @@
         "message": "Безпосередньо з сайту"
     },
     "settingsSrcProxy": {
-        "message": "Через мережу CENO (приватно)"
+        "message": "Через мережу Ceno (приватно)"
     },
     "settingsSrcInjector": {
-        "message": "Через мережу CENO (публічно)"
+        "message": "Через мережу Ceno (публічно)"
     },
     "settingsSrcDcache": {
-        "message": "Наданий іншими користувачами CENO"
+        "message": "Наданий іншими користувачами Ceno"
     },
     "settingsPubwarn": {
         "message": "$PUBLIC_BROWSING$ не буде можливим із поточними налаштуваннями.",
@@ -72,7 +72,7 @@
         "message": "браузер Ceno"
     },
     "settingsStatusExtension": {
-        "message": "Розширення CENO"
+        "message": "Розширення Ceno"
     },
     "settingsStatusOuinet": {
         "message": "Ouinet"
@@ -123,7 +123,7 @@
         "message": "Завантажити"
     },
     "popupTitle": {
-        "message": "Джерела CENO"
+        "message": "Джерела Ceno"
     },
     "popupHead": {
         "message": "Кількість елементів сторінки на джерело:"
@@ -132,13 +132,13 @@
         "message": "Безпосередньо з сайту"
     },
     "popupSrcProxy": {
-        "message": "Через мережу CENO (приватно)"
+        "message": "Через мережу Ceno (приватно)"
     },
     "popupSrcInjector": {
-        "message": "Через мережу CENO (публічно)"
+        "message": "Через мережу Ceno (публічно)"
     },
     "popupSrcDcache": {
-        "message": "Поширений іншими користувачами CENO"
+        "message": "Поширений іншими користувачами Ceno"
     },
     "popupSrcLcache": {
         "message": "Поширений Вами"
@@ -159,16 +159,16 @@
         "description": "Link to the access mechanisms subsection in the Settings section of the User Manual. Keep it as is unless the section has been translated."
     },
     "popupFootManTI": {
-        "message": "Посібник користувача Censorship.no! — Налаштування CENO"
+        "message": "Посібник користувача Censorship.no! — Налаштування Ceno"
     },
     "updateTitle": {
-        "message": "Оновлення CENO"
+        "message": "Оновлення Ceno"
     },
     "updateMetacontent": {
-        "message": "Оновлення CENO"
+        "message": "Оновлення Ceno"
     },
     "updateHead": {
-        "message": "Ваш браузер CENO застарів."
+        "message": "Ваш браузер Ceno застарів."
     },
     "updateSubhead": {
         "message": "Будь ласка, оновіть свій застосунок через",
@@ -181,5 +181,14 @@
     "updateGetpaskoocheh": {
         "message": "Отримати з Paskoocheh",
         "description": "Alt text for Paskoocheh badge."
+    },
+    "settingsMode": {
+        "message": "Режим перегляду"
+    },
+    "settingsModePublic": {
+        "message": "ПУБЛІЧНІ"
+    },
+    "settingsModePersonal": {
+        "message": "ПЕРСОНАЛЬНІ"
     }
 }

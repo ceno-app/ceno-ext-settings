@@ -1,20 +1,20 @@
 {
     "extName": {
-        "message": "CENO အဆက်",
+        "message": "Ceno အဆက်",
         "description": "Name of the extension."
     },
     "extDesc": {
-        "message": "CENO နှင့် Ouinet ဖြင့် ပေါင်းစပ်ပေးသည်- စာမျက်နှာ ယာယီသိမ်းဆည်းခြင်းနှင့် အုပ်စုဖွဲ့ခြင်း၊ စာမျက်နှာ အရင်းအမြစ် အချက်အလက်၊ ဆက်တင်များနှင့် အခြား လုပ်ဆောင်ချက်။ MIT လိုင်စင်အောက်ရှိ ဆော့၀ဲလ် ဘာသာပြန်သူ rugk ရဲ့ ကုဒ်ပါ၀င်သည်။",
+        "message": "Ceno နှင့် Ouinet ဖြင့် ပေါင်းစပ်ပေးသည်- စာမျက်နှာ ယာယီသိမ်းဆည်းခြင်းနှင့် အုပ်စုဖွဲ့ခြင်း၊ စာမျက်နှာ အရင်းအမြစ် အချက်အလက်၊ ဆက်တင်များနှင့် အခြား လုပ်ဆောင်ချက်။ MIT လိုင်စင်အောက်ရှိ ဆော့၀ဲလ် ဘာသာပြန်သူ rugk ရဲ့ ကုဒ်ပါ၀င်သည်။",
         "description": "Description of the extension."
     },
     "bgCenoWarning": {
-        "message": "CENO သတိပေးချက်"
+        "message": "Ceno သတိပေးချက်"
     },
     "settingsTitle": {
-        "message": "CENO ဆက်တင်များ"
+        "message": "Ceno ဆက်တင်များ"
     },
     "settingsWarn": {
-        "message": "ဤစာမျက်နှာရှိ ဆက်တင်များကို ကွန်ရက် အခြေအနေ အမျိုးမျိုးတွင် CENO လုပ်ဆောင်ချက်ကို စမ်းသပ်ရန်အတွက်သာ ရည်ရွယ်သည်။ နောက်ထပ် အချက်အလက်များအတွက် $MANUAL$ ကို ကြည့်ပါ။",
+        "message": "ဤစာမျက်နှာရှိ ဆက်တင်များကို ကွန်ရက် အခြေအနေ အမျိုးမျိုးတွင် Ceno လုပ်ဆောင်ချက်ကို စမ်းသပ်ရန်အတွက်သာ ရည်ရွယ်သည်။ နောက်ထပ် အချက်အလက်များအတွက် $MANUAL$ ကို ကြည့်ပါ။",
         "placeholders": {
             "manual": {
                 "content": "$1"
@@ -29,7 +29,7 @@
         "description": "Link to the Settings section of the User Manual. Keep it as is unless the section has been translated."
     },
     "settingsWarnManTI": {
-        "message": "Censorship.no! သုံးစွဲသူ လက်စွဲ– CENO ဆက်တင်များ"
+        "message": "Censorship.no! သုံးစွဲသူ လက်စွဲ– Ceno ဆက်တင်များ"
     },
     "settingsSources": {
         "message": "အကြောင်းအရာ ပြန်ရယူမှု ရင်းမြစ်များ -"
@@ -38,13 +38,13 @@
         "message": "ဝက်ဘ်ဆိုက်မှ တိုက်ရိုက်"
     },
     "settingsSrcProxy": {
-        "message": "CENO ကွန်ရက်မှတစ်ဆင့် (သီးသန့်)"
+        "message": "Ceno ကွန်ရက်မှတစ်ဆင့် (သီးသန့်)"
     },
     "settingsSrcInjector": {
-        "message": "CENO ကွန်ရက်မှတစ်ဆင့် (အများသုံး)"
+        "message": "Ceno ကွန်ရက်မှတစ်ဆင့် (အများသုံး)"
     },
     "settingsSrcDcache": {
-        "message": "အခြား CENO သုံးစွဲသူများက မျှဝေထားသည်"
+        "message": "အခြား Ceno သုံးစွဲသူများက မျှဝေထားသည်"
     },
     "settingsPubwarn": {
         "message": "$PUBLIC_BROWSING$ သည် လက်ရှိ ဆက်တင်များတွင် မအောင်မြင်နိုင်ပါ။",
@@ -72,7 +72,7 @@
         "message": "Ceno ဘရောက်ဇာ"
     },
     "settingsStatusExtension": {
-        "message": "CENO အဆက်"
+        "message": "Ceno အဆက်"
     },
     "settingsStatusOuinet": {
         "message": "Ouinet"
@@ -114,7 +114,7 @@
         "message": "‌ဒေါင်းလုပ်ဒ်"
     },
     "popupTitle": {
-        "message": "CENO အရင်းအမြစ်များ"
+        "message": "Ceno အရင်းအမြစ်များ"
     },
     "popupHead": {
         "message": "ရင်းမြစ်တစ်ခုစီရှိ စာမျက်နှာ အစိတ်အပိုင်း အရေအတွက် -"
@@ -123,13 +123,13 @@
         "message": "ဝက်ဘ်ဆိုက်မှ တိုက်ရိုက်"
     },
     "popupSrcProxy": {
-        "message": "CENO ကွန်ရက်မှတစ်ဆင့် (သီးသန့်)"
+        "message": "Ceno ကွန်ရက်မှတစ်ဆင့် (သီးသန့်)"
     },
     "popupSrcInjector": {
-        "message": "CENO ကွန်ရက်မှတစ်ဆင့် (အများသုံး)"
+        "message": "Ceno ကွန်ရက်မှတစ်ဆင့် (အများသုံး)"
     },
     "popupSrcDcache": {
-        "message": "အခြား CENO သုံးစွဲသူများက မျှဝေထားသည်"
+        "message": "အခြား Ceno သုံးစွဲသူများက မျှဝေထားသည်"
     },
     "popupSrcLcache": {
         "message": "သင်မျှဝေထားသည်"
@@ -150,16 +150,16 @@
         "description": "Link to the access mechanisms subsection in the Settings section of the User Manual. Keep it as is unless the section has been translated."
     },
     "popupFootManTI": {
-        "message": "Censorship.no! သုံးစွဲသူ လက်စွဲ– CENO ဆက်တင်များ"
+        "message": "Censorship.no! သုံးစွဲသူ လက်စွဲ– Ceno ဆက်တင်များ"
     },
     "updateTitle": {
-        "message": "CENO အပ်ဒိတ်"
+        "message": "Ceno အပ်ဒိတ်"
     },
     "updateMetacontent": {
-        "message": "CENO အပ်ဒိတ်"
+        "message": "Ceno အပ်ဒိတ်"
     },
     "updateHead": {
-        "message": "သင့် CENO ဘရောက်ဇာသည် ဟောင်းနေပြီ။"
+        "message": "သင့် Ceno ဘရောက်ဇာသည် ဟောင်းနေပြီ။"
     },
     "updateSubhead": {
         "message": "သင့်အက်ပ်ကို အောက်ပါတို့မှတစ်ဆင့် အပ်ဒိတ်လုပ်ပါ",

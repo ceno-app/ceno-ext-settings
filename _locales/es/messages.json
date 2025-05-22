@@ -1,18 +1,18 @@
 {
     "extName": {
-        "message": "Extensión CENO"
+        "message": "Extensión Ceno"
     },
     "extDesc": {
-        "message": "Proporciona integración con CENO y Ouinet: caché y agrupado de páginas, información de la fuente de la página, configuración y otras funcionalidades. Incluye código de Localizer de rugk bajo licencia MIT."
+        "message": "Proporciona integración con Ceno y Ouinet: caché y agrupado de páginas, información de la fuente de la página, configuración y otras funcionalidades. Incluye código de Localizer de rugk bajo licencia MIT."
     },
     "bgCenoWarning": {
-        "message": "Aviso de CENO"
+        "message": "Aviso de Ceno"
     },
     "settingsTitle": {
-        "message": "Configuración de CENO"
+        "message": "Configuración de Ceno"
     },
     "settingsWarn": {
-        "message": "Ajustes en esta página están solo destinados para probar las funcionalidades de CENO en varias condiciones de conectividad. Vea el $MANUAL$ para más información.",
+        "message": "Ajustes en esta página están solo destinados para probar las funcionalidades de Ceno en varias condiciones de conectividad. Vea el $MANUAL$ para más información.",
         "placeholders": {
             "manual": {
                 "content": "$1"
@@ -26,7 +26,7 @@
         "message": "https://censorship.no/user-manual/es/browser/settings.html"
     },
     "settingsWarnManTI": {
-        "message": "Manual de Usuario de Censorship.no! – Configuraciones de CENO"
+        "message": "Manual de Usuario de Censorship.no! – Configuraciones de Ceno"
     },
     "settingsSources": {
         "message": "Fuentes de descarga de contenidos:"
@@ -35,13 +35,13 @@
         "message": "Directo del sitio web"
     },
     "settingsSrcProxy": {
-        "message": "Vía la red CENO (privado)"
+        "message": "Vía la red Ceno (privado)"
     },
     "settingsSrcInjector": {
-        "message": "Vía la red CENO (público)"
+        "message": "Vía la red Ceno (público)"
     },
     "settingsSrcDcache": {
-        "message": "Compartido por otra(o)s usuaria(o)s de CENO"
+        "message": "Compartido por otra(o)s usuaria(o)s de Ceno"
     },
     "settingsPubwarn": {
         "message": "La $PUBLIC_BROWSING$ fallará con la configuración actual.",
@@ -69,7 +69,7 @@
         "message": "Navegador Ceno"
     },
     "settingsStatusExtension": {
-        "message": "Extensión CENO"
+        "message": "Extensión Ceno"
     },
     "settingsStatusOuinet": {
         "message": "Ouinet"
@@ -111,7 +111,7 @@
         "message": "Descargar"
     },
     "popupTitle": {
-        "message": "Fuentes de CENO"
+        "message": "Fuentes de Ceno"
     },
     "popupHead": {
         "message": "Número de elementos de la página por fuente:"
@@ -120,13 +120,13 @@
         "message": "Directo del sitio web"
     },
     "popupSrcProxy": {
-        "message": "Vía la red CENO (privado)"
+        "message": "Vía la red Ceno (privado)"
     },
     "popupSrcInjector": {
-        "message": "Vía la red CENO (público)"
+        "message": "Vía la red Ceno (público)"
     },
     "popupSrcDcache": {
-        "message": "Compartido por otra(o)s usuaria(o)s de CENO"
+        "message": "Compartido por otra(o)s usuaria(o)s de Ceno"
     },
     "popupSrcLcache": {
         "message": "Compartido por ti"
@@ -146,16 +146,16 @@
         "message": "https://censorship.no/user-manual/es/browser/settings.html#eligiendo-mecanismos-de-acceso"
     },
     "popupFootManTI": {
-        "message": "Manual de usuario de Censorship.no! – Configuración de CENO"
+        "message": "Manual de usuario de Censorship.no! – Configuración de Ceno"
     },
     "updateTitle": {
-        "message": "Actualización de CENO"
+        "message": "Actualización de Ceno"
     },
     "updateMetacontent": {
-        "message": "Actualización de CENO"
+        "message": "Actualización de Ceno"
     },
     "updateHead": {
-        "message": "Tu Navegador CENO no está actualizado."
+        "message": "Tu Navegador Ceno no está actualizado."
     },
     "updateSubhead": {
         "message": "Actualiza tu aplicación vía"
@@ -174,5 +174,14 @@
     },
     "settingsStatusPubEndpoints": {
         "message": "Puntos de conexión UDP públicos"
+    },
+    "settingsMode": {
+        "message": "Modo de navegación"
+    },
+    "settingsModePublic": {
+        "message": "PÚBLICA"
+    },
+    "settingsModePersonal": {
+        "message": "PERSONAL"
     }
 }

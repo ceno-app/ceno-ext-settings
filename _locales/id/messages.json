@@ -1,20 +1,20 @@
 {
     "extName": {
-        "message": "Ekstensi CENO",
+        "message": "Ekstensi Ceno",
         "description": "Name of the extension."
     },
     "extDesc": {
-        "message": "Menyediakan integrasi dengan CENO dan Ouinet: tembolok dan pengelompokan halaman, informasi sumber halaman, pengaturan, dan fungsionalitas lainnya. Termasuk kode dari Localizer oleh rugk di bawah lisensi MIT.",
+        "message": "Menyediakan integrasi dengan Ceno dan Ouinet: tembolok dan pengelompokan halaman, informasi sumber halaman, pengaturan, dan fungsionalitas lainnya. Termasuk kode dari Localizer oleh rugk di bawah lisensi MIT.",
         "description": "Description of the extension."
     },
     "bgCenoWarning": {
-        "message": "Peringatan CENO"
+        "message": "Peringatan Ceno"
     },
     "settingsTitle": {
-        "message": "Pengaturan CENO"
+        "message": "Pengaturan Ceno"
     },
     "settingsWarn": {
-        "message": "Pengaturan di halaman ini hanya untuk uji coba fungsi CENO di berbagai kondisi jaringan. Lihat $MANUAL$ untuk informasi lebih lanjut.",
+        "message": "Pengaturan di halaman ini hanya untuk uji coba fungsi Ceno di berbagai kondisi jaringan. Lihat $MANUAL$ untuk informasi lebih lanjut.",
         "placeholders": {
             "manual": {
                 "content": "$1"
@@ -29,7 +29,7 @@
         "description": "Link to the Settings section of the User Manual. Keep it as is unless the section has been translated."
     },
     "settingsWarnManTI": {
-        "message": "Petunjuk Pengguna Censorship.no! – Pengaturan CENO"
+        "message": "Petunjuk Pengguna Censorship.no! – Pengaturan Ceno"
     },
     "settingsSources": {
         "message": "Sumber pengambilan konten:"
@@ -38,13 +38,13 @@
         "message": "Langsung dari situs web"
     },
     "settingsSrcProxy": {
-        "message": "Melalui jaringan CENO (rahasia)"
+        "message": "Melalui jaringan Ceno (rahasia)"
     },
     "settingsSrcInjector": {
-        "message": "Melalui jaringan CENO (publik)"
+        "message": "Melalui jaringan Ceno (publik)"
     },
     "settingsSrcDcache": {
-        "message": "Dibagikan oleh pengguna CENO lain"
+        "message": "Dibagikan oleh pengguna Ceno lain"
     },
     "settingsPubwarn": {
         "message": "$PUBLIC_BROWSING$ akan gagal dengan pengaturan saat ini.",
@@ -72,7 +72,7 @@
         "message": "Browser Ceno"
     },
     "settingsStatusExtension": {
-        "message": "Ekstensi CENO"
+        "message": "Ekstensi Ceno"
     },
     "settingsStatusOuinet": {
         "message": ""
@@ -114,7 +114,7 @@
         "message": "Unduh"
     },
     "popupTitle": {
-        "message": "Sumber CENO"
+        "message": "Sumber Ceno"
     },
     "popupHead": {
         "message": "Jumlah elemen halaman per sumber:"
@@ -123,13 +123,13 @@
         "message": "Langsung dari situs web"
     },
     "popupSrcProxy": {
-        "message": "Melalui jaringan CENO (privat)"
+        "message": "Melalui jaringan Ceno (privat)"
     },
     "popupSrcInjector": {
-        "message": "Melalui jaringan CENO (publik)"
+        "message": "Melalui jaringan Ceno (publik)"
     },
     "popupSrcDcache": {
-        "message": "Dibagikan oleh pengguna CENO lainnya"
+        "message": "Dibagikan oleh pengguna Ceno lainnya"
     },
     "popupSrcLcache": {
         "message": "Dibagikan oleh Anda"
@@ -150,16 +150,16 @@
         "description": "Link to the access mechanisms subsection in the Settings section of the User Manual. Keep it as is unless the section has been translated."
     },
     "popupFootManTI": {
-        "message": "Panduan Pengguna Censorship.no! – Pengaturan CENO"
+        "message": "Panduan Pengguna Censorship.no! – Pengaturan Ceno"
     },
     "updateTitle": {
-        "message": "Pembaruan CENO"
+        "message": "Pembaruan Ceno"
     },
     "updateMetacontent": {
-        "message": "Pembaruan CENO"
+        "message": "Pembaruan Ceno"
     },
     "updateHead": {
-        "message": "Peramban CENO Anda sudah usang."
+        "message": "Peramban Ceno Anda sudah usang."
     },
     "updateSubhead": {
         "message": "Harap perbarui aplikasi Anda melalui",

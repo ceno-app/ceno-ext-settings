@@ -1,20 +1,20 @@
 {
     "extName": {
-        "message": "CENO-utvidelse",
+        "message": "Ceno-utvidelse",
         "description": "Name of the extension."
     },
     "extDesc": {
-        "message": "Tilbyr integrasjon med CENO og Ouinet: sidehurtiglagring og -gruppering, sidekilde-info, innstillinger og annen funksjonalitet. Har kode fra Localizer av rugk under MIT-lisens.",
+        "message": "Tilbyr integrasjon med Ceno og Ouinet: sidehurtiglagring og -gruppering, sidekilde-info, innstillinger og annen funksjonalitet. Har kode fra Localizer av rugk under MIT-lisens.",
         "description": "Description of the extension."
     },
     "bgCenoWarning": {
-        "message": "CENO-advarsel"
+        "message": "Ceno-advarsel"
     },
     "settingsTitle": {
-        "message": "CENO-innstillinger"
+        "message": "Ceno-innstillinger"
     },
     "settingsWarn": {
-        "message": "Innstillinger for denne siden er kun myntet på testing av CENO-funksjonalitet under forskjellige nettverksforhold. Disse blir $NOT_SAVED$ når CENO stoppes. Sjekk $MANUAL$ for mer info.",
+        "message": "Innstillinger for denne siden er kun myntet på testing av Ceno-funksjonalitet under forskjellige nettverksforhold. Disse blir $NOT_SAVED$ når Ceno stoppes. Sjekk $MANUAL$ for mer info.",
         "placeholders": {
             "manual": {
                 "content": "$1"
@@ -29,7 +29,7 @@
         "description": "Link to the Settings section of the User Manual. Keep it as is unless the section has been translated."
     },
     "settingsWarnManTI": {
-        "message": "Censorship.no! Brukermanual – CENO-innstillinger"
+        "message": "Censorship.no! Brukermanual – Ceno-innstillinger"
     },
     "settingsSources": {
         "message": "Kilder for innholdshenting:"
@@ -38,13 +38,13 @@
         "message": "Direkte fra nettside"
     },
     "settingsSrcProxy": {
-        "message": "Via CENO-nettverket (privat)"
+        "message": "Via Ceno-nettverket (privat)"
     },
     "settingsSrcInjector": {
-        "message": "Via CENO-nettverket (offentlig)"
+        "message": "Via Ceno-nettverket (offentlig)"
     },
     "settingsSrcDcache": {
-        "message": "Delta av andre CENO-brukere"
+        "message": "Delta av andre Ceno-brukere"
     },
     "settingsPubwarn": {
         "message": "$PUBLIC_BROWSING$ vil ikke fungere med nåværende innstillinger.",
@@ -69,10 +69,10 @@
         "message": "Privat surfing"
     },
     "settingsStatusBrowser": {
-        "message": "CENO-nettleser"
+        "message": "Ceno-nettleser"
     },
     "settingsStatusExtension": {
-        "message": "CENO-tillegg"
+        "message": "Ceno-tillegg"
     },
     "settingsStatusOuinet": {
         "message": "Ouinet"
@@ -105,7 +105,7 @@
         "message": "Last ned"
     },
     "popupTitle": {
-        "message": "CENO-kilder"
+        "message": "Ceno-kilder"
     },
     "popupHead": {
         "message": "Antall sideelementer per kilde:"
@@ -114,13 +114,13 @@
         "message": "Direkte fra nettside"
     },
     "popupSrcProxy": {
-        "message": "Via CENO-nettverket (privat)"
+        "message": "Via Ceno-nettverket (privat)"
     },
     "popupSrcInjector": {
-        "message": "Via CENO-nettverket (offentlig)"
+        "message": "Via Ceno-nettverket (offentlig)"
     },
     "popupSrcDcache": {
-        "message": "Delt av andre CENO-brukere"
+        "message": "Delt av andre Ceno-brukere"
     },
     "popupSrcLcache": {
         "message": "Delt av deg"
@@ -141,16 +141,16 @@
         "description": "Link to the access mechanisms subsection in the Settings section of the User Manual. Keep it as is unless the section has been translated."
     },
     "popupFootManTI": {
-        "message": "Censorship.no! Brukermanual – CENO-innstillinger"
+        "message": "Censorship.no! Brukermanual – Ceno-innstillinger"
     },
     "updateTitle": {
-        "message": "CENO-oppgradering"
+        "message": "Ceno-oppgradering"
     },
     "updateMetacontent": {
-        "message": "CENO-oppgradering"
+        "message": "Ceno-oppgradering"
     },
     "updateHead": {
-        "message": "Din CENO-nettleser er utdatert."
+        "message": "Din Ceno-nettleser er utdatert."
     },
     "updateSubhead": {
         "message": "Oppdater programmet ditt via",

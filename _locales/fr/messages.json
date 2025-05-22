@@ -1,20 +1,20 @@
 {
     "extName": {
-        "message": "Extension CENO",
+        "message": "Extension Ceno",
         "description": "Name of the extension."
     },
     "extDesc": {
-        "message": "Offre une intégration avec CENO et Ouinet : mise en cache et regroupement des pages, renseignements sur les pages source, paramètres et autres fonctions. Comporte du code de Localizer par rugk, sous licence MIT.",
+        "message": "Offre une intégration avec Ceno et Ouinet : mise en cache et regroupement des pages, renseignements sur les pages source, paramètres et autres fonctions. Comporte du code de Localizer par rugk, sous licence MIT.",
         "description": "Description of the extension."
     },
     "bgCenoWarning": {
-        "message": "Avertissement de CENO"
+        "message": "Avertissement de Ceno"
     },
     "settingsTitle": {
-        "message": "Paramètres de CENO"
+        "message": "Paramètres de Ceno"
     },
     "settingsWarn": {
-        "message": "Les paramètres de cette page ne sont destinés qu’à tester la fonctionnalité de CENO sous diverses conditions de réseau. Voir le $MANUAL$ pour plus de précisions.",
+        "message": "Les paramètres de cette page ne sont destinés qu’à tester la fonctionnalité de Ceno sous diverses conditions de réseau. Voir le $MANUAL$ pour plus de précisions.",
         "placeholders": {
             "manual": {
                 "content": "$1"
@@ -29,7 +29,7 @@
         "description": "Link to the Settings section of the User Manual. Keep it as is unless the section has been translated."
     },
     "settingsWarnManTI": {
-        "message": "Manuel d’utilisation de Censorship.no! – Paramètres de CENO"
+        "message": "Manuel d’utilisation de Censorship.no! – Paramètres de Ceno"
     },
     "settingsSources": {
         "message": "Sources de récupération du contenu :"
@@ -38,13 +38,13 @@
         "message": "Directement du site Web"
     },
     "settingsSrcProxy": {
-        "message": "Par le réseau CENO (privé)"
+        "message": "Par le réseau Ceno (privé)"
     },
     "settingsSrcInjector": {
-        "message": "Par le réseau CENO (public)"
+        "message": "Par le réseau Ceno (public)"
     },
     "settingsSrcDcache": {
-        "message": "Partagé par d’autres utilisateurs de CENO"
+        "message": "Partagé par d’autres utilisateurs de Ceno"
     },
     "settingsPubwarn": {
         "message": "La $PUBLIC_BROWSING$ échouera avec les paramètres actuels.",
@@ -69,10 +69,10 @@
         "message": "navigation privée"
     },
     "settingsStatusBrowser": {
-        "message": "Navigateur CENO"
+        "message": "Navigateur Ceno"
     },
     "settingsStatusExtension": {
-        "message": "Extension CENO"
+        "message": "Extension Ceno"
     },
     "settingsStatusOuinet": {
         "message": "Ouinet"
@@ -114,7 +114,7 @@
         "message": "Télécharger"
     },
     "popupTitle": {
-        "message": "Sources de CENO"
+        "message": "Sources de Ceno"
     },
     "popupHead": {
         "message": "Nombre d’éléments de page par source :"
@@ -123,13 +123,13 @@
         "message": "Directement du site Web"
     },
     "popupSrcProxy": {
-        "message": "Par le réseau CENO (privé)"
+        "message": "Par le réseau Ceno (privé)"
     },
     "popupSrcInjector": {
-        "message": "Par le réseau CENO (public)"
+        "message": "Par le réseau Ceno (public)"
     },
     "popupSrcDcache": {
-        "message": "Partagé par d’autres utilisateurs de CENO"
+        "message": "Partagé par d’autres utilisateurs de Ceno"
     },
     "popupSrcLcache": {
         "message": "Partagé par vous"
@@ -150,16 +150,16 @@
         "description": "Link to the access mechanisms subsection in the Settings section of the User Manual. Keep it as is unless the section has been translated."
     },
     "popupFootManTI": {
-        "message": "Manuel d’utilisation de Censorship.no! – Paramètres de CENO"
+        "message": "Manuel d’utilisation de Censorship.no! – Paramètres de Ceno"
     },
     "updateTitle": {
-        "message": "Mise à jour de CENO"
+        "message": "Mise à jour de Ceno"
     },
     "updateMetacontent": {
-        "message": "Mise à jour de CENO"
+        "message": "Mise à jour de Ceno"
     },
     "updateHead": {
-        "message": "Votre Navigateur CENO n’est pas à jour."
+        "message": "Votre Navigateur Ceno n’est pas à jour."
     },
     "updateSubhead": {
         "message": "Veuillez mettre votre appli à jour avec",
@@ -181,5 +181,14 @@
     },
     "settingsStatusExtEndpoints": {
         "message": "Extrémités UDP externes"
+    },
+    "settingsMode": {
+        "message": "Mode de navigation"
+    },
+    "settingsModePublic": {
+        "message": "PUBLIQUE"
+    },
+    "settingsModePersonal": {
+        "message": "PERSONNEL"
     }
 }

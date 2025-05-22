@@ -1,20 +1,20 @@
 {
     "extName": {
-        "message": "Επέκταση CENO",
+        "message": "Επέκταση Ceno",
         "description": "Name of the extension."
     },
     "extDesc": {
-        "message": "Παρέχει ενσωμάτωση του CENO με το Ouinet: προσωρινή αποθήκευση και ομαδοποίηση σελίδων, πληροφορίες πηγής, ρυθμίσεις και άλλες λειτουργίες. Περιλαμβάνει κώδικα από το Localizer του rugk με άδεια χρήσης MIT.",
+        "message": "Παρέχει ενσωμάτωση του Ceno με το Ouinet: προσωρινή αποθήκευση και ομαδοποίηση σελίδων, πληροφορίες πηγής, ρυθμίσεις και άλλες λειτουργίες. Περιλαμβάνει κώδικα από το Localizer του rugk με άδεια χρήσης MIT.",
         "description": "Description of the extension."
     },
     "bgCenoWarning": {
-        "message": "Προειδοποίηση CENO"
+        "message": "Προειδοποίηση Ceno"
     },
     "settingsTitle": {
-        "message": "Ρυθμίσεις CENO"
+        "message": "Ρυθμίσεις Ceno"
     },
     "settingsWarn": {
-        "message": "Οι ρυθμίσεις σε αυτήν τη σελίδα αφορούν μόνο τη δοκιμή λειτουργικότητας του CENO σε διάφορες συνθήκες δικτύου. Δείτε το $MANUAL$ για περισσότερες πληροφορίες.",
+        "message": "Οι ρυθμίσεις σε αυτήν τη σελίδα αφορούν μόνο τη δοκιμή λειτουργικότητας του Ceno σε διάφορες συνθήκες δικτύου. Δείτε το $MANUAL$ για περισσότερες πληροφορίες.",
         "placeholders": {
             "manual": {
                 "content": "$1"
@@ -29,7 +29,7 @@
         "description": "Link to the Settings section of the User Manual. Keep it as is unless the section has been translated."
     },
     "settingsWarnManTI": {
-        "message": "Censorship.no! Εγχειρίδιο χρήσης - Ρυθμίσεις CENO"
+        "message": "Censorship.no! Εγχειρίδιο χρήσης - Ρυθμίσεις Ceno"
     },
     "settingsSources": {
         "message": "Πηγές ανάκτησης περιεχομένου:"
@@ -38,13 +38,13 @@
         "message": "Απευθείας από τον ιστότοπο"
     },
     "settingsSrcProxy": {
-        "message": "Μέσω του δικτύου CENO (ιδιωτικό)"
+        "message": "Μέσω του δικτύου Ceno (ιδιωτικό)"
     },
     "settingsSrcInjector": {
-        "message": "Μέσω του δικτύου CENO (δημόσιο)"
+        "message": "Μέσω του δικτύου Ceno (δημόσιο)"
     },
     "settingsSrcDcache": {
-        "message": "Από διαμοιρασμό άλλων χρηστών CENO"
+        "message": "Από διαμοιρασμό άλλων χρηστών Ceno"
     },
     "settingsPubwarn": {
         "message": "Το $PUBLIC_BROWSING$ θα αποτύχει με τις τρέχουσες ρυθμίσεις.",
@@ -72,7 +72,7 @@
         "message": "Ceno Browser"
     },
     "settingsStatusExtension": {
-        "message": "Επέκταση CENO"
+        "message": "Επέκταση Ceno"
     },
     "settingsStatusOuinet": {
         "message": ""
@@ -105,7 +105,7 @@
         "message": "Λήψη"
     },
     "popupTitle": {
-        "message": "Πηγές CENO"
+        "message": "Πηγές Ceno"
     },
     "popupHead": {
         "message": "Αριθμός στοιχείων σελίδας ανά πηγή:"
@@ -114,13 +114,13 @@
         "message": "Απευθείας από τον ιστότοπο"
     },
     "popupSrcProxy": {
-        "message": "Μέσω του δικτύου CENO (ιδιωτικό)"
+        "message": "Μέσω του δικτύου Ceno (ιδιωτικό)"
     },
     "popupSrcInjector": {
-        "message": "Μέσω του δικτύου CENO (δημόσιο)"
+        "message": "Μέσω του δικτύου Ceno (δημόσιο)"
     },
     "popupSrcDcache": {
-        "message": "Από διαμοιρασμό άλλων χρηστών CENO"
+        "message": "Από διαμοιρασμό άλλων χρηστών Ceno"
     },
     "popupSrcLcache": {
         "message": "Σε κοινή χρήση από εσάς"
@@ -141,16 +141,16 @@
         "description": "Link to the access mechanisms subsection in the Settings section of the User Manual. Keep it as is unless the section has been translated."
     },
     "popupFootManTI": {
-        "message": "Censorship.no! Εγχειρίδιο χρήσης - Ρυθμίσεις CENO"
+        "message": "Censorship.no! Εγχειρίδιο χρήσης - Ρυθμίσεις Ceno"
     },
     "updateTitle": {
-        "message": "Ενημέρωση CENO"
+        "message": "Ενημέρωση Ceno"
     },
     "updateMetacontent": {
-        "message": "Ενημέρωση CENO"
+        "message": "Ενημέρωση Ceno"
     },
     "updateHead": {
-        "message": "Το πρόγραμμα περιήγησής σας CENO δεν είναι ενημερωμένο."
+        "message": "Το πρόγραμμα περιήγησής σας Ceno δεν είναι ενημερωμένο."
     },
     "updateSubhead": {
         "message": "Παρακαλούμε ενημερώστε την εφαρμογή μέσω",

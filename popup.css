@@ -1,42 +1,80 @@
-body {
-  direction: __MSG_@@bidi_dir__;
-  font-family: 'Arial', 'Helvetica', 'sans-serif';
-  margin:0;
-  padding:0;
-}
-a:link {
-  color: #0ea5e9;
-}
-#header {
-  height: 120px;
-  line-height: 120px;
-  display: flex;
-  justify-content: flex-start;
-  vertical-align: middle;
-  font-size: 3em;
-  color: #fff;
-  background: #333;
-  padding-__MSG_@@bidi_start_edge__: 40px;
-}
 p {
-  margin: 40px 0 0 0;
-  padding: 0 40px;
-  font-size: 3em;
-}
-#see-manual {
-  margin: 0 0 20px 0;
-  font-size: 1.5em;
+  margin: var(--form-padding) 0 0 0;
+  padding: 0 var(--form-padding);
 }
 table {
   width: 100%;
-  padding: 40px;
-  font-size: 3em;
-  color: #999;
+  padding-__MSG_@@bidi_start_edge__: var(--form-padding);
+  padding-bottom: var(--section-padding);
+  color: var(--on-primary);
 }
 .value {
-  padding-__MSG_@@bidi_start_edge__: 20px;
+  padding-__MSG_@@bidi_start_edge__: var(--form-padding);
+  padding-__MSG_@@bidi_end_edge__: var(--form-padding);
   text-align: __MSG_@@bidi_end_edge__;
 }
 .title {
   font-weight: bold;
+  padding-bottom: var(--section-padding);
+}
+.rd_form {
+  padding-top: var(--section-padding);
+  padding-__MSG_@@bidi_start_edge__: var(--form-padding);
+}
+button.mode {
+  font-weight: bold;
+  font-size: 100%;
+  border-radius: var(--button-border-radius);
+  border-style: solid;
+  border-width: var(--button-border-width);
+  padding: var(--section-padding);
+}
+button.unselected {
+  border-color: var(--secondary);
+  background: var(--primary);
+  color: var(--on-primary)
+}
+button.disabled {
+  border-color: var(--secondary);
+  background: var(--on-secondary);
+  color: var(--secondary)
+}
+button.hover {
+  border-color: var(--secondary);
+  background: var(--secondary);
+  color: var(--on-primary)
+}
+button.selected-public {
+  border-color: var(--accent-1);
+  background: var(--accent-1);
+  color: var(--on-secondary)
+}
+
+button.selected-personal {
+  border-color: var(--accent-2);
+  background: var(--accent-2);
+  color: var(--on-secondary)
+}
+.option {
+  margin: var(--form-padding) 0 0 0;
+  padding-bottom: var(--form-padding);
+  padding-__MSG_@@bidi_start_edge__: var(--form-padding);
+}
+a.settings_button {
+  padding: var(--button-padding);
+  border-radius: var(--button-border-radius);
+  text-decoration: none;
+  color: var(--on-primary);
+  background-color: var(--primary);
+}
+a:hover {
+  background-color: var(--secondary);
+}
+/* Hold place of back button shown on settings page */
+a.back_button {
+  margin: var(--button-border-width) var(--button-border-width);
+  padding: var(--back-button-padding);
+  border-radius: var(--button-border-radius);
+  font-size: 150%;
+  visibility: hidden;
 }
