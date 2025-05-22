@@ -11,7 +11,7 @@
         "message": "Предупреждение Ceno"
     },
     "settingsTitle": {
-        "message": "Настройки Ceno"
+        "message": "Ceno Настройки"
     },
     "settingsWarn": {
         "message": "Настройки на этой странице предназначены только для тестирования функциональности Ceno в различных сетевых условиях. Ознакомьтесь с $MANUAL$ для получения дополнительной информации.",
@@ -69,7 +69,7 @@
         "message": "Приватный просмотр веб-страниц"
     },
     "settingsStatusBrowser": {
-        "message": "Браузер Ceno"
+        "message": "Ceno Браузер"
     },
     "settingsStatusExtension": {
         "message": "Расширение Ceno"
@@ -114,7 +114,7 @@
         "message": "Скачать"
     },
     "popupTitle": {
-        "message": "Источники Ceno"
+        "message": "Источники"
     },
     "popupHead": {
         "message": "Количество элементов страницы на источник:"
