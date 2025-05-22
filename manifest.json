@@ -3,7 +3,7 @@
   "manifest_version": 2,
   "name": "__MSG_extName__",
   "version": "1.9.0",
-  "homepage_url": "https://censorship.no/",
+  "homepage_url": "https://ceno.app/",
 
   "icons": {
     "32": "icons/ceno-logo-32.png",

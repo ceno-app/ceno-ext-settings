@@ -25,11 +25,11 @@
         "message": "Handbuch"
     },
     "settingsWarnManLN": {
-        "message": "https://censorship.no/user-manual/de/browser/settings.html",
+        "message": "https://ceno.app/user-manual/de/browser/settings.html",
         "description": "Link to the Settings section of the User Manual. Keep it as is unless the section has been translated."
     },
     "settingsWarnManTI": {
-        "message": "Censorship.no! Benutzerhandbuch – Ceno Einstellungen"
+        "message": "Ceno Benutzerhandbuch – Ceno Einstellungen"
     },
     "settingsSources": {
         "message": "Quellen zum Abruf von Inhalten:"
@@ -146,11 +146,11 @@
         "message": "Anleitung"
     },
     "popupFootManLN": {
-        "message": "https://censorship.no/user-manual/de/browser/settings.html#choosing-access-mechanisms",
+        "message": "https://ceno.app/user-manual/de/browser/settings.html#choosing-access-mechanisms",
         "description": "Link to the access mechanisms subsection in the Settings section of the User Manual. Keep it as is unless the section has been translated."
     },
     "popupFootManTI": {
-        "message": "Censorship.no! Benutzer Anleitung – Ceno Einstellungen"
+        "message": "Ceno Benutzer Anleitung – Ceno Einstellungen"
     },
     "updateTitle": {
         "message": "Ceno Update"
