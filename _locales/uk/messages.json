@@ -75,7 +75,7 @@
         "message": "Розширення Ceno"
     },
     "settingsStatusOuinet": {
-        "message": ""
+        "message": "Ouinet"
     },
     "settingsStatusProtocol": {
         "message": "Протокол Ouinet"
@@ -141,7 +141,7 @@
         "message": "Поширений іншими користувачами Ceno"
     },
     "popupSrcLcache": {
-        "message": "Поширений Вами"
+        "message": "З вашого локального кешу"
     },
     "popupFoot": {
         "message": "Перегляньте $MANUAL$ для отримання додаткової інформації про джерела вмісту.",
