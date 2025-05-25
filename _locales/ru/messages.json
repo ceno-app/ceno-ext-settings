@@ -126,13 +126,13 @@
         "message": "Через сеть Ceno (приватно)"
     },
     "popupSrcInjector": {
-        "message": "Через сеть Ceno (публично)"
+        "message": "Через сеть Ceno (публично) "
     },
     "popupSrcDcache": {
         "message": "Предоставлен другими пользователями Ceno"
     },
     "popupSrcLcache": {
-        "message": "Предоставлен вами"
+        "message": "Из вашего локального кэша"
     },
     "popupFoot": {
         "message": "Ознакомьтесь с $MANUAL$ для получения дополнительной информации об источниках контента.",
