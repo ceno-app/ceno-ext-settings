@@ -129,7 +129,7 @@
         "message": "Compartido por otra(o)s usuaria(o)s de Ceno"
     },
     "popupSrcLcache": {
-        "message": "Compartido por ti"
+        "message": "Desde su cache local"
     },
     "popupFoot": {
         "message": "Vea el $MANUAL$ para más información sobre fuentes de contenido.",
