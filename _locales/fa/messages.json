@@ -166,11 +166,11 @@
         "description": "Update hint for user, followed by graphical update badge links."
     },
     "updateGetgoogleplay": {
-        "message": "از گوگل پلی دریافت کنید",
+        "message": "دریافت از گوگل پلی",
         "description": "Alt text for Google Play badge."
     },
     "updateGetpaskoocheh": {
-        "message": "از پسکوچه دریافت کنید",
+        "message": "دریافت از پسکوچه",
         "description": "Alt text for Paskoocheh badge."
     },
     "settingsStatusClientState": {
