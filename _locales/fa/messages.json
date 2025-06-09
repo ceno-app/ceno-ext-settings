@@ -69,7 +69,7 @@
         "message": "مرورگری خصوصی"
     },
     "settingsStatusBrowser": {
-        "message": "Ceno Browser"
+        "message": "مرورگر سنو"
     },
     "settingsStatusExtension": {
         "message": "افزونه‌های سنو"
@@ -183,7 +183,7 @@
         "message": "نقطه‌های انتهایی UDP عمومی"
     },
     "settingsModePublic": {
-        "message": "عمومی"
+        "message": "عمومی‌‌"
     },
     "settingsModePersonal": {
         "message": "شخصی"
