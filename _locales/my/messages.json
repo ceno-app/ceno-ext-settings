@@ -181,5 +181,8 @@
     },
     "settingsStatusExtEndpoints": {
         "message": "ပြင်ပ UDP အဆုံးမှတ်များ"
+    },
+    "settingsModePublic": {
+        "message": "အများသုံးတပ်ဗ်များ"
     }
 }

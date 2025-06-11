@@ -181,5 +181,11 @@
     },
     "settingsStatusBtBootstrapsSave": {
         "message": "Simpan"
+    },
+    "settingsModePublic": {
+        "message": "PUBLIK"
+    },
+    "settingsModePersonal": {
+        "message": "PRIBADI"
     }
 }

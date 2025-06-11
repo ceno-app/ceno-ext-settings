@@ -29,7 +29,7 @@
         "description": "Link to the Settings section of the User Manual. Keep it as is unless the section has been translated."
     },
     "settingsWarnManTI": {
-        "message": "نه به سانسور! راهنمای کاربر - تنظیمات سنو"
+        "message": "راهنمای کاربران سنو - تنظیمات سنو"
     },
     "settingsSources": {
         "message": "منابع بازیابی محتوا:"
@@ -38,13 +38,13 @@
         "message": "مستقیم از وب‌سایت"
     },
     "settingsSrcProxy": {
-        "message": "از طریق شبکه سنو (خصوصی)"
+        "message": "از طریق شبکه سنو (شخصی)"
     },
     "settingsSrcInjector": {
         "message": "از طریق شبکه سنو (عمومی)"
     },
     "settingsSrcDcache": {
-        "message": "به اشتراک گذاشته شده توسط دیگر کاربران سنو"
+        "message": "از دیگر کاربران سنو"
     },
     "settingsPubwarn": {
         "message": "$PUBLIC_BROWSING$ با تنظیمات فعلی موفق نخواهد بود.",
@@ -69,7 +69,7 @@
         "message": "مرورگری خصوصی"
     },
     "settingsStatusBrowser": {
-        "message": "Ceno مرورگر"
+        "message": "مرورگر سنو"
     },
     "settingsStatusExtension": {
         "message": "افزونه‌های سنو"
@@ -123,16 +123,16 @@
         "message": "مستقیم از وب‌سایت"
     },
     "popupSrcProxy": {
-        "message": "از طریق شبکه سنو (خصوصی)"
+        "message": "با استفاده از شبکه سنو (شخصی)"
     },
     "popupSrcInjector": {
-        "message": "از طریق شبکه سنو (عمومی)"
+        "message": "با استفاده از شبکه سنو (عمومی) "
     },
     "popupSrcDcache": {
-        "message": "به اشتراک گذاشته شده توسط کاربران سنو"
+        "message": "از دیگر کاربران سنو"
     },
     "popupSrcLcache": {
-        "message": "به اشتراک گذاشته شده توسط شما"
+        "message": "از حافظه کَش محلی شما"
     },
     "popupFoot": {
         "message": "برای کسب اطلاعات بیشتر در مورد منابع محتوا به بخش تنظیمات دستی($MANUAL$) مراجعه کنید.",
@@ -150,7 +150,7 @@
         "description": "Link to the access mechanisms subsection in the Settings section of the User Manual. Keep it as is unless the section has been translated."
     },
     "popupFootManTI": {
-        "message": "نه به سانسور! راهنمای کاربر - تنظیمات سنو"
+        "message": "راهنمای کاربران سنو - تنظیمات سنو"
     },
     "updateTitle": {
         "message": "به‌روز‌رسانی سنو"
@@ -166,11 +166,11 @@
         "description": "Update hint for user, followed by graphical update badge links."
     },
     "updateGetgoogleplay": {
-        "message": "از گوگل پلی دریافت کنید",
+        "message": "دریافت از گوگل پلی",
         "description": "Alt text for Google Play badge."
     },
     "updateGetpaskoocheh": {
-        "message": "از پسکوچه دریافت کنید",
+        "message": "دریافت از پسکوچه",
         "description": "Alt text for Paskoocheh badge."
     },
     "settingsStatusClientState": {
@@ -181,5 +181,14 @@
     },
     "settingsStatusPubEndpoints": {
         "message": "نقطه‌های انتهایی UDP عمومی"
+    },
+    "settingsModePublic": {
+        "message": "عمومی‌‌"
+    },
+    "settingsModePersonal": {
+        "message": "شخصی"
+    },
+    "settingsMode": {
+        "message": "حالت مرورگری"
     }
 }
