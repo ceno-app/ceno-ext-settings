@@ -11,7 +11,7 @@
         "message": "செனோ எச்சரிக்கை"
     },
     "settingsTitle": {
-        "message": "செனோ அமைப்புகள்"
+        "message": "Ceno அமைப்புகள்"
     },
     "settingsWarn": {
         "message": "இந்தப் பக்கத்தில் உள்ள அமைப்புகள் பல்வேறு பிணைய நிலைமைகளில் Ceno செயல்பாட்டைச் சோதிக்க மட்டுமே நோக்கம் கொண்டவை. மேலும் தகவலுக்கு $MANUAL$ ஐப் பார்க்கவும்.",
@@ -69,7 +69,7 @@
         "message": "தனியார் உலாவல்"
     },
     "settingsStatusBrowser": {
-        "message": ""
+        "message": "Ceno உலாவி"
     },
     "settingsStatusExtension": {
         "message": "செனோ நீட்டிப்பு"
@@ -108,7 +108,7 @@
         "message": "பதிவிறக்கம்"
     },
     "popupTitle": {
-        "message": "செனோ ஆதாரங்கள்"
+        "message": "விலை ஆதாரங்கள்"
     },
     "popupHead": {
         "message": "ஒரு மூலத்திற்கு பக்க கூறுகளின் எண்ணிக்கை:"
@@ -181,5 +181,11 @@
     },
     "settingsStatusBtBootstraps": {
         "message": "கூடுதல் பிட்டோரண்ட் தொடக்கவார்"
+    },
+    "settingsModePublic": {
+        "message": "பொது"
+    },
+    "settingsModePersonal": {
+        "message": "தனிப்பட்ட"
     }
 }

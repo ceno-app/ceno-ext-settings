@@ -105,7 +105,7 @@
         "message": "下载"
     },
     "popupTitle": {
-        "message": "Ceno 源"
+        "message": "Ceno来源"
     },
     "popupHead": {
         "message": "每个来源的页面元素数："
@@ -123,7 +123,7 @@
         "message": "由其他Ceno用户共享"
     },
     "popupSrcLcache": {
-        "message": "由您分享"
+        "message": "从你的本地缓存中"
     },
     "popupFoot": {
         "message": "有关内容源的更多信息，请参见$MANUAL$。",
@@ -181,5 +181,14 @@
     },
     "settingsStatusBtBootstrapsSave": {
         "message": "保存"
+    },
+    "settingsModePublic": {
+        "message": "公开"
+    },
+    "settingsModePersonal": {
+        "message": "私人的"
+    },
+    "settingsMode": {
+        "message": "浏览模式"
     }
 }

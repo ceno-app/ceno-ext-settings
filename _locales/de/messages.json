@@ -69,7 +69,7 @@
         "message": "Privates Browsen"
     },
     "settingsStatusBrowser": {
-        "message": "Ceno-Browser"
+        "message": "Ceno Browser"
     },
     "settingsStatusExtension": {
         "message": "Ceno Erweiterung"
@@ -181,5 +181,11 @@
     },
     "settingsStatusBtBootstrapsPlaceholder": {
         "message": "HOST1 HOST2:PORT ..."
+    },
+    "settingsModePublic": {
+        "message": "ÖFFENTLICH"
+    },
+    "settingsModePersonal": {
+        "message": "PERSÖNLICH"
     }
 }

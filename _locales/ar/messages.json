@@ -11,7 +11,7 @@
         "message": "تحذير متصفح Ceno"
     },
     "settingsTitle": {
-        "message": "إعدادات متصفح Ceno"
+        "message": "إعدادات سنو"
     },
     "settingsWarn": {
         "message": "الإعدادات الموجودة في هذه الصفحة مخصصة فقط لاختبار وظائف Ceno في الظروف المختلفة للشبكة. انظر $MANUAL$ للمزيد من المعلومات.",
@@ -181,5 +181,11 @@
     },
     "settingsStatusPubEndpoints": {
         "message": "نقاط نهاية UDP عامة"
+    },
+    "settingsModePublic": {
+        "message": "علامات التبويب العامة"
+    },
+    "settingsModePersonal": {
+        "message": "علامات التبويب الشخصية"
     }
 }

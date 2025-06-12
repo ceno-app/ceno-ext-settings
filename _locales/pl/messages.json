@@ -105,7 +105,7 @@
         "message": "Pobierz"
     },
     "popupTitle": {
-        "message": "Ceno Źródła"
+        "message": "Źródła Ceno"
     },
     "popupHead": {
         "message": "Liczba elementów strony na źródło:"
@@ -181,5 +181,11 @@
     },
     "settingsStatusBtBootstrapsPlaceholder": {
         "message": "HOST1 HOST2:PORT ..."
+    },
+    "settingsModePublic": {
+        "message": "PUBLICZNE"
+    },
+    "settingsModePersonal": {
+        "message": "OSOBISTE"
     }
 }
