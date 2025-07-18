@@ -75,7 +75,7 @@
         "message": "Tillägg för Ceno"
     },
     "settingsStatusOuinet": {
-        "message": ""
+        "message": "Ouinet"
     },
     "settingsStatusProtocol": {
         "message": "Ouinet-protokoll"
@@ -117,7 +117,7 @@
         "message": "Via Ceno-nätverk (privat)"
     },
     "popupSrcInjector": {
-        "message": "Via Ceno-nätverket (publikt)"
+        "message": "Via Ceno-nätverket (publikt) "
     },
     "popupSrcDcache": {
         "message": "Delade av andra Ceno-användare"
