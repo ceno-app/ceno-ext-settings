@@ -33,8 +33,6 @@ Although the values of localizable HTML texts and attributes need not be in the 
 
 ## Localization/translation (l10n)
 
-When adding a new locale, remember to add the `_locales/<locale>/messages.json` and whatever other files used by the locale to the `moz.build` file, otherwise they will not be included in Ceno Browser builds. Please check the comments in `moz.build` for more information.
-
 When localizing a string with placeholders in the default language, like this one:
 
     "something": {
