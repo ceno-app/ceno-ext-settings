@@ -35,7 +35,7 @@
         "message": "Fontes de recuperação de conteúdo:"
     },
     "settingsSrcOrigin": {
-        "message": "Direto do site"
+        "message": "Diretamente do site"
     },
     "settingsSrcProxy": {
         "message": "Via rede do Ceno (privada)"
@@ -69,7 +69,7 @@
         "message": "Navegação privativa"
     },
     "settingsStatusBrowser": {
-        "message": "Navegador Ceno"
+        "message": "Ceno Browser"
     },
     "settingsStatusExtension": {
         "message": "Extensão Ceno"
@@ -108,7 +108,7 @@
         "message": "Conteúdo compartilhado por você"
     },
     "settingsStatusBtBootstraps": {
-        "message": "Extra BitTorrent bootstraps"
+        "message": "BitTorrent bootstraps adicionais"
     },
     "settingsStatusBtBootstrapsPlaceholder": {
         "message": "HOST1 HOST2:PORTA ..."
@@ -129,19 +129,19 @@
         "message": "Número de elementos de página por source:"
     },
     "popupSrcOrigin": {
-        "message": "Direto do site"
+        "message": "Diretamente do site"
     },
     "popupSrcProxy": {
         "message": "Via rede Ceno (privada)"
     },
     "popupSrcInjector": {
-        "message": "Via rede Ceno (pública)"
+        "message": "Via rede Ceno (pública) "
     },
     "popupSrcDcache": {
         "message": "Compartilhado por outros usuários Ceno"
     },
     "popupSrcLcache": {
-        "message": "Compartilhado por você"
+        "message": "Compartilhado do seu cache local"
     },
     "popupFoot": {
         "message": "Consulte o $MANUAL$ para mais informações sobre sources de conteúdo.",
