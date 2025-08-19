@@ -486,7 +486,7 @@ browser.runtime.getPlatformInfo().then(info => {
     const port = browser.runtime.connectNative("browser");
     // Set up listener for native messages
     port.onMessage.addListener(response => {
-      setPersonalModeOnly(response.personalModeOnly);
+      setPersonalModeOnly(response.isShared);
       // Send back ouinet statistics
       port.postMessage(`${JSON.stringify(gOuinetStats[gActiveTabId])}`);
     });
@@ -495,13 +495,13 @@ browser.runtime.getPlatformInfo().then(info => {
 
 
 function setPersonalModeOnly (value) {
-  if (value == "true") {
+  if (value == true) {
     browser.storage.local.set({
-      mode: "personal"
+      mode: "public"
     });
   } else {
     browser.storage.local.set({
-      mode: "public"
+      mode: "personal"
     });
   }
 };
