@@ -117,13 +117,13 @@
         "message": "Via Ceno-nätverk (privat)"
     },
     "popupSrcInjector": {
-        "message": "Via Ceno-nätverket (publikt)"
+        "message": "Via Ceno-nätverket (publikt) "
     },
     "popupSrcDcache": {
         "message": "Delade av andra Ceno-användare"
     },
     "popupSrcLcache": {
-        "message": "Delad av dig"
+        "message": "Från din lokala cache"
     },
     "popupFoot": {
         "message": "Se $MANUAL$ för mer information om innehållskällor.",
@@ -181,5 +181,14 @@
     },
     "settingsStatusBtBootstrapsPlaceholder": {
         "message": "VÄRD1 VÄRD2:PORT ..."
+    },
+    "settingsMode": {
+        "message": "Bläddringsläge"
+    },
+    "settingsModePublic": {
+        "message": "OFFENTLIG"
+    },
+    "settingsModePersonal": {
+        "message": "PERSONLIG"
     }
 }
