@@ -32,7 +32,7 @@ class Button {
     const name = this.id;
     const newValue = this.elem.checked;
     if (this.cb) this.cb(newValue);
-    fetch(SET_VALUE_ENDPOINT + `?${name}=${newValue ? 'enabled' : 'disabled'}`)
+    fetch(SET_VALUE_ENDPOINT + `?${name}=${newValue ? 'enable' : 'disable'}`)
       .then(_ => this.set(newValue))
   }
 }
@@ -169,7 +169,7 @@ class LogControl {
     if (!this.elem) return;
     const name = this.id;
     const newValue = this.elem.checked;
-    fetch(SET_VALUE_ENDPOINT + `?${name}=${newValue ? 'enabled' : 'disabled'}`)
+    fetch(SET_VALUE_ENDPOINT + `?${name}=${newValue ? 'enable' : 'disable'}`)
       .then(_ => this.set(newValue))
   }
 }
