@@ -141,7 +141,7 @@
         "message": "Compartilhado por outros usuários do Ceno"
     },
     "popupSrcLcache": {
-        "message": "Compartilhado por você"
+        "message": "Da sua cache local"
     },
     "popupFoot": {
         "message": "Veja o $MANUAL$ para mais informações sobre as fontes de conteúdo.",
