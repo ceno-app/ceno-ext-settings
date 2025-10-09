@@ -69,7 +69,7 @@
         "message": ""
     },
     "settingsStatusBrowser": {
-        "message": ""
+        "message": "Ceno Browser"
     },
     "settingsStatusExtension": {
         "message": ""
@@ -84,19 +84,19 @@
         "message": ""
     },
     "settingsStatusEndpoints": {
-        "message": ""
+        "message": "Local UDP endpoints"
     },
     "settingsStatusUpnp": {
-        "message": ""
+        "message": "UPnP status"
     },
     "settingsStatusExtEndpoints": {
-        "message": ""
+        "message": "External UDP endpoints"
     },
     "settingsStatusPubEndpoints": {
-        "message": ""
+        "message": "Public UDP endpoints"
     },
     "settingsStatusReachability": {
-        "message": ""
+        "message": "Reachability status"
     },
     "settingsStatusCacheSize": {
         "message": ""
@@ -105,7 +105,7 @@
         "message": ""
     },
     "settingsStatusCacheList": {
-        "message": ""
+        "message": "Content shared by you"
     },
     "settingsStatusBtBootstraps": {
         "message": ""
@@ -117,10 +117,10 @@
         "message": ""
     },
     "settingsLogEnable": {
-        "message": ""
+        "message": "Enable log file"
     },
     "settingsLogDownload": {
-        "message": ""
+        "message": "Download"
     },
     "popupTitle": {
         "message": ""
