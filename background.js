@@ -69,15 +69,21 @@ function onBeforeSendHeaders(e) {
   return browser.tabs.get(e.tabId).then(tab => {
     // The `tab` structure is described here:
     // https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/Tab
-    return browser.storage.local.get("mode").then(item => {
-      let is_private = tab.incognito || !isUrlCacheable(e.url) || item.mode == "personal" ;
-      e.requestHeaders.push({name: "X-Ouinet-Private", value: (is_private ? "True" : "False")});
+    return browser.storage.local.get("mode").then(i => {
+      return browser.storage.local.get("proxyToken").then(j => {
+        let is_private = tab.incognito || !isUrlCacheable(e.url)  || i.mode == "personal" ;
+        e.requestHeaders.push({name: "X-Ouinet-Private", value: (is_private ? "True" : "False")});
 
-      if (!is_private) {
-        e.requestHeaders.push({name: "X-Ouinet-Group", value: getDhtGroup(e)});
-      }
+        if (!is_private) {
+          e.requestHeaders.push({name: "X-Ouinet-Group", value: getDhtGroup(e)});
+        }
 
-      return {requestHeaders: e.requestHeaders};
+        if (typeof j.proxyToken !== 'undefined') {
+          e.requestHeaders.push({name: "X-Ouinet-Proxy-Token", value: j.proxyToken});
+        }
+
+        return {requestHeaders: e.requestHeaders};
+      });
     });
   });
 }
@@ -409,6 +415,11 @@ function setOuinetClientAsProxy() {
   });
 }
 
+function setProxyToken (value) {
+    browser.storage.local.set({
+      proxyToken: value
+    });
+};
 
 setOuinetClientAsProxy();
 
@@ -486,6 +497,9 @@ browser.runtime.getPlatformInfo().then(info => {
     const port = browser.runtime.connectNative("browser");
     // Set up listener for native messages
     port.onMessage.addListener(response => {
+      if (`${response.init}` == "true") {
+        setProxyToken(`${response.proxyToken}`)
+      }
       // Send back ouinet statistics
       port.postMessage(`${JSON.stringify(gOuinetStats[gActiveTabId])}`);
     });
