@@ -432,31 +432,31 @@ function setSelectedTextSize(size) {
   setTextSize(size)
 }
 
-window.addEventListener("load", async () => {
-  browser.storage.local.get("theme").then(item => setSelectedTheme(item.theme));
-  browser.storage.local.get("size").then(item => setSelectedTextSize(item.size));
-  setFrontEndLinks();
+// window.addEventListener("load", async () => {
+//   browser.storage.local.get("theme").then(item => setSelectedTheme(item.theme));
+//   browser.storage.local.get("size").then(item => setSelectedTextSize(item.size));
+//   setFrontEndLinks();
 
-  let state = new State();
+//   let state = new State();
 
-  while (true) {
-    try {
-      let response = await fetch(STATUS_ENDPOINT);
+//   while (true) {
+//     try {
+//       let response = await fetch(STATUS_ENDPOINT);
 
-      if (response.ok) {
-        let json = await response.json();
-        Object.entries(json).map(([k,v]) => state.set(k, v))
-        state.enable();
-      } else {
-        console.error("Failed to parse client status JSON:", error);
-        state.disable();
-      }
-    } catch (err) {
-      console.error("Failed to fetch client status JSON:", err);
-      state.disable();
-    }
+//       if (response.ok) {
+//         let json = await response.json();
+//         Object.entries(json).map(([k,v]) => state.set(k, v))
+//         state.enable();
+//       } else {
+//         console.error("Failed to parse client status JSON:", error);
+//         state.disable();
+//       }
+//     } catch (err) {
+//       console.error("Failed to fetch client status JSON:", err);
+//       state.disable();
+//     }
 
-    await sleep(5000);
-  }
+//     await sleep(5000);
+//   }
 
-});
+// });
