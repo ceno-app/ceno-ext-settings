@@ -306,42 +306,6 @@ class State {
 
     var textSize = ["default", "bigger", "biggest"];
     textSize.map(v => new TextSizeSelector(v));
-
-    var buttons = ["origin_access", "proxy_access", "injector_access", "distributed_cache"];
-    buttons.map(v => this.items.set(v, new Button(v)));
-
-    var modeWarningGroups = [
-      ["am-warning-private", ["origin_access", "proxy_access"]],
-      ["am-warning-public", ["origin_access", "injector_access", "distributed_cache"]],
-    ];
-    this.modeWarningChecks = [];
-    modeWarningGroups.forEach(([idt, idss]) => {
-      var check = () => displayIfNoneEnabled(idt, idss);  // check options for browsing mode
-      this.modeWarningChecks.push(check);
-      idss.forEach(id => {
-        var it = this.items.get(id);
-        var cb = it.cb;  // to call previous check if existing
-        it.cb = cb ? (v => { cb(v); check(); }) : (_ => check());
-      });
-    });
-
-    var texts = ["ouinet_version", "ouinet_build_id", "ouinet_protocol",
-                 "state", "local_udp_endpoints", "external_udp_endpoints", "public_udp_endpoints",
-                 "is_upnp_active", "udp_world_reachable"];
-    texts.map(v => this.items.set(v, new Text(v)));
-
-    var dsizes = ["local_cache_size"]
-    dsizes.map(v => this.items.set(v, new DataSizeText(v)));
-
-    var text_inputs_sp = ["bt_extra_bootstraps"]
-    text_inputs_sp.map(v => this.items.set(v, new TextInput(v, " ")));
-
-    this.setCenoVersion();
-    this.setCenoExtensionVersion();
-
-    this.items.set("logfile", new LogControl("logfile"));
-
-    this.actions.push(new Action("purge_cache"));
   }
 
   set(key, value) {
@@ -432,31 +396,10 @@ function setSelectedTextSize(size) {
   setTextSize(size)
 }
 
-// window.addEventListener("load", async () => {
-//   browser.storage.local.get("theme").then(item => setSelectedTheme(item.theme));
-//   browser.storage.local.get("size").then(item => setSelectedTextSize(item.size));
-//   setFrontEndLinks();
+ window.addEventListener("load", async () => {
+   browser.storage.local.get("theme").then(item => setSelectedTheme(item.theme));
+   browser.storage.local.get("size").then(item => setSelectedTextSize(item.size));
 
-//   let state = new State();
+   let state = new State();
 
-//   while (true) {
-//     try {
-//       let response = await fetch(STATUS_ENDPOINT);
-
-//       if (response.ok) {
-//         let json = await response.json();
-//         Object.entries(json).map(([k,v]) => state.set(k, v))
-//         state.enable();
-//       } else {
-//         console.error("Failed to parse client status JSON:", error);
-//         state.disable();
-//       }
-//     } catch (err) {
-//       console.error("Failed to fetch client status JSON:", err);
-//       state.disable();
-//     }
-
-//     await sleep(5000);
-//   }
-
-// });
+});

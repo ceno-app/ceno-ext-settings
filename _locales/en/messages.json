@@ -11,7 +11,7 @@
         "message": "Ceno warning"
     },
     "settingsTitle": {
-        "message": "Ceno Settings"
+        "message": "Customizations"
     },
     "settingsWarn": {
         "message": "Settings on this page are only intended for testing Ceno functionality in various network conditions. See the $MANUAL$ for more information.",

@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title data-i18n="settingsTitle">Ceno Settings</title>
+  <title data-i18n="settingsTitle">Customizations</title>
   <link rel="stylesheet" href="themes/default.css">
   <link rel="stylesheet" href="common.css">
   <link rel="stylesheet" href="settings.css">
@@ -14,116 +14,7 @@
 <body>
   <div id="header">
     <span><a href="popup.html" target="_parent" class="back_button"><</a></span>
-    <span data-i18n="settingsTitle">Ceno Settings</span>
-  </div>
-  <div class="status_items">
-    <form>
-      <span data-i18n="settingsStatusCacheSize" class="name">Local cache size</span>
-      <br>
-      <span id="local_cache_size"> </span>
-      <button data-i18n="settingsStatusCachePurge"
-              class="action" type="button" id="purge_cache" disabled>Purge now</button>
-      <br>
-      <a data-i18n="settingsStatusCacheList" id="fe-link-cache-list"
-         href="#" target="_blank">Content shared by you</a>
-    </form>
-    <p>
-    <span data-i18n="settingsStatusClientState" class="name">Ouinet client state</span><br>
-    <span id="state"> </span>
-    <p>
-    <span data-i18n="settingsStatusReachability" class="name">Reachability status</span><br>
-    <span id="udp_world_reachable"> </span>
-    <p>
-    <span data-i18n="settingsStatusUpnp" class="name">UPnP status</span><br>
-    <span id="is_upnp_active"> </span>
-    <p>
-    <span data-i18n="settingsStatusEndpoints" class="name">Local UDP endpoints</span><br>
-    <span id="local_udp_endpoints"> </span>
-    <p>
-    <span data-i18n="settingsStatusExtEndpoints" class="name">External UDP endpoints</span><br>
-    <span id="external_udp_endpoints"> </span>
-    <p>
-    <span data-i18n="settingsStatusPubEndpoints" class="name">Public UDP endpoints</span><br>
-    <span id="public_udp_endpoints"> </span>
-    <p>
-    <form>
-      <span data-i18n="settingsStatusBtBootstraps" class="name">Extra BitTorrent bootstraps</span><br>
-      <input data-i18n-placeholder="settingsStatusBtBootstrapsPlaceholder"
-             class="input" type="text" id="bt_extra_bootstraps" placeholder="HOST1 HOST2:PORT ..." disabled>
-      <button data-i18n="settingsStatusBtBootstrapsSave"
-              class="action" type="button" id="save-bt_extra_bootstraps" disabled>Save</button>
-      <span id="saved-bt_extra_bootstraps" style="display: none">✔</span>
-    </form>
-  </div>
-  <form class="cb_form" id="access-mechanisms">
-    <div class="group">
-      <p data-i18n="settingsSources" class="name">Content retrieval sources:</p>
-      <div class="row">
-        <label class="cb_container">
-          <input type="checkbox" id="origin_access" disabled>
-          <span class="checkmark"></span>
-          <div data-i18n="settingsSrcOrigin" class="cb_label">Direct from website</div>
-        </label>
-      </div>
-      <div class="row">
-        <label class="cb_container">
-          <input type="checkbox" id="proxy_access" disabled>
-          <span class="checkmark"></span>
-          <div data-i18n="settingsSrcProxy" class="cb_label">Via the Ceno network (personal)</div>
-        </label>
-      </div>
-      <div class="row">
-        <label class="cb_container">
-          <input type="checkbox" id="injector_access" disabled>
-          <span class="checkmark"></span>
-          <div data-i18n="settingsSrcInjector" class="cb_label">Via the Ceno network (public)</div>
-        </label>
-      </div>
-      <div class="row">
-        <label class="cb_container">
-          <input type="checkbox" id="distributed_cache" disabled>
-          <span class="checkmark"></span>
-          <div data-i18n="settingsSrcDcache" class="cb_label">Shared by other Ceno users</div>
-        </label>
-      </div>
-    </div>
-    <div id="am-warnings">
-      <p data-i18n="settingsPubwarn" data-opt-i18n-keep-children
-         id="am-warning-public"><strong data-i18n="settingsPubwarnPub">Public browsing</strong> will fail with current settings.</p>
-      <p data-i18n="settingsPrivwarn" data-opt-i18n-keep-children
-         id="am-warning-private"><strong data-i18n="settingsPrivwarnPriv">Private browsing</strong> will fail with current settings.</p>
-    </div>
-    <p data-i18n="popupFoot" data-opt-i18n-keep-children
-      id="see-manual">See the
-      <a data-i18n="popupFootMan" data-i18n-href="popupFootManLN" data-i18n-title="popupFootManTI"
-        href="https://ceno.app/user-manual/en/browser/settings.html#choosing-access-mechanisms"
-        title="Ceno User Manual – Ceno settings" target="_blank">manual</a>
-      for more information on content sources.
-    </p>
-  </form>
-  <form class="cb_form">
-    <div class="row">
-      <label class="cb_container">
-        <input type="checkbox" id="logfile" disabled>
-        <span class="checkmark"></span>
-        <div data-i18n="settingsLogEnable" class="cb_label">Enable log file</div>
-        <a data-i18n="settingsLogDownload" id="fe-link-log-file"
-           href="#" class="download" download="ceno-logfile.txt" target="_blank">Download</a>
-      </label>
-    </div>
-  </form>
-  <div class="status_items">
-    <span data-i18n="settingsStatusBrowser" class="name">Ceno Browser</span><br>
-    <span id="ceno_version"> </span>
-    <p>
-    <span data-i18n="settingsStatusExtension" class="name">Ceno Extension</span><br>
-    <span id="ceno_extension_version"> </span>
-    <p>
-    <span data-i18n="settingsStatusOuinet" class="name">Ouinet</span><br>
-    <span id="ouinet_version"> </span> <span id="ouinet_build_id"> </span>
-    <p>
-    <span data-i18n="settingsStatusProtocol" class="name">Ouinet protocol</span><br>
-    <span id="ouinet_protocol"> </span>
+    <span data-i18n="settingsTitle">Customizations</span>
   </div>
   <div class="btn_container">
     <p class="name">Appearance</p>
@@ -137,6 +28,9 @@
       <button type="button" class="setting selected" id="default">Default</button>
       <button type="button" class="setting unselected" id="bigger">Bigger</button>
       <button type="button" class="setting unselected" id="biggest" >Biggest</button>
+    </p>
+    <p>
+      Find Ceno client configuration options on <strong>Settings > Connection</strong> page, <strong>about:preferences#connection</strong>
     </p>
   </div>
 </body>
