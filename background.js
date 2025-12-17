@@ -393,14 +393,14 @@ function clearLocalStorage() {
  * to @url{https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/proxy/settings},
  * this only works on Desktop Firefox >= 60.
  */
-function setOuinetClientAsProxy() {
-  var proxyEndpoint = `${config.ouinet_client.host}:${config.ouinet_client.proxy.port}`;
+function setOuinetClientAsProxy(proxy_host, proxy_port) {
+  var proxyEndpoint = `${proxy_host}:${proxy_port}`;
   browser.proxy.settings.set({value: {
     proxyType: "manual",
     http: proxyEndpoint,
     ssl: proxyEndpoint,
   }}).then(function() {
-    console.log("Ouinet client configured as proxy for HTTP and HTTPS.");
+    console.log(`Ouinet client (${proxy_host}:${proxy_port}) configured as proxy for HTTP and HTTPS.`);
   }).catch(function(e) {
     // This does not work on Android:
     // check occurrences of "proxy.settings is not supported on android"
@@ -409,10 +409,7 @@ function setOuinetClientAsProxy() {
   });
 }
 
-
-setOuinetClientAsProxy();
-
-browser.browserAction.onClicked.addListener(browser.browserAction.openPopup)
+browser.browserAction.onClicked.addListener(browser.browserAction.openPopup);
 
 browser.webRequest.onBeforeSendHeaders.addListener(
   onBeforeSendHeaders,
@@ -480,6 +477,16 @@ browser.tabs.query({}).then(
 browser.tabs.onRemoved.addListener(
   (id) => removeCacheForTab(id));
 
+// https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webRequest/onAuthRequired#permissions
+let proxy_user_; let proxy_pass_;
+function onAuthRequired(details) {
+  // Make sure that auth is performed only for proxy
+  // not just for any website that requests auth
+  if (details.isProxy) {
+    return {"authCredentials": {username: proxy_user_, password: proxy_pass_}};
+  }
+}
+
 browser.runtime.getPlatformInfo().then(info => {
   if (info.os === "android") {
     // Establish connection with application
@@ -489,5 +496,33 @@ browser.runtime.getPlatformInfo().then(info => {
       // Send back ouinet statistics
       port.postMessage(`${JSON.stringify(gOuinetStats[gActiveTabId])}`);
     });
+
+    // @TODO: get proxy_user and proxy_pass from kotlin
+    proxy_user_ = "user";
+    proxy_pass_ = "pass";
+    browser.webRequest.onAuthRequired.addListener(onAuthRequired, {urls: ["<all_urls>"]}, ["blocking"]);
+  } else if (info.os === "win") {
+    try {
+      browser.ouinet.onConnect.addListener((proxy_host, proxy_port, proxy_user, proxy_pass) => {
+        setOuinetClientAsProxy(proxy_host, proxy_port);
+        proxy_user_ = proxy_user;
+        proxy_pass_ = proxy_pass;
+        browser.webRequest.onAuthRequired.addListener(onAuthRequired, {urls: ["<all_urls>"]}, ["blocking"]);
+      });
+      browser.ouinet.onDisconnect.addListener(_ => {
+        browser.proxy.settings.set({value: {
+          proxyType: "none",
+          http: "",
+          ssl: ""
+        }}).catch(function(e) {
+          console.error("Failed to remove HTTP and HTTPS proxies:", e);
+        });
+        browser.webRequest.onAuthRequired.removeListener(onAuthRequired);
+      });
+    } catch (e) {
+      // @TODO: this is here until browser.ouinet.onConnect starts working properly
+      console.error("Connecting to proxy permanently, because browser.ouinet.onConnect failed:", e);
+      setOuinetClientAsProxy(config.ouinet_client.host, config.ouinet_client.proxy.port);
+    }
   }
 });
