@@ -126,13 +126,13 @@
         "message": "Par le réseau Ceno (privé)"
     },
     "popupSrcInjector": {
-        "message": "Par le réseau Ceno (public)"
+        "message": "Par le réseau Ceno (public) "
     },
     "popupSrcDcache": {
         "message": "Partagé par d’autres utilisateurs de Ceno"
     },
     "popupSrcLcache": {
-        "message": "Partagé par vous"
+        "message": "Depuis votre cache local"
     },
     "popupFoot": {
         "message": "Voir le $MANUAL$ pour plus de précisions sur les sources de contenu.",
