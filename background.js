@@ -489,13 +489,15 @@ browser.runtime.getPlatformInfo().then(info => {
     const port = browser.runtime.connectNative("browser");
     // Set up listener for native messages
     port.onMessage.addListener(response => {
+      if (`${response.init}` == "true") {
+        proxy_user_ = `${response.proxyUser}`;
+        proxy_pass_ = `${response.proxyPass}`;
+        browser.webRequest.onAuthRequired.addListener(onAuthRequired, {urls: ["<all_urls>"]}, ["blocking"]);
+      }
       // Send back ouinet statistics
       port.postMessage(`${JSON.stringify(gOuinetStats[gActiveTabId])}`);
     });
 
-    // @TODO: get proxy_user and proxy_pass from kotlin
-    proxy_user_ = "user";
-    proxy_pass_ = "pass";
     browser.webRequest.onAuthRequired.addListener(onAuthRequired, {urls: ["<all_urls>"]}, ["blocking"]);
   } else if (info.os === "win") {
     browser.ouinet.onConnect.addListener((proxy_endpoint, proxy_user, proxy_pass) => {
