@@ -393,14 +393,13 @@ function clearLocalStorage() {
  * to @url{https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/proxy/settings},
  * this only works on Desktop Firefox >= 60.
  */
-function setOuinetClientAsProxy(proxy_host, proxy_port) {
-  var proxyEndpoint = `${proxy_host}:${proxy_port}`;
+function setOuinetClientAsProxy(proxyEndpoint) {
   browser.proxy.settings.set({value: {
     proxyType: "manual",
     http: proxyEndpoint,
     ssl: proxyEndpoint,
   }}).then(function() {
-    console.log(`Ouinet client (${proxy_host}:${proxy_port}) configured as proxy for HTTP and HTTPS.`);
+    console.log(`Ouinet client (${proxyEndpoint}) configured as proxy for HTTP and HTTPS.`);
   }).catch(function(e) {
     // This does not work on Android:
     // check occurrences of "proxy.settings is not supported on android"
@@ -502,27 +501,25 @@ browser.runtime.getPlatformInfo().then(info => {
     proxy_pass_ = "pass";
     browser.webRequest.onAuthRequired.addListener(onAuthRequired, {urls: ["<all_urls>"]}, ["blocking"]);
   } else if (info.os === "win") {
-    try {
-      browser.ouinet.onConnect.addListener((proxy_host, proxy_port, proxy_user, proxy_pass) => {
-        setOuinetClientAsProxy(proxy_host, proxy_port);
-        proxy_user_ = proxy_user;
-        proxy_pass_ = proxy_pass;
-        browser.webRequest.onAuthRequired.addListener(onAuthRequired, {urls: ["<all_urls>"]}, ["blocking"]);
+    browser.ouinet.onConnect.addListener((proxy_endpoint, proxy_user, proxy_pass) => {
+      setOuinetClientAsProxy(proxy_endpoint);
+      proxy_user_ = proxy_user;
+      proxy_pass_ = proxy_pass;
+
+      browser.webRequest.onAuthRequired.addListener(onAuthRequired, {urls: ["<all_urls>"]}, ["blocking"]);
+    });
+
+    browser.ouinet.onDisconnect.addListener(_ => {
+      browser.proxy.settings.set({value: {
+        proxyType: "system",
+        http: "",
+        ssl: ""
+      }}).catch(function(e) {
+        console.error("Failed to remove HTTP and HTTPS proxies:", e);
       });
-      browser.ouinet.onDisconnect.addListener(_ => {
-        browser.proxy.settings.set({value: {
-          proxyType: "none",
-          http: "",
-          ssl: ""
-        }}).catch(function(e) {
-          console.error("Failed to remove HTTP and HTTPS proxies:", e);
-        });
-        browser.webRequest.onAuthRequired.removeListener(onAuthRequired);
-      });
-    } catch (e) {
-      // @TODO: this is here until browser.ouinet.onConnect starts working properly
-      console.error("Connecting to proxy permanently, because browser.ouinet.onConnect failed:", e);
-      setOuinetClientAsProxy(config.ouinet_client.host, config.ouinet_client.proxy.port);
-    }
+      browser.webRequest.onAuthRequired.removeListener(onAuthRequired);
+      proxy_user_ = "";
+      proxy_pass_ = "";
+    });
   }
 });
