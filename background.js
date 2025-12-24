@@ -10,9 +10,6 @@ const NO_CACHE_URL_REGEXPS = [
     /^https?:\/\/(www\.)?duckduckgo\.com\/ac\//,  // DuckDuckGo Search completion
 ]
 
-// Establish connection with application
-const port = browser.runtime.connectNative("browser");
-
 // <https://stackoverflow.com/a/4835406>
 const htmlEscapes = {
   '&': '&amp;',
