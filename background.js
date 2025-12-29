@@ -10,9 +10,6 @@ const NO_CACHE_URL_REGEXPS = [
     /^https?:\/\/(www\.)?duckduckgo\.com\/ac\//,  // DuckDuckGo Search completion
 ]
 
-// Establish connection with application
-const port = browser.runtime.connectNative("browser");
-
 // <https://stackoverflow.com/a/4835406>
 const htmlEscapes = {
   '&': '&amp;',
@@ -393,14 +390,13 @@ function clearLocalStorage() {
  * to @url{https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/proxy/settings},
  * this only works on Desktop Firefox >= 60.
  */
-function setOuinetClientAsProxy() {
-  var proxyEndpoint = `${config.ouinet_client.host}:${config.ouinet_client.proxy.port}`;
+function setOuinetClientAsProxy(proxyEndpoint) {
   browser.proxy.settings.set({value: {
     proxyType: "manual",
     http: proxyEndpoint,
     ssl: proxyEndpoint,
   }}).then(function() {
-    console.log("Ouinet client configured as proxy for HTTP and HTTPS.");
+    console.log(`Ouinet client (${proxyEndpoint}) configured as proxy for HTTP and HTTPS.`);
   }).catch(function(e) {
     // This does not work on Android:
     // check occurrences of "proxy.settings is not supported on android"
@@ -409,10 +405,7 @@ function setOuinetClientAsProxy() {
   });
 }
 
-
-setOuinetClientAsProxy();
-
-browser.browserAction.onClicked.addListener(browser.browserAction.openPopup)
+browser.browserAction.onClicked.addListener(browser.browserAction.openPopup);
 
 browser.webRequest.onBeforeSendHeaders.addListener(
   onBeforeSendHeaders,
@@ -480,14 +473,52 @@ browser.tabs.query({}).then(
 browser.tabs.onRemoved.addListener(
   (id) => removeCacheForTab(id));
 
+// https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webRequest/onAuthRequired#permissions
+let proxy_user_; let proxy_pass_;
+function onAuthRequired(details) {
+  // Make sure that auth is performed only for proxy
+  // not just for any website that requests auth
+  if (details.isProxy) {
+    return {"authCredentials": {username: proxy_user_, password: proxy_pass_}};
+  }
+}
+
 browser.runtime.getPlatformInfo().then(info => {
   if (info.os === "android") {
     // Establish connection with application
     const port = browser.runtime.connectNative("browser");
     // Set up listener for native messages
     port.onMessage.addListener(response => {
+      if (`${response.init}` == "true") {
+        proxy_user_ = `${response.proxyUser}`;
+        proxy_pass_ = `${response.proxyPass}`;
+        browser.webRequest.onAuthRequired.addListener(onAuthRequired, {urls: ["<all_urls>"]}, ["blocking"]);
+      }
       // Send back ouinet statistics
       port.postMessage(`${JSON.stringify(gOuinetStats[gActiveTabId])}`);
+    });
+
+    browser.webRequest.onAuthRequired.addListener(onAuthRequired, {urls: ["<all_urls>"]}, ["blocking"]);
+  } else if (info.os === "win") {
+    browser.ouinet.onConnect.addListener((proxy_endpoint, proxy_user, proxy_pass) => {
+      setOuinetClientAsProxy(proxy_endpoint);
+      proxy_user_ = proxy_user;
+      proxy_pass_ = proxy_pass;
+
+      browser.webRequest.onAuthRequired.addListener(onAuthRequired, {urls: ["<all_urls>"]}, ["blocking"]);
+    });
+
+    browser.ouinet.onDisconnect.addListener(_ => {
+      browser.proxy.settings.set({value: {
+        proxyType: "system",
+        http: "",
+        ssl: ""
+      }}).catch(function(e) {
+        console.error("Failed to remove HTTP and HTTPS proxies:", e);
+      });
+      browser.webRequest.onAuthRequired.removeListener(onAuthRequired);
+      proxy_user_ = "";
+      proxy_pass_ = "";
     });
   }
 });
