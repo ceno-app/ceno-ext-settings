@@ -497,8 +497,6 @@ browser.runtime.getPlatformInfo().then(info => {
       // Send back ouinet statistics
       port.postMessage(`${JSON.stringify(gOuinetStats[gActiveTabId])}`);
     });
-
-    browser.webRequest.onAuthRequired.addListener(onAuthRequired, {urls: ["<all_urls>"]}, ["blocking"]);
   } else if (info.os === "win") {
     browser.ouinet.onConnect.addListener((proxy_endpoint, proxy_user, proxy_pass) => {
       setOuinetClientAsProxy(proxy_endpoint);
