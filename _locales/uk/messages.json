@@ -135,7 +135,7 @@
         "message": "Через мережу Ceno (приватно)"
     },
     "popupSrcInjector": {
-        "message": "Через мережу Ceno (публічно)"
+        "message": "Через мережу Ceno (публічно) "
     },
     "popupSrcDcache": {
         "message": "Поширений іншими користувачами Ceno"
