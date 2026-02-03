@@ -12,7 +12,7 @@
         "message": "Ajustes de Ceno"
     },
     "settingsWarn": {
-        "message": "Ajustes en esta página están solo destinados para probar las funcionalidades de Ceno en varias condiciones de conectividad. Vea el $MANUAL$ para más información.",
+        "message": "Los ajustes de esta página solo están destinados a funcionalidades de pruba de Ceno en diferente condiciones de red. Mira el $MANUAL$ para más información.",
         "placeholders": {
             "manual": {
                 "content": "$1"
