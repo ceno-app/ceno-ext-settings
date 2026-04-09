@@ -164,13 +164,13 @@
         "message": "Obtenlo en Google Play"
     },
     "updateGetpaskoocheh": {
-        "message": "Obtenlo en Paskoocheh"
+        "message": "Obténgalo en Paskoocheh"
     },
     "settingsStatusClientState": {
         "message": "Estado del cliente Ouinet"
     },
     "settingsStatusExtEndpoints": {
-        "message": "Terminales UDP externos"
+        "message": "Puntos de conexión UDP externos"
     },
     "settingsStatusPubEndpoints": {
         "message": "Terminales UDP públicos"
