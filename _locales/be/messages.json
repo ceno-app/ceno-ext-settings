@@ -35,7 +35,7 @@
         "message": ""
     },
     "settingsSrcOrigin": {
-        "message": ""
+        "message": "Direct from website"
     },
     "settingsSrcProxy": {
         "message": ""
@@ -114,7 +114,7 @@
         "message": ""
     },
     "settingsStatusBtBootstrapsSave": {
-        "message": ""
+        "message": "save"
     },
     "settingsLogEnable": {
         "message": "Enable log file"
@@ -129,7 +129,7 @@
         "message": ""
     },
     "popupSrcOrigin": {
-        "message": ""
+        "message": "Direct from website"
     },
     "popupSrcProxy": {
         "message": ""
