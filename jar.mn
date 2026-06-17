@@ -1,0 +1,23 @@
+# This Source Code Form is subject to the terms of the Mozilla Public
+# License, v. 2.0. If a copy of the MPL was not distributed with this
+# file, You can obtain one at http://mozilla.org/MPL/2.0/.
+
+browser.jar:
+%   resource builtin-addons %builtin-addons/  contentaccessible=yes
+    builtin-addons/ceno/background.js (background.js)
+    builtin-addons/ceno/common.css (common.css)
+    builtin-addons/ceno/config.js (config.js)
+    builtin-addons/ceno/LICENSE (LICENSE)
+    builtin-addons/ceno/manifest.json (manifest.json)
+    builtin-addons/ceno/popup.css (popup.css)
+    builtin-addons/ceno/popup.html (popup.html)
+    builtin-addons/ceno/popup.js (popup.js)
+    builtin-addons/ceno/settings.css (settings.css)
+    builtin-addons/ceno/settings.html (settings.html)
+    builtin-addons/ceno/settings.js (settings.js)
+    builtin-addons/ceno/utils.js (utils.js)
+    builtin-addons/ceno/icons/ (icons/**)
+    builtin-addons/ceno/themes/ (themes/**)
+    builtin-addons/ceno/update-page/ (update-page/**)
+    builtin-addons/ceno/_locales/ (_locales/**)
+    builtin-addons/ceno/localizer/ (localizer/**)
