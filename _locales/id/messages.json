@@ -126,13 +126,13 @@
         "message": "Melalui jaringan Ceno (privat)"
     },
     "popupSrcInjector": {
-        "message": "Melalui jaringan Ceno (publik)"
+        "message": "Melalui jaringan Ceno (publik) "
     },
     "popupSrcDcache": {
         "message": "Dibagikan oleh pengguna Ceno lainnya"
     },
     "popupSrcLcache": {
-        "message": "Dibagikan oleh Anda"
+        "message": "Dari cache lokal Anda"
     },
     "popupFoot": {
         "message": "Lihat $MANUAL$ untuk informasi lebih lanjut tentang sumber konten.",
@@ -187,5 +187,8 @@
     },
     "settingsModePersonal": {
         "message": "PRIBADI"
+    },
+    "settingsMode": {
+        "message": "Mode penelusuran"
     }
 }

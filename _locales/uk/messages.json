@@ -135,7 +135,7 @@
         "message": "Через мережу Ceno (приватно)"
     },
     "popupSrcInjector": {
-        "message": "Через мережу Ceno (публічно)"
+        "message": "Через мережу Ceno (публічно) "
     },
     "popupSrcDcache": {
         "message": "Поширений іншими користувачами Ceno"
@@ -175,11 +175,11 @@
         "description": "Update hint for user, followed by graphical update badge links. If the incomplete sentence can't be properly translated, assume the source string is: 'Please update your app via the following channels:'"
     },
     "updateGetgoogleplay": {
-        "message": "Отримати з Google Play",
+        "message": "Завантажити на Google Play",
         "description": "Alt text for Google Play badge."
     },
     "updateGetpaskoocheh": {
-        "message": "Отримати з Paskoocheh",
+        "message": "Замовити на Paskoocheh",
         "description": "Alt text for Paskoocheh badge."
     },
     "settingsMode": {

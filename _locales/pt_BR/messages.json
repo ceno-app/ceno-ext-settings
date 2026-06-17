@@ -90,7 +90,7 @@
         "message": "Status UPnP"
     },
     "settingsStatusExtEndpoints": {
-        "message": "Endpoints externos UDP"
+        "message": "Endpoints UDP externos"
     },
     "settingsStatusPubEndpoints": {
         "message": "Endpoints Públicos UDP"
@@ -175,7 +175,7 @@
         "description": "Update hint for user, followed by graphical update badge links. If the incomplete sentence can't be properly translated, assume the source string is: 'Please update your app via the following channels:'"
     },
     "updateGetgoogleplay": {
-        "message": "Disponível no Google Play",
+        "message": "Encontre no Google Play",
         "description": "Alt text for Google Play badge."
     },
     "updateGetpaskoocheh": {

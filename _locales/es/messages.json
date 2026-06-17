@@ -12,7 +12,7 @@
         "message": "Ajustes de Ceno"
     },
     "settingsWarn": {
-        "message": "Ajustes en esta página están solo destinados para probar las funcionalidades de Ceno en varias condiciones de conectividad. Vea el $MANUAL$ para más información.",
+        "message": "Los ajustes de esta página solo están destinados a funcionalidades de pruba de Ceno en diferente condiciones de red. Mira el $MANUAL$ para más información.",
         "placeholders": {
             "manual": {
                 "content": "$1"
@@ -123,7 +123,7 @@
         "message": "Vía la red Ceno (privado)"
     },
     "popupSrcInjector": {
-        "message": "Vía la red Ceno (público)"
+        "message": "Vía la red Ceno (público) "
     },
     "popupSrcDcache": {
         "message": "Compartido por otra(o)s usuaria(o)s de Ceno"
@@ -164,13 +164,13 @@
         "message": "Obtenlo en Google Play"
     },
     "updateGetpaskoocheh": {
-        "message": "Obtenlo en Paskoocheh"
+        "message": "Obténgalo en Paskoocheh"
     },
     "settingsStatusClientState": {
         "message": "Estado del cliente Ouinet"
     },
     "settingsStatusExtEndpoints": {
-        "message": "Terminales UDP externos"
+        "message": "Puntos de conexión UDP externos"
     },
     "settingsStatusPubEndpoints": {
         "message": "Terminales UDP públicos"

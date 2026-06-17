@@ -1,6 +1,6 @@
 {
     "extName": {
-        "message": "Ceno-tillägget",
+        "message": "Cenotillägget",
         "description": "Name of the extension."
     },
     "extDesc": {
@@ -8,13 +8,13 @@
         "description": "Description of the extension."
     },
     "bgCenoWarning": {
-        "message": "Ceno-varning"
+        "message": "Cenovarning"
     },
     "settingsTitle": {
-        "message": "Ceno Inställningar"
+        "message": "Cenoinställningar"
     },
     "settingsWarn": {
-        "message": "Inställningarna på den här sidan är endast avsedda för att testa Ceno-funktionalitet i olika nätverksförhållanden. Se $MANUAL$ för mer information.",
+        "message": "Inställningarna på den här sidan är endast avsedda för att testa Cenofunktionalitet i olika nätverksförhållanden. Se $MANUAL$ för mer information.",
         "placeholders": {
             "manual": {
                 "content": "$1"
@@ -29,7 +29,7 @@
         "description": "Link to the Settings section of the User Manual. Keep it as is unless the section has been translated."
     },
     "settingsWarnManTI": {
-        "message": "Ceno Användarmanual - Ceno-inställningar"
+        "message": "Ceno användarmanual - Cenoinställningar"
     },
     "settingsSources": {
         "message": "Källor för att hämta innehåll:"
@@ -38,13 +38,13 @@
         "message": "Direkt från hemsida"
     },
     "settingsSrcProxy": {
-        "message": "Via Ceno-nätverket (privat)"
+        "message": "Via Cenonätverket (privat)"
     },
     "settingsSrcInjector": {
-        "message": "Via Ceno-nätverket (publikt)"
+        "message": "Via Cenonätverket (publikt)"
     },
     "settingsSrcDcache": {
-        "message": "Delad av andra Ceno-användare"
+        "message": "Delad av andra Cenoanvändare"
     },
     "settingsPubwarn": {
         "message": "$PUBLIC_BROWSING$ kommer att misslyckas med nuvarande inställningar.",
@@ -75,10 +75,10 @@
         "message": "Tillägg för Ceno"
     },
     "settingsStatusOuinet": {
-        "message": ""
+        "message": "Ouinet"
     },
     "settingsStatusProtocol": {
-        "message": "Ouinet-protokoll"
+        "message": "Ouinetprotokoll"
     },
     "settingsStatusEndpoints": {
         "message": "Lokala UDP-slutpunkter"
@@ -90,7 +90,7 @@
         "message": "Tillgänglighetsstatus"
     },
     "settingsStatusCacheSize": {
-        "message": "Lokal cache-storlek"
+        "message": "Lokal cachestorlek"
     },
     "settingsStatusCachePurge": {
         "message": "Töm nu"
@@ -108,19 +108,19 @@
         "message": "Ceno-källor"
     },
     "popupHead": {
-        "message": "Antalet sid-element per källa:"
+        "message": "Antalet sidelement per källa:"
     },
     "popupSrcOrigin": {
         "message": "Direkt från hemsida"
     },
     "popupSrcProxy": {
-        "message": "Via Ceno-nätverk (privat)"
+        "message": "Via Cenonätverk (privat)"
     },
     "popupSrcInjector": {
-        "message": "Via Ceno-nätverket (publikt) "
+        "message": "Via Cenonätverket (publikt) "
     },
     "popupSrcDcache": {
-        "message": "Delade av andra Ceno-användare"
+        "message": "Delade av andra Cenoanvändare"
     },
     "popupSrcLcache": {
         "message": "Från din lokala cache"
@@ -141,16 +141,16 @@
         "description": "Link to the access mechanisms subsection in the Settings section of the User Manual. Keep it as is unless the section has been translated."
     },
     "popupFootManTI": {
-        "message": "Cenorship.no! Användarmanual - Ceno-inställningar"
+        "message": "Ceno användarmanual - Cenoinställningar"
     },
     "updateTitle": {
-        "message": "Ceno-uppdatering"
+        "message": "Cenouppdatering"
     },
     "updateMetacontent": {
-        "message": "Ceno-uppdatering"
+        "message": "Cenouppdatering"
     },
     "updateHead": {
-        "message": "Din Ceno-webbläsare är utdaterad."
+        "message": "Din Cenowebbläsare är utdaterad."
     },
     "updateSubhead": {
         "message": "Vänligen uppdatera din app via",
@@ -165,7 +165,7 @@
         "description": "Alt text for Paskoocheh badge."
     },
     "settingsStatusClientState": {
-        "message": "Skick för Ouinet-klient"
+        "message": "Status för Ouinetklient"
     },
     "settingsStatusExtEndpoints": {
         "message": "Externa UDP-slutpunkter"
