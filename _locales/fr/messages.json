@@ -126,13 +126,13 @@
         "message": "Par le réseau Ceno (privé)"
     },
     "popupSrcInjector": {
-        "message": "Par le réseau Ceno (public)"
+        "message": "Par le réseau Ceno (public) "
     },
     "popupSrcDcache": {
         "message": "Partagé par d’autres utilisateurs de Ceno"
     },
     "popupSrcLcache": {
-        "message": "Partagé par vous"
+        "message": "Depuis votre cache local"
     },
     "popupFoot": {
         "message": "Voir le $MANUAL$ pour plus de précisions sur les sources de contenu.",
@@ -166,11 +166,11 @@
         "description": "Update hint for user, followed by graphical update badge links."
     },
     "updateGetgoogleplay": {
-        "message": "L’obtenir sur Google Play",
+        "message": "Obtenir sur Google Play",
         "description": "Alt text for Google Play badge."
     },
     "updateGetpaskoocheh": {
-        "message": "L’obtenir sur Paskoocheh",
+        "message": "Télécharger sur Paskoocheh",
         "description": "Alt text for Paskoocheh badge."
     },
     "settingsStatusClientState": {

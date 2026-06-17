@@ -69,13 +69,13 @@
         "message": "Ιδιωτική περιήγηση"
     },
     "settingsStatusBrowser": {
-        "message": "Ceno Browser"
+        "message": "appName"
     },
     "settingsStatusExtension": {
         "message": "Επέκταση Ceno"
     },
     "settingsStatusOuinet": {
-        "message": ""
+        "message": "Ouinet (Τεχνολογία για βελτίωση πρόσβασης στο διαδίκτυο)"
     },
     "settingsStatusProtocol": {
         "message": "Πρωτόκολλο Ouinet"

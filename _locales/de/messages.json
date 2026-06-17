@@ -132,7 +132,7 @@
         "message": "Geteilt von anderen Ceno-Nutzern"
     },
     "popupSrcLcache": {
-        "message": "Geteilt von dir"
+        "message": "Von deinem Zwischenspeicher"
     },
     "popupFoot": {
         "message": "Schauen sie in die $MANUAL$ um weitere Informationen zum Inhalt von Quellen zu erhalten.",
@@ -156,7 +156,7 @@
         "message": "Ceno Update"
     },
     "updateMetacontent": {
-        "message": "CEO Update"
+        "message": "Ceno Update"
     },
     "updateHead": {
         "message": "Ihr Ceno Browser ist veraltet."

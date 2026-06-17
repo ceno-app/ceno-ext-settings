@@ -11,7 +11,7 @@
         "message": "تحذير متصفح Ceno"
     },
     "settingsTitle": {
-        "message": "إعدادات سنو"
+        "message": "إعدادات Ceno"
     },
     "settingsWarn": {
         "message": "الإعدادات الموجودة في هذه الصفحة مخصصة فقط لاختبار وظائف Ceno في الظروف المختلفة للشبكة. انظر $MANUAL$ للمزيد من المعلومات.",
@@ -75,7 +75,7 @@
         "message": "إضافة متصفح Ceno"
     },
     "settingsStatusOuinet": {
-        "message": ""
+        "message": "Ouinet"
     },
     "settingsStatusProtocol": {
         "message": "بروتوكول Ouinet"
