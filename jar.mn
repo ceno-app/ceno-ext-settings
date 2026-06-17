@@ -6,7 +6,6 @@ browser.jar:
 %   resource builtin-addons %builtin-addons/  contentaccessible=yes
     builtin-addons/ceno/background.js (background.js)
     builtin-addons/ceno/common.css (common.css)
-    builtin-addons/ceno/config.js (config.js)
     builtin-addons/ceno/LICENSE (LICENSE)
     builtin-addons/ceno/manifest.json (manifest.json)
     builtin-addons/ceno/popup.css (popup.css)
