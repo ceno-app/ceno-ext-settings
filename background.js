@@ -391,7 +391,7 @@ function clearLocalStorage() {
  * this only works on Desktop Firefox >= 60.
  */
 function setOuinetClientAsProxy(proxyEndpoint) {
-  browser.proxy.settings.set({value: {
+  return browser.proxy.settings.set({value: {
     proxyType: "manual",
     http: proxyEndpoint,
     ssl: proxyEndpoint,
@@ -499,15 +499,16 @@ browser.runtime.getPlatformInfo().then(info => {
     });
   } else if (info.os === "win") {
     browser.ouinet.onConnect.addListener((proxy_endpoint, proxy_user, proxy_pass) => {
-      setOuinetClientAsProxy(proxy_endpoint);
+      const retPromise = setOuinetClientAsProxy(proxy_endpoint);
       proxy_user_ = proxy_user;
       proxy_pass_ = proxy_pass;
 
       browser.webRequest.onAuthRequired.addListener(onAuthRequired, {urls: ["<all_urls>"]}, ["blocking"]);
+      return retPromise;
     });
 
     browser.ouinet.onDisconnect.addListener(_ => {
-      browser.proxy.settings.set({value: {
+      const retPromise = browser.proxy.settings.set({value: {
         proxyType: "system",
         http: "",
         ssl: ""
@@ -517,6 +518,7 @@ browser.runtime.getPlatformInfo().then(info => {
       browser.webRequest.onAuthRequired.removeListener(onAuthRequired);
       proxy_user_ = "";
       proxy_pass_ = "";
+      return retPromise;
     });
   }
 });
