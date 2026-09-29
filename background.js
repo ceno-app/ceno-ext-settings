@@ -501,7 +501,6 @@ browser.runtime.getPlatformInfo().then(info => {
       }
       if (`${response.defaultRoute}` != "") {
         default_route_ = `${response.defaultRoute}`;
-        console.log("Got default route " + default_route_)
       }
       // Send back ouinet statistics
       port.postMessage(`${JSON.stringify(gOuinetStats[gActiveTabId])}`);
