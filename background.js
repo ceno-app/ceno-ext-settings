@@ -57,6 +57,7 @@ function getDhtGroup(e) {
 }
 
 // https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webRequest/onBeforeSendHeaders
+let default_route_
 function onBeforeSendHeaders(e) {
   if (e.tabId < 0) {
     return;
@@ -72,6 +73,10 @@ function onBeforeSendHeaders(e) {
 
       if (!is_private) {
         e.requestHeaders.push({name: "X-Ouinet-Group", value: getDhtGroup(e)});
+      }
+
+      if (default_route_ != "") {
+           e.requestHeaders.push({name: "X-Ouinet-Route", value: default_route_})
       }
 
       return {requestHeaders: e.requestHeaders};
@@ -493,6 +498,10 @@ browser.runtime.getPlatformInfo().then(info => {
         proxy_user_ = `${response.proxyUser}`;
         proxy_pass_ = `${response.proxyPass}`;
         browser.webRequest.onAuthRequired.addListener(onAuthRequired, {urls: ["<all_urls>"]}, ["blocking"]);
+      }
+      if (`${response.defaultRoute}` != "") {
+        default_route_ = `${response.defaultRoute}`;
+        console.log("Got default route " + default_route_)
       }
       // Send back ouinet statistics
       port.postMessage(`${JSON.stringify(gOuinetStats[gActiveTabId])}`);
